@@ -7,7 +7,7 @@
       "slotName": "Slot 1",
       "slotStartTime": "10:00 AM",
       "slotEndTime": "01:00 PM",
-      "slotDuration": "180",
+      "slotDuration": 180,
       "unitOfMeasurement": "Minutes"
     },
     {
@@ -15,7 +15,7 @@
       "slotName": "Slot 2",
       "slotStartTime": "02:00 PM",
       "slotEndTime": "05:00 PM",
-      "slotDuration": "180",
+      "slotDuration": 180,
       "unitOfMeasurement": "Minutes"
     }
   ]

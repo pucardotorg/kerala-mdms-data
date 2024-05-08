@@ -1,0 +1,10 @@
+{
+    "tenantId": "default",
+    "moduleName": "common-masters",
+    "IdFormat": [
+        {
+            "format": "AS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "async.submission.sh"
+        }
+    ]
+}
