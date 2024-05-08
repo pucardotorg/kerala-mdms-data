@@ -5,14 +5,18 @@
     {
       "id": 1,
       "slotName": "Slot 1",
-      "startTime": "10:00 AM",
-      "endTime": "01:00 PM"
+      "slotStartTime": "10:00 AM",
+      "slotEndTime": "01:00 PM",
+      "slotDuration": "180",
+      "unitOfMeasurement": "Minutes"
     },
     {
       "id": 2,
       "slotName": "Slot 2",
-      "startTime": "02:00 PM",
-      "endTime": "05:00 PM"
+      "slotStartTime": "02:00 PM",
+      "slotEndTime": "05:00 PM",
+      "slotDuration": "180",
+      "unitOfMeasurement": "Minutes"
     }
   ]
 }
