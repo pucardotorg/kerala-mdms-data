@@ -1,0 +1,342 @@
+{
+  "tenantId": "kl",
+  "moduleName": "schedule-hearing",
+  "COURT000334":[
+    {
+        "calendarId": 1,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "06-01-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 2,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "07-01-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 3,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "13-01-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 4,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "14-01-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 5,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "20-01-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 6,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "21-01-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 7,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "26-01-2024",
+        "description": "Republic Day"
+    },
+    {
+        "calendarId": 8,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "27-01-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 9,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "28-01-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 10,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "03-02-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 11,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "04-02-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 12,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "10-02-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 13,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "11-02-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 14,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "17-02-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 15,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "18-02-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 16,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "24-02-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 17,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "25-02-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 18,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "02-03-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 19,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "03-03-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 20,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "09-03-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 21,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "10-03-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 22,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "16-03-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 23,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "17-03-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 24,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "23-03-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 25,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "24-03-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 26,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "25-03-2024",
+        "description": "Holi"
+    },
+    {
+        "calendarId": 27,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "29-03-2024",
+        "description": "Good Friday"
+    },
+    {
+        "calendarId": 28,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "30-03-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 29,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "31-03-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 30,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "06-04-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 31,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "07-04-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 32,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "11-04-2024",
+        "description": "Id-ul-Fitr"
+    },
+    {
+        "calendarId": 33,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "13-04-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 34,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "14-04-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 35,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "17-04-2024",
+        "description": "Ram Navami"
+    },
+    {
+        "calendarId": 36,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "20-04-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 37,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "21-04-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 38,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "27-04-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 39,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "28-04-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 40,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "04-05-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 41,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "05-05-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 42,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "11-05-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 43,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "12-05-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 44,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "18-05-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 45,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "19-05-2024",
+        "description": "Sunday"
+    },
+    {
+        "calendarId": 46,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "23-05-2024",
+        "description": "Buddha Purnima"
+    },
+    {
+        "calendarId": 47,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "25-05-2024",
+        "description": "Saturday"
+    },
+    {
+        "calendarId": 48,
+        "courtId": "COURT000334",
+        "calendarRuleType": "NON-WORKING-DAY",
+        "date": "26-05-2024",
+        "description": "Sunday"
+    }
+]
+}

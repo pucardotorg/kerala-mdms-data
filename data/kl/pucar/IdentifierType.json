@@ -1,0 +1,26 @@
+{
+  "tenantId": "kl",
+  "moduleName": "user-registration",
+  "IdentifierType": [
+    {
+      "code": "AADHAAR_CARD",
+      "active": true
+    },
+    {
+      "code": "PAN_CARD",
+      "active": true
+    },
+    {
+      "code": "VOTER_ID",
+      "active": true
+    },
+    {
+      "code": "DRIVER_LICENSE",
+      "active": true
+    },
+    {
+      "code": "PASSPORT",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+   "tenantId": "kl",
+   "moduleName": "ACCESSCONTROL-ACTIONS-TEST",
+   "actions-test": [
+      {
+         "id": 1,
+         "name": "View CauseList",
+         "url": "/scheduler/causelist/v1/_view",
+         "displayName": "view CauseList",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2,
+         "name": "Download CauseList",
+         "url": "/scheduler/causelist/v1/_download",
+         "displayName": "Download CauseList",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 3,
+         "name": "Generate Submission Due Dates",
+         "url": "/scheduler/async-submission/v1/_duedates",
+         "displayName": "Generate Submission Due Dates",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 4,
+         "name": "Save Submission Dates",
+         "url": "/scheduler/async-submission/v1/_saveDates",
+         "displayName": "Save Submission Dates",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 5,
+         "name": "Update Submission Dates",
+         "url": "/scheduler/async-submission/v1/_updateDates",
+         "displayName": "Update Submission Dates",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 6,
+         "name": "Get Submission Dates",
+         "url": "/scheduler/async-submission/v1/_getSubmissions",
+         "displayName": "Get Submission Dates",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      }
+   ]
+}

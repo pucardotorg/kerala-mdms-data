@@ -1,0 +1,14 @@
+{
+  "tenantId": "kl",
+  "moduleName": "advocate",
+  "AdvocateType": [
+    {
+      "code": "PRIMARY",
+      "active": true
+    },
+    {
+      "code": "SECONDARY",
+      "active": true
+    }
+  ]
+}

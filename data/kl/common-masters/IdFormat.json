@@ -1,0 +1,19 @@
+{
+    "tenantId": "kl",
+    "moduleName": "common-masters",
+    "IdFormat": [
+
+        {
+            "format": "ADV-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "advocate.id"
+        },
+        {
+            "format": "HR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "hearing.sh"
+        },
+        {
+            "format": "AS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "async.submission.sh"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+  "tenantId": "kl",
+  "moduleName": "ACCESSCONTROL-ROLES",
+  "roles": [
+    {
+      "code": "CITIZEN",
+      "name": "Citizen",
+      "description": "Citizen who can raise complaint"
+    },
+    {
+      "code": "EMPLOYEE",
+      "name": "Employee",
+      "description": "Default role for all employees"
+    },
+    {
+      "code": "SUPERUSER",
+      "name": "Super User",
+      "description": "System Administrator. Can change all master data and has access to all the system screens."
+    },
+    {
+      "code": "HEARING_CREATOR",
+      "name": "HEARING_CREATOR",
+      "description": "HEARING_CREATOR"
+    },
+    {
+      "code": "HEARING_SCHEDULER",
+      "name": "HEARING_SCHEDULER",
+      "description": "HEARING_SCHEDULER"
+    },
+    {
+      "code": "HEARING_START",
+      "name": "HEARING_START",
+      "description": "HEARING_START"
+    },
+    {
+      "code": "HEARING_APPROVER",
+      "name": "HEARING_APPROVER",
+      "description": "HEARING_APPROVER"
+    },
+    {
+      "code": "HEARING_ACCEPTOR",
+      "name": "HEARING_ACCEPTOR",
+      "description": "HEARING_ACCEPTOR"
+    },
+    {
+      "code": "HEARING_DATE_REQUESTOR",
+      "name": "HEARING_DATE_REQUESTOR",
+      "description": "HEARING_DATE_REQUESTOR"
+    },
+    {
+      "code": "HEARING_CLOSER",
+      "name": "HEARING_CLOSER",
+      "description": "HEARING_CLOSER"
+    },
+    {
+      "code": "ORDER_CREATOR",
+      "name": "ORDER_CREATOR",
+      "description": "ORDER_CREATOR"
+    },
+    {
+      "code": "ORDER_APPROVER",
+      "name": "ORDER_APPROVER",
+      "description": "ORDER_APPROVER"
+    },
+    {
+      "code": "ORDER_REASSIGN",
+      "name": "ORDER_REASSIGN",
+      "description": "ORDER_REASSIGN"
+    },
+    {
+      "code": "SUBMISSION_REQUESTER",
+      "name": "SUBMISSION_REQUESTER",
+      "description": "SUBMISSION_REQUESTER"
+    },
+    {
+      "code": "SUBMISSION_CREATOR",
+      "name": "SUBMISSION_CREATOR",
+      "description": "SUBMISSION_CREATOR"
+    },
+    {
+      "code": "SUBMISSION_UPDATER",
+      "name": "SUBMISSION_UPDATER",
+      "description": "SUBMISSION_UPDATER"
+    }
+  ]
+}

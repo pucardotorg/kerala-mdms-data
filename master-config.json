@@ -158,6 +158,26 @@
       ]
     }
   },
+  "court": {
+    "slots": {
+      "masterName": "slots",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.id",
+        "$.slotName"
+      ]
+    },
+    "hearings": {
+      "masterName": "hearings",
+      "moduleDefinition": null,
+      "isStateLevel": true,
+      "uniqueKeys": [
+        "$.id",
+        "$.hearingType"
+      ]
+    }
+  },
   "egf-master": {
     "Fund": {
       "masterName": "Fund",

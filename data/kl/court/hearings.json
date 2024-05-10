@@ -1,0 +1,20 @@
+{
+  "tenantId": "kl",
+  "moduleName": "court",
+  "hearings": [
+    {
+      "id": 1,
+      "hearingType": "ADMISSION_HEARING",
+      "hearingName": "Admission Hearing",
+      "hearingTime": "30",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 2,
+      "hearingType": "TRIAL_HEARING",
+      "hearingName": "Trial Hearing",
+      "hearingTime": "60",
+      "unitOfMeasurement": "Minutes"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "tenantId": "kl",
+  "moduleName": "ACCESSCONTROL-ROLEACTIONS",
+  "roleactions": [
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CREATOR",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 1,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CREATOR",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CREATOR",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_REQUESTER",
+      "actionid": 3,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 3,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_CREATOR",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 4,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_UPDATER",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_REQUESTER",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_CREATOR",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_UPDATER",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 5,
+      "actioncode": "",
+      "tenantId": "kl"
+    }
+  ]
+}

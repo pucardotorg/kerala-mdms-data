@@ -1,0 +1,18 @@
+{
+  "tenantId": "kl",
+  "moduleName": "user-registration",
+  "LitigantType": [
+    {
+      "code": "COMPLAINANT",
+      "active": true
+    },
+    {
+      "code": "RESPONDANT",
+      "active": true
+    },
+    {
+      "code": "WITNESS",
+      "active": true
+    }
+  ]
+}
