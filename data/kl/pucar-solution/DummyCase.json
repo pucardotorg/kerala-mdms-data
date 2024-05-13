@@ -1,0 +1,175 @@
+{
+    "tenantId": "kl",
+    "moduleName": "schedule-hearing",
+    "cases": [
+        {
+            "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+            "tenantId": "tenant123",
+            "resolutionMechanism": "COURT",
+            "caseTitle": "Land Dispute between Mr. Smith and Mr. Johnson",
+            "caseDescription": "Dispute over ownership boundaries of adjoining properties.",
+            "filingNumber": "F/2024/001",
+            "courtCaseNumber": "CC/023443/2024",
+            "cnrNumber": "PBJL01-123556-2024",
+            "accessCode": "access123",
+            "courtId": "court456",
+            "benchId": "bench789",
+            "linkedCases": [],
+            "filingDate": "2024-04-15T12:00:00Z",
+            "registrationDate": "2024-04-20T12:00:00Z",
+            "caseDetails": {},
+            "caseCategory": "CIVIL",
+            "natureOfPleading": "Original Suit",
+            "statutesAndSections": [
+                {
+                    "id": "statute123",
+                    "tenantId": "tenant123",
+                    "statute": "Land Disputes Act",
+                    "sections": [
+                        "Section 12",
+                        "Section 15"
+                    ],
+                    "subsections": [],
+                    "additionalDetails": "Details about the relevant statutes and sections.",
+                    "auditdetails": {
+                        "createdBy": "admin",
+                        "lastModifiedBy": "admin",
+                        "createdTime": 1621036800,
+                        "lastModifiedTime": 1621036800
+                    }
+                }
+            ],
+            "litigants": [
+                {
+                    "id": "litigant1",
+                    "tenantId": "tenant123",
+                    "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "partyCategory": "INDIVIDUAL",
+                    "individualId": "smith123",
+                    "partyType": [
+                        "complainant.primary"
+                    ],
+                    "isActive": true,
+                    "documents": [],
+                    "auditDetails": {
+                        "createdBy": "admin",
+                        "lastModifiedBy": "admin",
+                        "createdTime": 1621036800,
+                        "lastModifiedTime": 1621036800
+                    },
+                    "additionalDetails": {}
+                },
+                {
+                    "id": "litigant2",
+                    "tenantId": "tenant123",
+                    "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "partyCategory": "INDIVIDUAL",
+                    "individualId": "johnson456",
+                    "partyType": [
+                        "respondent.primary"
+                    ],
+                    "isActive": true,
+                    "documents": [],
+                    "auditDetails": {
+                        "createdBy": "admin",
+                        "lastModifiedBy": "admin",
+                        "createdTime": 1621036800,
+                        "lastModifiedTime": 1621036800
+                    },
+                    "additionalDetails": {}
+                }
+            ],
+            "representatives": [
+                {
+                    "id": "rep1",
+                    "tenantId": "tenant123",
+                    "advocateId": "advocate789",
+                    "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "representing": [
+                        {
+                            "id": "litigant1",
+                            "tenantId": "tenant123",
+                            "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                            "partyCategory": "INDIVIDUAL",
+                            "individualId": "smith123",
+                            "partyType": [
+                                "complainant.primary"
+                            ],
+                            "isActive": true,
+                            "documents": [],
+                            "auditDetails": {
+                                "createdBy": "admin",
+                                "lastModifiedBy": "admin",
+                                "createdTime": 1621036800,
+                                "lastModifiedTime": 1621036800
+                            },
+                            "additionalDetails": {}
+                        }
+                    ],
+                    "isActive": true,
+                    "documents": [],
+                    "auditDetails": {
+                        "createdBy": "admin",
+                        "lastModifiedBy": "admin",
+                        "createdTime": 1621036800,
+                        "lastModifiedTime": 1621036800
+                    },
+                    "additionalDetails": {}
+                },
+                {
+                    "id": "rep2",
+                    "tenantId": "tenant123",
+                    "advocateId": "advocate456",
+                    "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                    "representing": [
+                        {
+                            "id": "litigant2",
+                            "tenantId": "tenant123",
+                            "caseId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                            "partyCategory": "INDIVIDUAL",
+                            "individualId": "johnson456",
+                            "partyType": [
+                                "respondent.primary"
+                            ],
+                            "isActive": true,
+                            "documents": [],
+                            "auditDetails": {
+                                "createdBy": "admin",
+                                "lastModifiedBy": "admin",
+                                "createdTime": 1621036800,
+                                "lastModifiedTime": 1621036800
+                            },
+                            "additionalDetails": {}
+                        }
+                    ],
+                    "isActive": true,
+                    "documents": [],
+                    "auditDetails": {
+                        "createdBy": "admin",
+                        "lastModifiedBy": "admin",
+                        "createdTime": 1621036800,
+                        "lastModifiedTime": 1621036800
+                    },
+                    "additionalDetails": {}
+                }
+            ],
+            "status": "ONGOING",
+            "documents": [],
+            "remarks": "Waiting for the court to schedule the hearing.",
+            "workflow": {
+                "action": "file",
+                "comment": "Case filed successfully.",
+                "assignees": [
+                    "clerk123"
+                ]
+            },
+            "additionalDetails": {},
+            "auditdetails": {
+                "createdBy": "admin",
+                "lastModifiedBy": "admin",
+                "createdTime": 1621036800,
+                "lastModifiedTime": 1621036800
+            }
+        }
+    ]
+}
