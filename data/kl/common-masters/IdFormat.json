@@ -14,6 +14,10 @@
         {
             "format": "AS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "async.submission.sh"
+        },
+        {
+            "format": "HRR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "reschedule.sh"
         }
     ]
 }
