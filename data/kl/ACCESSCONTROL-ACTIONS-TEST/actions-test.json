@@ -186,7 +186,7 @@
          "id": 16,
          "name": "Bulk Reschedule",
          "url": "/scheduler/hearing/v1/bulk/_reschedule",
-         "displayName": "Submit Opt Out dates",
+         "displayName": "Bulk Reschedule Hearings",
          "orderNumber": 1,
          "parentModule": "",
          "enabled": true,
