@@ -73,6 +73,138 @@
          "serviceCode": "scheduler-svc",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 7,
+         "name": "Schedule Hearing",
+         "url": "/scheduler/hearing/v1/_schedule",
+         "displayName": "Schedule Hearings",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 8,
+         "name": "Get Schedule Hearing",
+         "url": "/scheduler/hearing/v1/_search",
+         "displayName": "Get Schedule Hearings",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 9,
+         "name": "Get Judge Calendar",
+         "url": "/scheduler/judge/v1/_calendar",
+         "displayName": "Get Judge Calendar",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 10,
+         "name": "Update Judge Calendar",
+         "url": "/scheduler/judge/v1/_update",
+         "displayName": "Update Judge Calendar",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 11,
+         "name": "Judge Availability",
+         "url": "/scheduler/judge/v1/_availability",
+         "displayName": "Judge Availability",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 12,
+         "name": "Raise Reschedule Request",
+         "url": "/scheduler/hearing/v1/_reschedule",
+         "displayName": "Raise Reschedule Request",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 13,
+         "name": "Update Reschedule Request",
+         "url": "/scheduler/hearing/v1/reschedule/_update",
+         "displayName": "Update Reschedule Request",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 14,
+         "name": "Search Reschedule Request",
+         "url": "/scheduler/hearing/v1/reschedule/_search",
+         "displayName": "Search Reschedule Request",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 15,
+         "name": "Submit Opt Out dates",
+         "url": "/scheduler/hearing/v1/_opt-out",
+         "displayName": "Submit Opt Out dates",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 16,
+         "name": "Bulk Reschedule",
+         "url": "/scheduler/hearing/v1/bulk/_reschedule",
+         "displayName": "Bulk Reschedule Hearings",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 17,
+         "name": "Search Attendee Opt out",
+         "url": "/scheduler/hearing/v1/opt-out/_search",
+         "displayName": "Search Attendee Opt out",
+         "orderNumber": 1,
+         "parentModule": "",
+         "enabled": true,
+         "serviceCode": "scheduler-svc",
+         "code": "null",
+         "path": ""
       }
    ]
 }
