@@ -81,6 +81,21 @@
       "code": "SUBMISSION_UPDATER",
       "name": "SUBMISSION_UPDATER",
       "description": "SUBMISSION_UPDATER"
+    },
+    {
+      "code": "HEARING_CANCELLER",
+      "name": "HEARING_CANCELLER",
+      "description": "HEARING_CANCELLER"
+    },
+    {
+      "code": "HEARING_REQUEST_REJECTOR",
+      "name": "HEARING_REQUEST_REJECTOR",
+      "description": "HEARING_REQUEST_REJECTOR"
+    },
+    {
+      "code": "HEARING_REQUEST_APPROVER",
+      "name": "HEARING_REQUEST_APPROVER",
+      "description": "HEARING_REQUEST_APPROVER"
     }
   ]
 }
