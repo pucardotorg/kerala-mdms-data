@@ -8,7 +8,7 @@
       "printingFeePerPage": 2,
       "businessFee": 5,
       "envelopeChargeIncludingGST": 10,
-      "GSTPercentage": 18,
+      "GSTPercentage": 0.18,
       "courtFee": 10,
       "applicationFee": 10,
       "speedPost": {
