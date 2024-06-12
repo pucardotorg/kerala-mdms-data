@@ -1,166 +1,168 @@
 {
   "tenantId": "kl",
   "moduleName": "summons",
-  "e-post": {
-    "pageWeight": 4,
-    "weightUnit": "grams",
-    "printingFeePerPage": 2,
-    "businessFee": 5,
-    "envelopeChargeIncludingGST": 10,
-    "GSTPercentage": 18,
-    "courtFee": 10,
-    "applicationFee": 10,
-    "speedPost": {
-      "weightRanges": [
-        {
-          "minWeight": 0,
-          "maxWeight": 50,
-          "weightUnit": "grams",
-          "distanceRanges": {
-            "0-50": {
-              "minDistance": 0,
-              "maxDistance": 50,
-              "distanceUnit": "KM",
-              "fee": 15
-            },
-            "51-200": {
-              "minDistance": 51,
-              "maxDistance": 200,
-              "distanceUnit": "KM",
-              "fee": 35
-            },
-            "201-1000": {
-              "minDistance": 201,
-              "maxDistance": 1000,
-              "distanceUnit": "KM",
-              "fee": 35
-            },
-            "1001-2000": {
-              "minDistance": 1001,
-              "maxDistance": 2000,
-              "distanceUnit": "KM",
-              "fee": 35
-            },
-            "2000-3500": {
-              "minDistance": 2001,
-              "maxDistance": 3500,
-              "distanceUnit": "KM",
-              "fee": 35
+  "e-post": [
+    {
+      "pageWeight": 4,
+      "weightUnit": "grams",
+      "printingFeePerPage": 2,
+      "businessFee": 5,
+      "envelopeChargeIncludingGST": 10,
+      "GSTPercentage": 18,
+      "courtFee": 10,
+      "applicationFee": 10,
+      "speedPost": {
+        "weightRanges": [
+          {
+            "minWeight": 0,
+            "maxWeight": 50,
+            "weightUnit": "grams",
+            "distanceRanges": {
+              "0-50": {
+                "minDistance": 0,
+                "maxDistance": 50,
+                "distanceUnit": "KM",
+                "fee": 15
+              },
+              "51-200": {
+                "minDistance": 51,
+                "maxDistance": 200,
+                "distanceUnit": "KM",
+                "fee": 35
+              },
+              "201-1000": {
+                "minDistance": 201,
+                "maxDistance": 1000,
+                "distanceUnit": "KM",
+                "fee": 35
+              },
+              "1001-2000": {
+                "minDistance": 1001,
+                "maxDistance": 2000,
+                "distanceUnit": "KM",
+                "fee": 35
+              },
+              "2000-3500": {
+                "minDistance": 2001,
+                "maxDistance": 3500,
+                "distanceUnit": "KM",
+                "fee": 35
+              }
+            }
+          },
+          {
+            "minWeight": 51,
+            "maxWeight": 200,
+            "weightUnit": "grams",
+            "distanceRanges": {
+              "0-50": {
+                "minDistance": 0,
+                "maxDistance": 50,
+                "distanceUnit": "KM",
+                "fee": 25
+              },
+              "51-200": {
+                "minDistance": 51,
+                "maxDistance": 200,
+                "distanceUnit": "KM",
+                "fee": 35
+              },
+              "201-1000": {
+                "minDistance": 201,
+                "maxDistance": 1000,
+                "distanceUnit": "KM",
+                "fee": 40
+              },
+              "1001-2000": {
+                "minDistance": 1001,
+                "maxDistance": 2000,
+                "distanceUnit": "KM",
+                "fee": 60
+              },
+              "2000-3500": {
+                "minDistance": 2001,
+                "maxDistance": 3500,
+                "distanceUnit": "KM",
+                "fee": 70
+              }
+            }
+          },
+          {
+            "minWeight": 201,
+            "maxWeight": 500,
+            "weightUnit": "grams",
+            "distanceRanges": {
+              "0-50": {
+                "minDistance": 0,
+                "maxDistance": 50,
+                "distanceUnit": "KM",
+                "fee": 30
+              },
+              "51-200": {
+                "minDistance": 51,
+                "maxDistance": 200,
+                "distanceUnit": "KM",
+                "fee": 50
+              },
+              "201-1000": {
+                "minDistance": 201,
+                "maxDistance": 1000,
+                "distanceUnit": "KM",
+                "fee": 60
+              },
+              "1001-2000": {
+                "minDistance": 1001,
+                "maxDistance": 2000,
+                "distanceUnit": "KM",
+                "fee": 80
+              },
+              "2000-3500": {
+                "minDistance": 2001,
+                "maxDistance": 3500,
+                "distanceUnit": "KM",
+                "fee": 90
+              }
+            }
+          },
+          {
+            "minWeight": 501,
+            "maxWeight": 10000,
+            "weightUnit": "grams",
+            "distanceRanges": {
+              "0-50": {
+                "minDistance": 0,
+                "maxDistance": 50,
+                "distanceUnit": "KM",
+                "fee": 10
+              },
+              "51-200": {
+                "minDistance": 51,
+                "maxDistance": 200,
+                "distanceUnit": "KM",
+                "fee": 15
+              },
+              "201-1000": {
+                "minDistance": 201,
+                "maxDistance": 1000,
+                "distanceUnit": "KM",
+                "fee": 30
+              },
+              "1001-2000": {
+                "minDistance": 1001,
+                "maxDistance": 2000,
+                "distanceUnit": "KM",
+                "fee": 40
+              },
+              "2000-3500": {
+                "minDistance": 2001,
+                "maxDistance": 3500,
+                "distanceUnit": "KM",
+                "fee": 50
+              }
             }
           }
-        },
-        {
-          "minWeight": 51,
-          "maxWeight": 200,
-          "weightUnit": "grams",
-          "distanceRanges": {
-            "0-50": {
-              "minDistance": 0,
-              "maxDistance": 50,
-              "distanceUnit": "KM",
-              "fee": 25
-            },
-            "51-200": {
-              "minDistance": 51,
-              "maxDistance": 200,
-              "distanceUnit": "KM",
-              "fee": 35
-            },
-            "201-1000": {
-              "minDistance": 201,
-              "maxDistance": 1000,
-              "distanceUnit": "KM",
-              "fee": 40
-            },
-            "1001-2000": {
-              "minDistance": 1001,
-              "maxDistance": 2000,
-              "distanceUnit": "KM",
-              "fee": 60
-            },
-            "2000-3500": {
-              "minDistance": 2001,
-              "maxDistance": 3500,
-              "distanceUnit": "KM",
-              "fee": 70
-            }
-          }
-        },
-        {
-          "minWeight": 201,
-          "maxWeight": 500,
-          "weightUnit": "grams",
-          "distanceRanges": {
-            "0-50": {
-              "minDistance": 0,
-              "maxDistance": 50,
-              "distanceUnit": "KM",
-              "fee": 30
-            },
-            "51-200": {
-              "minDistance": 51,
-              "maxDistance": 200,
-              "distanceUnit": "KM",
-              "fee": 50
-            },
-            "201-1000": {
-              "minDistance": 201,
-              "maxDistance": 1000,
-              "distanceUnit": "KM",
-              "fee": 60
-            },
-            "1001-2000": {
-              "minDistance": 1001,
-              "maxDistance": 2000,
-              "distanceUnit": "KM",
-              "fee": 80
-            },
-            "2000-3500": {
-              "minDistance": 2001,
-              "maxDistance": 3500,
-              "distanceUnit": "KM",
-              "fee": 90
-            }
-          }
-        },
-        {
-          "minWeight": 501,
-          "maxWeight": 10000,
-          "weightUnit": "grams",
-          "distanceRanges": {
-            "0-50": {
-              "minDistance": 0,
-              "maxDistance": 50,
-              "distanceUnit": "KM",
-              "fee": 10
-            },
-            "51-200": {
-              "minDistance": 51,
-              "maxDistance": 200,
-              "distanceUnit": "KM",
-              "fee": 15
-            },
-            "201-1000": {
-              "minDistance": 201,
-              "maxDistance": 1000,
-              "distanceUnit": "KM",
-              "fee": 30
-            },
-            "1001-2000": {
-              "minDistance": 1001,
-              "maxDistance": 2000,
-              "distanceUnit": "KM",
-              "fee": 40
-            },
-            "2000-3500": {
-              "minDistance": 2001,
-              "maxDistance": 3500,
-              "distanceUnit": "KM",
-              "fee": 50
-            }
-          }
-        }
-      ]
+        ]
+      }
     }
-  }
+  ]
 }

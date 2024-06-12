@@ -1,12 +1,14 @@
 {
   "tenantId": "kl",
   "moduleName": "case",
-  "e-filling": {
-    "applicationFee": 10,
-    "courtFee": 10,
-    "vakalathnamaFee": 10,
-    "advocateWelfareFund": 10,
-    "advocateClerkWelfareFund": 10,
-    "petitionFeePercentage": 10
-  }
+  "e-filling": [
+    {
+      "applicationFee": 10,
+      "courtFee": 10,
+      "vakalathnamaFee": 10,
+      "advocateWelfareFund": 10,
+      "advocateClerkWelfareFund": 10,
+      "petitionFeePercentage": 10
+    }
+  ]
 }
