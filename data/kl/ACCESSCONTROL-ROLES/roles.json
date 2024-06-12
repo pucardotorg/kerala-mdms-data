@@ -18,6 +18,11 @@
       "description": "System Administrator. Can change all master data and has access to all the system screens."
     },
     {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
       "code": "HEARING_CREATOR",
       "name": "HEARING_CREATOR",
       "description": "HEARING_CREATOR"
