@@ -206,6 +206,17 @@
          "code": "null",
          "path": ""
       },
+      {
+         "id": 2548,
+         "name": "Create Individual User",
+         "url": "/individual/v1/_create",
+         "displayName": "Create Individual User",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "individual",
+         "code": "null",
+         "path": ""
+      },
        {
          "id": 2549,
          "name": "Search Individual User",
