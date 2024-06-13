@@ -216,6 +216,105 @@
          "serviceCode": "individual",
          "code": "null",
          "path": ""
+      },
+        {
+         "id": 2550,
+         "name": "Create Advocate Clerk",
+         "url": "/advocate/clerk/v1/_create",
+         "displayName": "Create Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2551,
+         "name": "Update Advocate Clerk",
+         "url": "/advocate/clerk/v1/_update",
+         "displayName": "Update Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2552,
+         "name": "Create Advocate ",
+         "url": "/advocate/advocate/v1/_create",
+         "displayName": "Create Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2553,
+         "name": "Update Advocate ",
+         "url": "/advocate/advocate/v1/_update",
+         "displayName": "Update Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2554,
+         "name": "Search Advocate",
+         "url": "/advocate/advocate/v1/_search",
+         "displayName": "Search Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2555,
+         "name": "Search Advocate Clerk",
+         "url": "/advocate/clerk/v1/_search",
+         "displayName": "Search Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2556,
+         "name": "Create Case",
+         "url": "/case/case/v1/_create",
+         "displayName": "Create Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2557,
+         "name": "Search Case",
+         "url": "/case/case/v1/_search",
+         "displayName": "Search Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2558,
+         "name": "Update Case ",
+         "url": "/case/case/v1/_update",
+         "displayName": "Update Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
       }
    ]
 }
