@@ -205,6 +205,17 @@
          "serviceCode": "scheduler-svc",
          "code": "null",
          "path": ""
-      }
+      },
+       {
+         "id": 2549,
+         "name": "Search Individual User",
+         "url": "/individual/v1/_search",
+         "displayName": "Search Individual User",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "individual",
+         "code": "null",
+         "path": ""
+      },
    ]
 }
