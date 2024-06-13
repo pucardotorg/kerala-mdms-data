@@ -18,6 +18,66 @@
         {
             "format": "HRR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
             "idname": "reschedule.sh"
+        },
+         {
+           "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+           "idname": "individual.id"
+        },
+        {
+            "format": "ADV-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "advocate.application_number"
+        },
+        {
+            "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "advocate_clerk.application_number"
+        },
+        {
+            "format": "CASE-FILING-NO-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+            "idname": "case.filing_number"
+        },
+        {
+            "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
+            "idname": "order.order_number"
+        },
+        {
+            "format": "ARTIFACT-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ARTIFACT]",
+            "idname": "artifact.artifact_number"
+        },
+        {
+            "format": "APPLICATION-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_APPLICATION]",
+            "idname": "application.application_number"
+        },
+        {
+            "format": "HEARING-ID-[cy:yyyy-MM-dd]-[SEQ_HEARING_ID]",
+            "idname": "hearing.id"
+        },
+        {
+            "format": "TASK-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_TASK]",
+            "idname": "task.task_number"
+        },
+        {
+            "format": "P-[SEQ_DOC_COMPLAINANT]",
+            "idname": "document.evidence_complainant"
+        },
+        {
+            "format": "D-[SEQ_DOC_ACCUSED]",
+            "idname": "document.evidence_accused"
+        },
+        {
+            "format": "C-[SEQ_DOC_COURT]",
+            "idname": "document.evidence_court"
+        },
+        {
+            "format": "PW-[SEQ_WITNESS_COMPLAINANT]",
+            "idname": "document.witness_complainant"
+        },
+        {
+            "format": "DW-[SEQ_WITNESS_ACCUSED]",
+            "idname": "document.witness_accused"
+        },
+        {
+            "format": "CW-[SEQ_WITNESS_COURT]",
+            "idname": "document.witness_court"
         }
     ]
 }
