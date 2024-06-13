@@ -247,6 +247,96 @@
       "actionid": 2549,
       "actioncode": "",
       "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2551,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2553,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "CITIZEN",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "CITIZEN",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2556,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+     {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
