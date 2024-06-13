@@ -121,6 +121,31 @@
       "code": "ADVOCATE_CLERK_ROLE",
       "name": "ADVOCATE_CLERK_ROLE",
       "description": "User will be assigned an advocate-clerk role"
+    },
+    {
+      "code": "CASE_REVIEWER",
+      "name": "CASE_REVIEWER",
+      "description": "CASE_REVIEWER"
+    },
+    {
+      "code": "CASE_CREATOR",
+      "name": "CASE_CREATOR",
+      "description": "CASE_CREATOR"
+    },
+    {
+      "code": "CASE_EDITOR",
+      "name": "CASE_EDITOR",
+      "description": "CASE_EDITOR"
+    },
+    {
+      "code": "CASE_VIEWER",
+      "name": "CASE_VIEWER",
+      "description": "CASE_VIEWER"
+    },
+    {
+      "code": "CASE_APPROVER",
+      "name": "CASE_APPROVER",
+      "description": "CASE_APPROVER"
     }
   ]
 }
