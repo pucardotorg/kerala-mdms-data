@@ -348,6 +348,17 @@
          "serviceCode": "msea-event-notification",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2562,
+         "name": "Inbox Search for UI",
+         "url": "/inbox/v2/_search",
+         "displayName": "Inbox Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "inbox",
+         "code": "null",
+         "path": ""
       }
    ]
 }
