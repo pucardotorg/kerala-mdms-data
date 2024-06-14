@@ -373,6 +373,30 @@
       "actionid": 604,
       "actioncode": "",
       "tenantId": "kl"
+    },
+     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }
