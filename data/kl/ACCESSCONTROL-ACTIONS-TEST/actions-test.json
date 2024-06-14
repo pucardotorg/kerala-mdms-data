@@ -383,6 +383,17 @@
          "serviceCode": "egov-workflow-v2",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 701,
+         "name": "Delete Token",
+         "url": "/user/_logout",
+         "displayName": "Delete Token",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "ADMIN",
+         "code": "null",
+         "path": "Administration.Delete Token"
       }
    ]
 }
