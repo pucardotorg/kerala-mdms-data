@@ -427,6 +427,36 @@
       "actionid": 1730,
       "actioncode": "",
       "tenantId": "kl"
+    },
+     {
+      "rolecode": "SUPERUSER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }
