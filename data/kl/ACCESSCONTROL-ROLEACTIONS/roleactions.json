@@ -457,6 +457,24 @@
       "actionid": 1743,
       "actioncode": "",
       "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }
