@@ -1,0 +1,194 @@
+{
+  "tenantId": "kl",
+  "moduleName": "INBOX",
+  "InboxQueryConfiguration": [
+    {
+      "module": "Advocate services",
+      "index": "advocate-index-test",
+      "allowedSearchCriteria": [
+        {
+          "name": "id",
+          "path": "Data.advocateDetails.id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "tenantId",
+          "path": "Data.advocateDetails.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.advocateDetails.applicationNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "barRegistrationNumber",
+          "path": "Data.advocateDetails.barRegistrationNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "advocateType",
+          "path": "Data.advocateDetails.advocateType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "individualId",
+          "path": "Data.advocateDetails.individualId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "organisationID",
+          "path": "Data.advocateDetails.organisationID.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "isActive",
+          "path": "Data.advocateDetails.isActive",
+          "isMandatory": false
+        },
+        {
+          "name": "advocateStatus",
+          "path": "Data.advocateDetails.status.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
+          "isMandatory": false
+        },
+        {
+          "name": "createdTime",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
+          "isMandatory": false
+        },
+        {
+          "name": "additionalDetails",
+          "path": "Data.advocateDetails.additionalDetails",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data.advocateDetails.tenantId",
+        "Data.advocateDetails.id",
+        "Data.advocateDetails.applicationNumber",
+        "Data.advocateDetails.barRegistrationNumber",
+        "Data.advocateDetails.advocateType",
+        "Data.advocateDetails.individualId",
+        "Data.advocateDetails.organisationID",
+        "Data.advocateDetails.isActive",
+        "Data.advocateDetails.status",
+        "Data.auditDetails.createdBy",
+        "Data.auditDetails.lastModifiedBy",
+        "Data.auditDetails.createdTime",
+        "Data.auditDetails.lastModifiedTime",
+        "Data.advocateDetails.additionalDetails",
+        "Data.history",
+        "Data.currentProcessInstance",
+        "Data.individual"
+      ]
+    },
+    {
+      "module": "Advocate Clerk Service",
+      "index": "advocate-clerk-index-test",
+      "allowedSearchCriteria": [
+        {
+          "name": "id",
+          "path": "Data.clerkDetails.id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "tenantId",
+          "path": "Data.clerkDetails.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "applicationNumber",
+          "path": "Data.clerkDetails.applicationNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "individualId",
+          "path": "Data.clerkDetails.individualId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "isActive",
+          "path": "Data.clerkDetails.isActive",
+          "isMandatory": false
+        },
+        {
+          "name": "clerkStatus",
+          "path": "Data.clerkDetails.status.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "stateRegnNumber",
+          "path": "Data.clerkDetails.stateRegnNumber.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
+          "isMandatory": false
+        },
+        {
+          "name": "createdTime",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
+          "isMandatory": false
+        },
+        {
+          "name": "additionalDetails",
+          "path": "Data.clerkDetails.additionalDetails",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data.clerkDetails.tenantId",
+        "Data.clerkDetails.id",
+        "Data.clerkDetails.applicationNumber",
+        "Data.clerkDetails.individualId",
+        "Data.clerkDetails.isActive",
+        "Data.clerkDetails.status",
+        "Data.clerkDetails.stateRegnNumber",
+        "Data.auditDetails.createdBy",
+        "Data.auditDetails.lastModifiedBy",
+        "Data.auditDetails.createdTime",
+        "Data.auditDetails.lastModifiedTime",
+        "Data.clerkDetails.additionalDetails",
+        "Data.history",
+        "Data.currentProcessInstance",
+        "Data.individual"
+      ]
+    }
+  ]
+}
