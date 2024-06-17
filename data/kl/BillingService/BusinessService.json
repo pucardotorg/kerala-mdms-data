@@ -1,0 +1,30 @@
+{
+  "tenantId": "kl",
+  "moduleName": "BillingService",
+  "BusinessService": [
+    {
+      "businessService": "PropertyTax",
+      "code": "PT",
+      "collectionModesNotAllowed": [
+        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
+      ],
+      "partPaymentAllowed": true,
+      "minAmountPayable":100,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 86400000,
+      "isVoucherCreationEnabled": true,
+      "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
+    },
+    {
+      "businessService": "case",
+      "code": "case",
+      "collectionModesNotAllowed": [
+        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
+      ],
+      "partPaymentAllowed": false,
+      "isAdvanceAllowed": false,
+      "demandUpdateTime": 604800000,
+      "isVoucherCreationEnabled": true
+    }
+  ]
+}
