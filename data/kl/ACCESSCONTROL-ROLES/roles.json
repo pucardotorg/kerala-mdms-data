@@ -146,6 +146,11 @@
       "code": "CASE_APPROVER",
       "name": "CASE_APPROVER",
       "description": "CASE_APPROVER"
+    },
+    {
+      "code": "MDMS_ADMIN",
+      "name": "MDMS ADMIN",
+      "description": "MDMS User that can create and search schema"
     }
   ]
 }
