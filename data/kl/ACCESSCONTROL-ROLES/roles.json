@@ -18,6 +18,11 @@
       "description": "System Administrator. Can change all master data and has access to all the system screens."
     },
     {
+      "code": "INTERNAL_MICROSERVICE_ROLE",
+      "name": "Internal Microservice Role",
+      "description": "Internal role for plain access"
+    },
+    {
       "code": "HEARING_CREATOR",
       "name": "HEARING_CREATOR",
       "description": "HEARING_CREATOR"
@@ -96,6 +101,51 @@
       "code": "HEARING_REQUEST_APPROVER",
       "name": "HEARING_REQUEST_APPROVER",
       "description": "HEARING_REQUEST_APPROVER"
+    },
+    {
+      "code": "ADVOCATE_APPROVER",
+      "name": "ADVOCATE_APPROVER",
+      "description": "User will be able to approve new advocate registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_CLERK_APPROVER",
+      "name": "ADVOCATE_CLERK_APPROVER",
+      "description": "User will be able to approve new advocate-clerk registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_ROLE",
+      "name": "ADVOCATE_ROLE",
+      "description": "User will be assigned an advocate role"
+    },
+    {
+      "code": "ADVOCATE_CLERK_ROLE",
+      "name": "ADVOCATE_CLERK_ROLE",
+      "description": "User will be assigned an advocate-clerk role"
+    },
+    {
+      "code": "CASE_REVIEWER",
+      "name": "CASE_REVIEWER",
+      "description": "CASE_REVIEWER"
+    },
+    {
+      "code": "CASE_CREATOR",
+      "name": "CASE_CREATOR",
+      "description": "CASE_CREATOR"
+    },
+    {
+      "code": "CASE_EDITOR",
+      "name": "CASE_EDITOR",
+      "description": "CASE_EDITOR"
+    },
+    {
+      "code": "CASE_VIEWER",
+      "name": "CASE_VIEWER",
+      "description": "CASE_VIEWER"
+    },
+    {
+      "code": "CASE_APPROVER",
+      "name": "CASE_APPROVER",
+      "description": "CASE_APPROVER"
     }
   ]
 }

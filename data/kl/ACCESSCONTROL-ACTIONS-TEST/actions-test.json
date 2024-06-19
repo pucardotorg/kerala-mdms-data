@@ -205,6 +205,195 @@
          "serviceCode": "scheduler-svc",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2548,
+         "name": "Create Individual User",
+         "url": "/individual/v1/_create",
+         "displayName": "Create Individual User",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "individual",
+         "code": "null",
+         "path": ""
+      },
+       {
+         "id": 2549,
+         "name": "Search Individual User",
+         "url": "/individual/v1/_search",
+         "displayName": "Search Individual User",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "individual",
+         "code": "null",
+         "path": ""
+      },
+        {
+         "id": 2550,
+         "name": "Create Advocate Clerk",
+         "url": "/advocate/clerk/v1/_create",
+         "displayName": "Create Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2551,
+         "name": "Update Advocate Clerk",
+         "url": "/advocate/clerk/v1/_update",
+         "displayName": "Update Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2552,
+         "name": "Create Advocate ",
+         "url": "/advocate/advocate/v1/_create",
+         "displayName": "Create Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2553,
+         "name": "Update Advocate ",
+         "url": "/advocate/advocate/v1/_update",
+         "displayName": "Update Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2554,
+         "name": "Search Advocate",
+         "url": "/advocate/advocate/v1/_search",
+         "displayName": "Search Advocate",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2555,
+         "name": "Search Advocate Clerk",
+         "url": "/advocate/clerk/v1/_search",
+         "displayName": "Search Advocate Clerk",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "advocate",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2556,
+         "name": "Create Case",
+         "url": "/case/case/v1/_create",
+         "displayName": "Create Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2557,
+         "name": "Search Case",
+         "url": "/case/case/v1/_search",
+         "displayName": "Search Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2558,
+         "name": "Update Case ",
+         "url": "/case/case/v1/_update",
+         "displayName": "Update Case",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+      },
+       {
+         "id": 604,
+         "name": "SearchUser",
+         "url": "/user/_search",
+         "displayName": "Search User",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "ADMIN",
+         "code": "null",
+         "path": "Administration.SearchUser"
+      },
+       {
+         "id": 1830,
+         "name": "mSeva Event Search",
+         "url": "/egov-user-event/v1/events/_search",
+         "displayName": "mSeva Event Notification",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "msea-event-notification",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2562,
+         "name": "Inbox Search for UI",
+         "url": "/inbox/v2/_search",
+         "displayName": "Inbox Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "inbox",
+         "code": "null",
+         "path": ""
+      },
+       {
+         "id": 1730,
+         "name": "Workflow search",
+         "url": "/egov-workflow-v2/egov-wf/process/_search",
+         "parentModule": "",
+         "displayName": "Workflow search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "egov-workflow-v2",
+         "code": "null",
+         "path": ""
+      },
+       {
+         "id": 1743,
+         "name": "BusinessService Search",
+         "url": "/egov-workflow-v2/egov-wf/businessservice/_search",
+         "parentModule": "",
+         "displayName": "BusinessService Search",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "egov-workflow-v2",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 701,
+         "name": "Delete Token",
+         "url": "/user/_logout",
+         "displayName": "Delete Token",
+         "orderNumber": 1,
+         "enabled": false,
+         "serviceCode": "ADMIN",
+         "code": "null",
+         "path": "Administration.Delete Token"
       }
    ]
 }

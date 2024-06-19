@@ -229,6 +229,252 @@
       "actionid":17,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2551,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2553,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "CITIZEN",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "CITIZEN",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2556,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2558,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "SUPERUSER",
+      "actionid": 2548,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2548,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2548,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+     {
+      "rolecode": "SUPERUSER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }
