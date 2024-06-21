@@ -32,8 +32,20 @@
             "idname": "advocate_clerk.application_number"
         },
         {
-            "format": "CASE-FILING-NO-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "case.filing_number"
+            "format": "CC-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+            "idname": "case.casenumber_cc"
+        },
+        {
+            "format": "WP-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+            "idname": "case.casenumber_wp"
+        },
+        {
+            "format": "F-C.1881.026-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+            "idname": "case.filing_number_nia"
+        },
+        {
+            "format": "F-C.1973.002-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+            "idname": "case.filing_number_cp"
         },
         {
             "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
