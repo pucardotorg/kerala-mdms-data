@@ -151,6 +151,31 @@
       "code": "MDMS_ADMIN",
       "name": "MDMS ADMIN",
       "description": "MDMS User that can create and search schema"
+    },
+    {
+      "code": "DEPOSITION_CREATOR",
+      "name": "DEPOSITION_CREATOR",
+      "description": "DEPOSITION_CREATOR"
+    },
+    {
+      "code": "DEPOSITION_ESIGN",
+      "name": "DEPOSITION_ESIGN",
+      "description": "DEPOSITION_ESIGN"
+    },
+    {
+      "code": "DEPOSITION_PUBLISHER",
+      "name": "DEPOSITION_PUBLISHER",
+      "description": "DEPOSITION_PUBLISHER"
+    },
+    {
+      "code": "DEPOSITION_EDITOR",
+      "name": "DEPOSITION_EDITOR",
+      "description": "DEPOSITION_EDITOR"
+    },
+    {
+      "code": "DEPOSITION_VIEWER",
+      "name": "DEPOSITION_VIEWER",
+      "description": "DEPOSITION_VIEWER"
     }
   ]
 }
