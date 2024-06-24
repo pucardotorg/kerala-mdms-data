@@ -176,6 +176,21 @@
       "code": "DEPOSITION_VIEWER",
       "name": "DEPOSITION_VIEWER",
       "description": "DEPOSITION_VIEWER"
+    },
+    {
+      "code": "GRO",
+      "name": "GRO",
+      "description": "Localization user"
+    },
+    {
+      "code": "DGRO",
+      "name": "DGRO",
+      "description": "Localization user"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "LOC_ADMIN",
+      "description": "Localization user for upsert"
     }
   ]
 }
