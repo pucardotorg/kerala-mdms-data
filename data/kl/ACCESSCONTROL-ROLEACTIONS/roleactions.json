@@ -661,6 +661,126 @@
       "actionid": 2547,
       "actioncode": "",
       "tenantId": "kl"
+    },
+    {
+      "rolecode": "GRO",
+      "actionid": 1529,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "DGRO",
+      "actionid": 1529,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid":1529,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid":1529,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid":1529,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid":1530,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid":1530,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"GRO",
+      "actionid":1530,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"DGRO",
+      "actionid":1530,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"GRO",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"DGRO",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid": 1734,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"LOC_ADMIN",
+      "actionid": 1734,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid":1980,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
+      "actionid":2000,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid":2000,
+      "actioncode": "",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid":2000,
+      "actioncode": "",
+      "tenantId":"kl"
     }
   ]
 }
