@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "User Registration",
+  "AdvocateType": [
+    {
+      "id": 1,
+      "type": "ADVOCATE",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "LEGAL_AID",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "PUBLIC_PROSECUTOR",
+      "isactive": true
+    }
+  ]
+}

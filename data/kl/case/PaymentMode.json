@@ -1,0 +1,26 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "PaymentMode": [
+    {
+      "id": 1,
+      "mode": "CHEQUE",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "mode": "CASH",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "mode": "ONLINE",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "mode": "UPI",
+      "isactive": true
+    }
+  ]
+}

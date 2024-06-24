@@ -1,0 +1,20 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Statute": [
+    {
+      "id": 1,
+      "name": "Negotiable Instruments Act, 1881",
+      "code": "C.1881.026",
+      "type": "ACT",
+      "centralOrState": "STATE",
+      "actState": "Kerala",
+      "statuteNumber": 26,
+      "isActive": true,
+      "ofYear": 1881,
+      "datePassed": "09/12/1881",
+      "effectiveFrom": "01/03/1882",
+      "effectiveTo": "Present"
+    }
+  ]
+}

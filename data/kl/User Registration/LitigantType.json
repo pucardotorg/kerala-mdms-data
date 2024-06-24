@@ -1,0 +1,26 @@
+{
+  "tenantId": "pg",
+  "moduleName": "User Registration",
+  "LitigantType": [
+    {
+      "id": 1,
+      "type": "COMPLAINANT_PRIMARY",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "COMPLAINANT_SECONDARY",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "RESPONDENT_PRIMARY",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "type": "RESPONDENT_SECONDARY",
+      "isactive": true
+    }
+  ]
+}

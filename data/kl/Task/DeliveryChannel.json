@@ -1,0 +1,48 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Task",
+  "DeliveryChannel": [
+    {
+      "id": 1,
+      "channel": "EPOST",
+      "channelfor": "SUMMON",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "channel": "NSTEP",
+      "channelfor": "SUMMON",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "channel": "POLICE",
+      "channelfor": "SUMMON",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "channel": "ONLINE",
+      "channelfor": "SUMMON",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "channel": "POLICE",
+      "channelfor": "WARRANT",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "channel": "POSTAL",
+      "channelfor": "NOTICE",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "channel": "HAND_DELIVERED",
+      "channelfor": "NOTICE",
+      "isactive": true
+    }
+  ]
+}

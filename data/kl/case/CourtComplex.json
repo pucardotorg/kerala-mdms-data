@@ -1,0 +1,11 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "CourtComplex": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Kollam High Court"
+    }
+  ]
+}

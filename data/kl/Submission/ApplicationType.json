@@ -1,0 +1,11 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Submission",
+  "ApplicationType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Bail Application"
+    }
+  ]
+}

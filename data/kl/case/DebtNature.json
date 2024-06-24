@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "DebtNature": [
+    {
+      "id": 1,
+      "type": "sales",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "type": "loan",
+      "isActive": true
+    }
+  ]
+}

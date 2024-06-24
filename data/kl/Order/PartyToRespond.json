@@ -1,0 +1,11 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "PartyToRespond": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "All"
+    }
+  ]
+}

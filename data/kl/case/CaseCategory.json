@@ -1,0 +1,36 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "CaseCategory": [
+    {
+      "id": 1,
+      "category": "CIVIL",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "category": "CRIMINAL",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "category": "SECOND_APPEAL",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "category": "REVIEW",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "category": "REFERENCE",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "category": "V",
+      "isactive": true
+    }
+  ]
+}

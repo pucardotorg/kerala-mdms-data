@@ -1,0 +1,24 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Evidence",
+  "EvidenceType": [
+    {
+      "id": 1,
+      "type": "ORAL",
+      "subtype": "DEPOSITION",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "ORAL",
+      "subtype": "AFFIDAVIT",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "DOCUMENTARY",
+      "subtype": "",
+      "isactive": true
+    }
+  ]
+}

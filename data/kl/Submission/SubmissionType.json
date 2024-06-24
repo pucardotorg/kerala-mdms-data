@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Submission",
+  "SubmissionType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Document"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Application"
+    }
+  ]
+}

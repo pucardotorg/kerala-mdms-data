@@ -1,95 +1,78 @@
 {
-    "tenantId": "kl",
-    "moduleName": "common-masters",
-    "IdFormat": [
-
-        {
-            "format": "ADV-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "advocate.id"
-        },
-        {
-            "format": "HR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "hearing.sh"
-        },
-        {
-            "format": "AS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "async.submission.sh"
-        },
-        {
-            "format": "HRR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "reschedule.sh"
-        },
-         {
-           "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
-           "idname": "individual.id"
-        },
-        {
-            "format": "ADV-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "advocate.application_number"
-        },
-        {
-            "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-            "idname": "advocate_clerk.application_number"
-        },
-        {
-            "format": "CC-[SEQ_CASE_NUMBER]-[cy:yyyy]",
-            "idname": "case.casenumber_cc"
-        },
-        {
-            "format": "WP-[SEQ_CASE_NUMBER]-[cy:yyyy]",
-            "idname": "case.casenumber_wp"
-        },
-        {
-            "format": "F-C.1881.026-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
-            "idname": "case.filing_number_nia"
-        },
-        {
-            "format": "F-C.1973.002-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
-            "idname": "case.filing_number_cp"
-        },
-        {
-            "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
-            "idname": "order.order_number"
-        },
-        {
-            "format": "ARTIFACT-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ARTIFACT]",
-            "idname": "artifact.artifact_number"
-        },
-        {
-            "format": "APPLICATION-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_APPLICATION]",
-            "idname": "application.application_number"
-        },
-        {
-            "format": "HEARING-ID-[cy:yyyy-MM-dd]-[SEQ_HEARING_ID]",
-            "idname": "hearing.id"
-        },
-        {
-            "format": "TASK-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_TASK]",
-            "idname": "task.task_number"
-        },
-        {
-            "format": "P-[SEQ_DOC_COMPLAINANT]",
-            "idname": "document.evidence_complainant"
-        },
-        {
-            "format": "D-[SEQ_DOC_ACCUSED]",
-            "idname": "document.evidence_accused"
-        },
-        {
-            "format": "C-[SEQ_DOC_COURT]",
-            "idname": "document.evidence_court"
-        },
-        {
-            "format": "PW-[SEQ_WITNESS_COMPLAINANT]",
-            "idname": "document.witness_complainant"
-        },
-        {
-            "format": "DW-[SEQ_WITNESS_ACCUSED]",
-            "idname": "document.witness_accused"
-        },
-        {
-            "format": "CW-[SEQ_WITNESS_COURT]",
-            "idname": "document.witness_court"
-        }
-    ]
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "IdFormat": [
+    {
+      "format": "IND-[cy:yyyy-MM-dd]-[SEQ_ADDRESS_IND]",
+      "idname": "individual.id"
+    },
+    {
+      "format": "ADV-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "advocate.application_number"
+    },
+    {
+      "format": "CLERK-APP-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "advocate_clerk.application_number"
+    },
+    {
+      "format": "ORDER-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ORDER]",
+      "idname": "order.order_number"
+    },
+    {
+      "format": "ARTIFACT-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_ARTIFACT]",
+      "idname": "artifact.artifact_number"
+    },
+    {
+      "format": "APPLICATION-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_APPLICATION]",
+      "idname": "application.application_number"
+    },
+    {
+      "format": "HEARING-ID-[cy:yyyy-MM-dd]-[SEQ_HEARING_ID]",
+      "idname": "hearing.id"
+    },
+    {
+      "format": "CC-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+      "idname": "case.casenumber_cc"
+    },
+    {
+      "format": "WP-[SEQ_CASE_NUMBER]-[cy:yyyy]",
+      "idname": "case.casenumber_wp"
+    },
+    {
+      "format": "F-C.1881.026-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+      "idname": "case.filing_number_nia"
+    },
+    {
+      "format": "F-C.1973.002-[cy:yyyy]-[SEQ_FILLING_NUMBER]",
+      "idname": "case.filing_number_cp"
+    },
+    {
+      "format": "TASK-NO-[cy:yyyy-MM-dd]-[SEQ_DRISTI_TASK]",
+      "idname": "task.task_number"
+    },
+    {
+      "format": "P-[SEQ_DOC_COMPLAINANT]",
+      "idname": "document.evidence_complainant"
+    },
+    {
+      "format": "D-[SEQ_DOC_ACCUSED]",
+      "idname": "document.evidence_accused"
+    },
+    {
+      "format": "C-[SEQ_DOC_COURT]",
+      "idname": "document.evidence_court"
+    },
+    {
+      "format": "PW-[SEQ_WITNESS_COMPLAINANT]",
+      "idname": "document.witness_complainant"
+    },
+    {
+      "format": "DW-[SEQ_WITNESS_ACCUSED]",
+      "idname": "document.witness_accused"
+    },
+    {
+      "format": "CW-[SEQ_WITNESS_COURT]",
+      "idname": "document.witness_court"
+    }
+  ]
 }

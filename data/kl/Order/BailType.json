@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "BailType": [
+    {
+      "id": 1,
+      "type": "CASH",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "BAIL_BOND",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "SURETY",
+      "isactive": true
+    }
+  ]
+}

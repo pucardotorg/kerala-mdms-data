@@ -1,5 +1,5 @@
 {
-  "tenantId": "kl",
+  "tenantId": "pg",
   "moduleName": "DataSecurity",
   "SecurityPolicy": [
     {
@@ -99,7 +99,7 @@
           ],
           "attributeAccessList": [
           ]
-        },
+        },        
         {
           "roles": ["INTERNAL_MICROSERVICE_ROLE"],
           "attributeAccessList": [
@@ -356,7 +356,7 @@
         }
       ]
     },
-    {
+{
       "model": "WnSConnection",
       "uniqueIdentifier": {
         "name": "uuid",
@@ -373,7 +373,7 @@
       "roleBasedDecryptionPolicy": [
         {
           "roles": ["WS_CEMP","WS_DOC_VERIFIER","WS_FIELD_INSPECTOR","WS_APPROVER","WS_CLERK","SW_CEMP","SW_DOC_VERIFIER","SW_FIELD_INSPECTOR","SW_APPROVER","SW_CLERK"],
-          "attributeAccessList": [
+          "attributeAccessList": [          
           ]
         },
         {
@@ -410,7 +410,7 @@
         }
       ]
     },
-    {
+     {
       "model": "ObpsApplicationStatusReport",
       "uniqueIdentifier": {
         "name": "uuid",
@@ -779,7 +779,7 @@
         "name": "applicationNo",
         "jsonPath": "/applicationNo"
       },
-      "attributes": [
+      "attributes": [  
         {
           "name": "sample",
           "jsonPath": "sample",

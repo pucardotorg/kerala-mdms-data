@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "CourtEstablishment": [
+    {
+      "id": 1,
+      "name": "Magistrate Court Unit",
+      "type": "Magistrate's Court",
+      "hierarchy": "Subordinate",
+      "boundaryType": "District",
+      "courtComplexName": "City court complex",
+      "isActive": true,
+      "establishmentID": 22
+    }
+  ]
+}

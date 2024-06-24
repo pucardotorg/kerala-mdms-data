@@ -1,18 +1,18 @@
 {
-  "tenantId": "kl",
+  "tenantId": "pg",
   "moduleName": "tenant",
   "tenants": [
     {
-      "code": "kl",
+      "code": "pg",
       "name": "State",
       "description": "State",
-      "logoId": "https://s3.ap-south-1.amazonaws.com/pg-egov-assets/pg.citya/logo.png",
+      "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/pucar/govt-of-ind-logo.png",
       "imageId": null,
       "domainUrl": "www.stae.gov.in",
       "type": "CITY",
       "twitterUrl": null,
       "facebookUrl": null,
-      "emailId": "kl.state@gmail.com",
+      "emailId": "pg.state@gmail.com",
       "OfficeTimings": {
         "Mon - Fri": "9.00 AM - 5.00 PM"
       },
@@ -21,7 +21,7 @@
         "localName": "Demo State",
         "districtCode": "0",
         "districtName": "State- District",
-        "districtTenantCode": "kl",
+        "districtTenantCode": "pg",
         "regionName": "State- Region",
         "ulbGrade": "ST",
         "longitude": 75.3412,
@@ -34,5 +34,5 @@
       "address": "State Municipal Corporation",
       "contactNumber": "0978-7645345"
     }
-  ]
+   ]
 }

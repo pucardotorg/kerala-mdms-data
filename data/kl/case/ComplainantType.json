@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "ComplainantType": [
+    {
+      "id": 1,
+      "type": "INDIVIDUAL",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "ORGANIZATION_REPRESENTATIVE",
+      "isactive": true
+    }
+  ]
+}

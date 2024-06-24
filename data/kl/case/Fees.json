@@ -1,0 +1,12 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Fees": [
+    {
+      "id": 1,
+      "statuteId": 1,
+      "amount": 100,
+      "isActive": true
+    }
+  ]
+}

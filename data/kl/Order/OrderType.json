@@ -1,0 +1,84 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "OrderType": [
+    {
+      "id": 1,
+      "type": "NOTICE",
+      "isactive": true,
+      "code": "NOTICE"
+    },
+    {
+      "id": 2,
+      "type": "DOCUMENT_SUBMISSION",
+      "isactive": true,
+      "code": "DOCUMENT_SUBMISSION"
+    },
+    {
+      "id": 3,
+      "type": "EXTENSION_OF_DOCUMENT_SUBMISSION_DATE",
+      "isactive": true,
+      "code": "EXTENSION_OF_DOCUMENT_SUBMISSION_DATE"
+    },
+    {
+      "id": 4,
+      "type": "SUMMONS",
+      "isactive": true,
+      "code": "SUMMONS"
+    },
+    {
+      "id": 5,
+      "type": "WARRANT",
+      "isactive": true,
+      "code": "WARRANT"
+    },
+    {
+      "id": 6,
+      "type": "BAIL",
+      "isactive": true,
+      "code": "BAIL"
+    },
+    {
+      "id": 7,
+      "type": "PAYMENT_AGAINST_PENALTY",
+      "isactive": true,
+      "code": "PAYMENT_AGAINST_PENALTY"
+    },
+    {
+      "id": 8,
+      "type": "NEXT_HEARING",
+      "isactive": true,
+      "code": "NEXT_HEARING"
+    },
+    {
+      "id": 9,
+      "type": "RESCHEDULE_OF_HEARING_DATE",
+      "isactive": true,
+      "code": "RESCHEDULE_OF_HEARING_DATE"
+    },
+    {
+      "id": 10,
+      "type": "EDIT_OF_CASE_DETAILS",
+      "isactive": true,
+      "code": "EDIT_OF_CASE_DETAILS"
+    },
+    {
+      "id": 11,
+      "type": "TRANSFER_TO_ADR",
+      "isactive": true,
+      "code": "TRANSFER_TO_ADR"
+    },
+    {
+      "id": 12,
+      "type": "JUDGEMENT",
+      "isactive": true,
+      "code": "JUDGEMENT"
+    },
+    {
+      "id": 13,
+      "type": "OTHERS",
+      "isactive": true,
+      "code": "OTHERS"
+    }
+  ]
+}

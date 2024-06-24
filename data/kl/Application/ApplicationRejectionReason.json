@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Application",
+  "ApplicationRejectionReason": [
+    {
+      "id": 1,
+      "type": "",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "",
+      "isactive": true
+    }
+  ]
+}

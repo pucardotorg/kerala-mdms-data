@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "UserRegistration",
+  "UserType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Advocate"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Clerk"
+    }
+  ]
+}

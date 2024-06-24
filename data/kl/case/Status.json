@@ -1,0 +1,42 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Status": [
+    {
+      "id": 1,
+      "isActive": true,
+      "roles": "default",
+      "value": "Action Pending"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "roles": "default",
+      "value": "Marked as Evidence"
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "roles": "default",
+      "value": "Accepted"
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "roles": "default",
+      "value": "Delivered"
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "roles": "default",
+      "value": "Upcoming"
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "roles": "default",
+      "value": "Completed"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "OrderCategory": [
+    {
+      "id": 1,
+      "category": "INTERMEDIATE",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "category": "JUDGEMENT",
+      "isactive": true
+    }
+  ]
+}

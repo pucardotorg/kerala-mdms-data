@@ -1,0 +1,14 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Section": [
+    {
+      "id": 1,
+      "statuteId": 1,
+      "sectionHeading": "Sample Heading",
+      "isActive": true,
+      "effectiveFrom": "01/03/1882",
+      "effectiveTo": "Present"
+    }
+  ]
+}

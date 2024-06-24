@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "ResolutionMechanism": [
+    {
+      "id": 1,
+      "mechanism": "COURT",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "mechanism": "LOK_ADALAT",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "mechanism": "ADR",
+      "isactive": true
+    }
+  ]
+}

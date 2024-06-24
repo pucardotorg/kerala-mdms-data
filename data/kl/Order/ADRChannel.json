@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "ADRChannel": [
+    {
+      "id": 1,
+      "adrchannel": "LOK_ADALAT",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "adrchannel": "MEDIATION",
+      "isactive": true
+    }
+  ]
+}

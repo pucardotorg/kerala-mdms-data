@@ -1,0 +1,26 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "JudgementHolding": [
+    {
+      "id": 1,
+      "judgement": "DISMISSED",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "judgement": "PARTLY_ALLOWED",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "judgement": "CONVICTED",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "judgement": "PARTLY_CONVICTED",
+      "isactive": true
+    }
+  ]
+}

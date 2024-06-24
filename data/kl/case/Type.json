@@ -1,0 +1,41 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Type": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Witness Deposition"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Miscellaneous"
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "value": "Application"
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "value": "ID Proof"
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "value": "Admission Hearing"
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "value": "Summons"
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "value": "Trial"
+    }
+  ]
+}

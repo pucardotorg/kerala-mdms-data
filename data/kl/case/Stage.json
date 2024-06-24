@@ -1,0 +1,31 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Stage": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Trial"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "Summons"
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "value": "Bail"
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "value": "Admission Hearing"
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "value": "Judgement"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "LiabilityType": [
+    {
+      "id": 1,
+      "type": "full",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "type": "partial",
+      "isActive": true
+    }
+  ]
+}

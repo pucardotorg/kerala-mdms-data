@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Case",
+  "CaseType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "MVC"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "NIA"
+    }
+  ]
+}

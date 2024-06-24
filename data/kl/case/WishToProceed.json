@@ -1,0 +1,16 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "WishToProceed": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "I’m taking over as a Primary Advocate, I’m a supporting advocate"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "value": "I’m a supporting advocate"
+    }
+  ]
+}

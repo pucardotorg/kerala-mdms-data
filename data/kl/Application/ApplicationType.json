@@ -1,0 +1,46 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Application",
+  "ApplicationType": [
+    {
+      "id": 1,
+      "type": "RE_SCHEDULE",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "CHECKOUT",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "DELAY",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "type": "PENALTY_WAIVER",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "type": "CASE_EDITING",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "type": "DOCUMENT_SUBMISSION",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "type": "RESPONSE_ON_DOCUMENT",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "type": "OTHERS",
+      "isactive": true
+    }
+  ]
+}

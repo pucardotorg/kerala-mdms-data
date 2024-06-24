@@ -1,0 +1,24 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "Filter": [
+    {
+      "id": 1,
+      "isActive": true,
+      "roles": "default",
+      "value": "Type"
+    },
+    {
+      "id": 2,
+      "isActive": true,
+      "roles": "default",
+      "value": "Stage"
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "roles": "default",
+      "value": "Status"
+    }
+  ]
+}

@@ -1,6 +1,94 @@
 {
-  "tenantId": "kl",
+  "tenantId": "pg",
   "moduleName": "tenant",
   "citymodule": [
+{
+      "module": "Pucar",
+      "code": "Pucar",
+      "active": true,
+      "order": 1,
+      "tenants": [
+      {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "Sample",
+      "code": "Sample",
+      "active": true,
+      "order": 1,
+      "tenants": [
+      {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "Cases",
+      "code": "Cases",
+      "active": true,
+      "order": 2,
+      "tenants": [
+       {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "Hearings",
+      "code": "Hearings",
+      "active": true,
+      "order": 3,
+      "tenants": [
+       {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "Orders",
+      "code": "Orders",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+       {
+      "module": "Submissions",
+      "code": "Submissions",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+       {
+      "module": "Workbench",
+      "code": "Workbench",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+       {
+      "module": "HRMS",
+      "code": "HRMS",
+      "active": true,
+      "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    }
   ]
 }

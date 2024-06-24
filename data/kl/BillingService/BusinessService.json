@@ -1,5 +1,5 @@
 {
-  "tenantId": "kl",
+  "tenantId": "pg",
   "moduleName": "BillingService",
   "BusinessService": [
     {
@@ -18,17 +18,6 @@
     {
       "businessService": "case",
       "code": "case",
-      "collectionModesNotAllowed": [
-        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
-      "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
-    },
-    {
-      "businessService": "summon",
-      "code": "summon",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
