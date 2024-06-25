@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Hearing",
+  "PurposeOfAdjournment": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Lack of time"
+    }
+  ]
+}

@@ -26,23 +26,6 @@
       "service": "case",
       "code": "CEAN202330",
       "financialYear": "2023-30"
-    },
-    {
-      "fromDate": 1680287400000,
-      "toDate": 1711909799000,
-      "periodCycle": "ANNUAL",
-      "service": "summon",
-      "code": "SUAN2023",
-      "financialYear": "2023-24"
-    },
-    
-    {
-      "fromDate": 1680287400000,
-      "toDate": 1901145600000,
-      "periodCycle": "ANNUAL",
-      "service": "summon",
-      "code": "SUAN202330",
-      "financialYear": "2023-30"
     }
   ]
 }

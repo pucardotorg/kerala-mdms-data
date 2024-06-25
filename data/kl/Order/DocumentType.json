@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Order",
+  "DocumentType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "default"
+    }
+  ]
+}

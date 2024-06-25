@@ -189,6 +189,90 @@
         "Data.currentProcessInstance",
         "Data.individual"
       ]
+    },
+    {
+      "module": "Pending Tasks Service",
+      "index": "pending-tasks-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "id",
+          "path": "Data.id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "entityType",
+          "path": "Data.entityType",
+          "isMandatory": false,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "referenceId",
+          "path": "Data.referenceId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "status",
+          "path": "Data.status",
+          "isMandatory": false
+        },
+        {
+          "name": "assignedTo",
+          "path": "Data.assignedTo.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "cnr",
+          "path": "Data.cnr.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "isCompleted",
+          "path": "Data.isCompleted",
+          "isMandatory": false
+        },
+        {
+          "name": "assignedRole",
+          "path": "Data.assignedRole",
+          "isMandatory": false
+        },
+        {
+          "name": "stateSla",
+          "path": "Data.stateSla",
+          "isMandatory": false
+        },
+        {
+          "name": "businessServiceSla",
+          "path": "Data.businessServiceSla",
+          "isMandatory": false
+        },
+        {
+          "name": "filingNumber",
+          "path": "Data.filingNumber",
+          "isMandatory": false
+        },
+        {
+          "name": "caseTitle",
+          "path": "Data.caseTitle",
+          "isMandatory": false
+        },
+        {
+          "name": "stage",
+          "path": "Data.stage",
+          "isMandatory": false
+        },
+        {
+          "name": "subStage",
+          "path": "Data.subStage",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.isCompleted",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data"
+      ]
     }
   ]
 }

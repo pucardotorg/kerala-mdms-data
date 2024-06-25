@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Order",
+  "SubmissionName": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "default"
+    }
+  ]
+}

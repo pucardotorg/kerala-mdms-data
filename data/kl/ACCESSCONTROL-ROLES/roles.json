@@ -18,9 +18,69 @@
       "description": "System Administrator. Can change all master data and has access to all the system screens."
     },
     {
-      "code": "INTERNAL_MICROSERVICE_ROLE",
-      "name": "Internal Microservice Role",
-      "description": "Internal role for plain access"
+      "code": "MDMS_ADMIN",
+      "name": "MDMS ADMIN",
+      "description": "MDMS User that can create and search schema"
+    },
+    {
+      "code": "LOC_ADMIN",
+      "name": "Localisation admin",
+      "description": "LOC_ADMIN"
+    },
+    {
+      "code": "CASE_REVIEWER",
+      "name": "CASE_REVIEWER",
+      "description": "CASE_REVIEWER"
+    },
+    {
+      "code": "CASE_CREATOR",
+      "name": "CASE_CREATOR",
+      "description": "CASE_CREATOR"
+    },
+    {
+      "code": "CASE_EDITOR",
+      "name": "CASE_EDITOR",
+      "description": "CASE_EDITOR"
+    },
+    {
+      "code": "CASE_VIEWER",
+      "name": "CASE_VIEWER",
+      "description": "CASE_VIEWER"
+    },
+    {
+      "code": "CASE_APPROVER",
+      "name": "CASE_APPROVER",
+      "description": "CASE_APPROVER"
+    },
+    {
+      "code": "PAYMENT_COLLECTOR",
+      "name": "PAYMENT_COLLECTOR",
+      "description": "PAYMENT_COLLECTOR"
+    },
+    {
+      "code": "APPLICATION_CREATOR",
+      "name": "APPLICATION_CREATOR",
+      "description": "APPLICATION_CREATOR"
+    },
+    {
+      "code": "APPLICATION_RESPONDER",
+      "name": "APPLICATION_RESPONDER",
+      "description": "APPLICATION_RESPONDER"
+    },
+    {
+      "code": "APPLICATION_APPROVER",
+      "name": "APPLICATION_APPROVER",
+      "description": "APPLICATION_APPROVER"
+    },
+    {
+      "code": "APPLICATION_VIEWER",
+      "name": "APPLICATION_VIEWER",
+      "description": "APPLICATION_VIEWER"
+    },
+    {
+      "code": "WORKFLOW_ADMIN",
+      "name": "Workflow Admin",
+      "description": "Person who has authority to abandon or edit workflow"
     },
     {
       "code": "HEARING_CREATOR",
@@ -73,84 +133,19 @@
       "description": "ORDER_REASSIGN"
     },
     {
-      "code": "SUBMISSION_REQUESTER",
-      "name": "SUBMISSION_REQUESTER",
-      "description": "SUBMISSION_REQUESTER"
+      "code": "ORDER_ESIGN",
+      "name": "ORDER_ESIGN",
+      "description": "ORDER_ESIGN"
     },
     {
-      "code": "SUBMISSION_CREATOR",
-      "name": "SUBMISSION_CREATOR",
-      "description": "SUBMISSION_CREATOR"
+      "code": "ORDER_STAMP",
+      "name": "ORDER_STAMP",
+      "description": "ORDER_STAMP"
     },
     {
-      "code": "SUBMISSION_UPDATER",
-      "name": "SUBMISSION_UPDATER",
-      "description": "SUBMISSION_UPDATER"
-    },
-    {
-      "code": "HEARING_CANCELLER",
-      "name": "HEARING_CANCELLER",
-      "description": "HEARING_CANCELLER"
-    },
-    {
-      "code": "HEARING_REQUEST_REJECTOR",
-      "name": "HEARING_REQUEST_REJECTOR",
-      "description": "HEARING_REQUEST_REJECTOR"
-    },
-    {
-      "code": "HEARING_REQUEST_APPROVER",
-      "name": "HEARING_REQUEST_APPROVER",
-      "description": "HEARING_REQUEST_APPROVER"
-    },
-    {
-      "code": "ADVOCATE_APPROVER",
-      "name": "ADVOCATE_APPROVER",
-      "description": "User will be able to approve new advocate registration/update applications"
-    },
-    {
-      "code": "ADVOCATE_CLERK_APPROVER",
-      "name": "ADVOCATE_CLERK_APPROVER",
-      "description": "User will be able to approve new advocate-clerk registration/update applications"
-    },
-    {
-      "code": "ADVOCATE_ROLE",
-      "name": "ADVOCATE_ROLE",
-      "description": "User will be assigned an advocate role"
-    },
-    {
-      "code": "ADVOCATE_CLERK_ROLE",
-      "name": "ADVOCATE_CLERK_ROLE",
-      "description": "User will be assigned an advocate-clerk role"
-    },
-    {
-      "code": "CASE_REVIEWER",
-      "name": "CASE_REVIEWER",
-      "description": "CASE_REVIEWER"
-    },
-    {
-      "code": "CASE_CREATOR",
-      "name": "CASE_CREATOR",
-      "description": "CASE_CREATOR"
-    },
-    {
-      "code": "CASE_EDITOR",
-      "name": "CASE_EDITOR",
-      "description": "CASE_EDITOR"
-    },
-    {
-      "code": "CASE_VIEWER",
-      "name": "CASE_VIEWER",
-      "description": "CASE_VIEWER"
-    },
-    {
-      "code": "CASE_APPROVER",
-      "name": "CASE_APPROVER",
-      "description": "CASE_APPROVER"
-    },
-    {
-      "code": "MDMS_ADMIN",
-      "name": "MDMS ADMIN",
-      "description": "MDMS User that can create and search schema"
+      "code": "ORDER_CLOSER",
+      "name": "ORDER_CLOSER",
+      "description": "ORDER_CLOSER"
     },
     {
       "code": "DEPOSITION_CREATOR",
@@ -178,19 +173,74 @@
       "description": "DEPOSITION_VIEWER"
     },
     {
-      "code": "GRO",
-      "name": "GRO",
-      "description": "Localization user"
+      "code": "COURT_ADMIN",
+      "name": "COURT_ADMIN",
+      "description": "COURT_ADMIN"
     },
     {
-      "code": "DGRO",
-      "name": "DGRO",
-      "description": "Localization user"
+      "code": "SYSTEM_ADMIN",
+      "name": "SYSTEM_ADMIN",
+      "description": "SYSTEM_ADMIN"
     },
     {
-      "code": "LOC_ADMIN",
-      "name": "LOC_ADMIN",
-      "description": "Localization user for upsert"
+      "code": "HRMS_ADMIN",
+      "name": "HRMS_ADMIN",
+      "description": "HRMS_ADMIN"
+    },
+    {
+      "code": "TASK_CREATOR",
+      "name": "TASK_CREATOR",
+      "description": "TASK_CREATOR"
+    },
+    {
+      "code": "TASK_APPROVER",
+      "name": "TASK_APPROVER",
+      "description": "TASK_APPROVER"
+    },
+    {
+      "code": "TASK_CLOSER",
+      "name": "TASK_CLOSER",
+      "description": "TASK_CLOSER"
+    },
+    {
+      "code": "TASK_REJECTOR",
+      "name": "TASK_REJECTOR",
+      "description": "TASK_REJECTOR"
+    },
+    {
+      "code": "TASK_RESPONDER",
+      "name": "TASK_RESPONDER",
+      "description": "TASK_RESPONDER"
+    },
+    {
+      "code": "TASK_REASSIGN",
+      "name": "TASK_REASSIGN",
+      "description": "TASK_REASSIGN"
+    },
+    {
+      "code": "TASK_UPDATOR",
+      "name": "TASK_UPDATOR",
+      "description": "TASK_UPDATOR"
+    },
+    {
+      "code": "ADVOCATE_APPROVER",
+      "name": "ADVOCATE_APPROVER",
+      "description": "User will be able to approve new advocate registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_CLERK_APPROVER",
+      "name": "ADVOCATE_CLERK_APPROVER",
+      "description": "User will be able to approve new advocate-clerk registration/update applications"
+    },
+    {
+      "code": "ADVOCATE_ROLE",
+      "name": "ADVOCATE_ROLE",
+      "description": "User will be assigned an advocate role"
+    },
+    {
+      "code": "ADVOCATE_CLERK_ROLE",
+      "name": "ADVOCATE_CLERK_ROLE",
+      "description": "User will be assigned an advocate-clerk role"
     }
   ]
 }

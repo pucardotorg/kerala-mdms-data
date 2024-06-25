@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "case",
+  "TaskType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "default"
+    }
+  ]
+}

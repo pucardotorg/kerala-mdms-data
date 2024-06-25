@@ -3,158 +3,84 @@
   "moduleName": "common-masters",
   "DocumentType": [
     {
-      "code": "AADHAAR_CARD",
-      "active": true
+      "id": 1,
+      "type": "POWER_OF_ATTORNEY",
+      "isactive": true
     },
     {
-      "code": "PAN_CARD",
-      "active": true
+      "id": 2,
+      "type": "VAKALNAMA",
+      "isactive": true
     },
     {
-      "code": "VOTER_ID",
-      "active": true
+      "id": 3,
+      "type": "PROOF_OF_ACKNOWLEDGEMENT_OF_DEMAND_NOTICE",
+      "isactive": true
     },
     {
-      "code": "DRIVER_LICENSE",
-      "active": true
+      "id": 4,
+      "type": "PROOF_OF_REPLY_OF_DEMAND_NOTICE",
+      "isactive": true
     },
     {
-      "code": "PASSPORT",
-      "active": true
+      "id": 5,
+      "type": "DELAY_CONDONATION",
+      "isactive": true
     },
     {
-      "code": "RATION_CARD",
-      "active": true
+      "id": 6,
+      "type": "PROOF_OF_DISPATCH_OF_LEGAL_DEMAND_NOTICE",
+      "isactive": true
     },
     {
-      "code": "BIRTH_CERTIFICATE",
-      "active": true
+      "id": 7,
+      "type": "LEGAL_DEMAND_NOTICE",
+      "isactive": true
     },
     {
-      "code": "MATRICULATION_CERTIFICATE",
-      "active": true
+      "id": 8,
+      "type": "PROOF_OF_DEBT_OR_LIABILITY",
+      "isactive": true
     },
     {
-      "code": "CERTIFICATE_OF_PRACTICE",
-      "active": true
+      "id": 9,
+      "type": "SWORN_STATEMENT",
+      "isactive": true
     },
     {
-      "code": "BAR_ENROLLMENT_CERTIFICATE",
-      "active": true
+      "id": 10,
+      "type": "CHEQUE_RETURN_MEMO",
+      "isactive": true
     },
     {
-      "code": "DEATH_CERTIFICATE,",
-      "active": true
+      "id": 11,
+      "type": "CHEQUE",
+      "isactive": true
     },
     {
-      "code": "WILL",
-      "active": true
+      "id": 12,
+      "type": "VOTER_ID",
+      "isactive": true
     },
     {
-      "code": "DEED_OF_TRUST",
-      "active": true
+      "id": 13,
+      "type": "AADHAR",
+      "isactive": true
     },
     {
-      "code": "CONTRACT",
-      "active": true
+      "id": 14,
+      "type": "PAN",
+      "isactive": true
     },
     {
-      "code": "LICENSE_DOCUMENT",
-      "active": true
+      "id": 15,
+      "type": "TRANSCRIPT",
+      "isactive": true
     },
     {
-      "code": "PERMIT_DOCUMENT",
-      "active": true
-    },
-    {
-      "code": "PLEADINGS",
-      "active": true
-    },
-    {
-      "code": "STATUTORY_DECLARATION",
-      "active": true
-    },
-    {
-      "code": "COURT_ORDER",
-      "active": true
-    },{
-      "code": "CONSENT_AGREEMENT",
-      "active": true
-    },
-    {
-      "code": "AFFIDAVIT",
-      "active": true
-    },
-    {
-      "code": "VAKALATNAMA",
-      "active": true
-    },
-    {
-      "code": "DECLARATION",
-      "active": true
-    },
-    {
-      "code": "AGREEMENT",
-      "active": true
-    },
-    {
-      "code": "CERTIFICATE",
-      "active": true
-    },
-    {
-      "code": "SUMMON",
-      "active": true
-    },
-    {
-      "code": "RECEIPT",
-      "active": true
-    },
-    {
-      "code": "BILL",
-      "active": true
-    },
-    {
-      "code": "REPORT",
-      "active": true
-    },
-    {
-      "code": "FIRST_INFORMATION_REPORT",
-      "active": true
-    },
-    {
-      "code": "CHARGE_SHEET",
-      "active": true
-    },
-    {
-      "code": "FILE",
-      "active": true
-    },
-    {
-      "code": "NOTICE",
-      "active": true
-    },
-    {
-      "code": "TRANSFER_DEED",
-      "active": true
-    },
-    {
-      "code": "SALE_DEED",
-      "active": true
-    },
-    {
-      "code": "BANK_GUARANTEE",
-      "active": true
-    },
-    {
-      "code": "TRANSFER_CERTIFICATE",
-      "active": true
-    },{
-      "code": "PATENT",
-      "active": true
-    },
-    {
-      "code": "OTHERS",
-      "active": true
+      "id": 16,
+      "type": "WITNESS_DEPOSITION",
+      "isactive": true
     }
   ]
 }

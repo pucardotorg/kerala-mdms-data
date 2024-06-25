@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Hearing",
+  "PartyType": [
+    {
+      "id": 1,
+      "isActive": true,
+      "value": "Witness"
+    }
+  ]
+}

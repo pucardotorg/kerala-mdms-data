@@ -3,232 +3,82 @@
   "moduleName": "ACCESSCONTROL-ROLEACTIONS",
   "roleactions": [
     {
-      "rolecode": "CITIZEN",
-      "actionid": 1,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
       "rolecode": "SUPERUSER",
-      "actionid": 1,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "HEARING_CREATOR",
-      "actionid": 1,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "HEARING_SCHEDULER",
-      "actionid": 1,
+      "actionid": 1429,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 2,
+      "actionid": 1429,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "EMPLOYEE",
-      "actionid": 2,
+      "actionid": 1429,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "SUPERUSER",
-      "actionid": 2,
+      "actionid": 729,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "HEARING_CREATOR",
-      "actionid": 2,
+      "rolecode": "SUPERUSER",
+      "actionid": 730,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "HEARING_SCHEDULER",
-      "actionid": 2,
+      "rolecode": "SUPERUSER",
+      "actionid": 726,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 870,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2548,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2548,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 2,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 2,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "HEARING_CREATOR",
-      "actionid": 2,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "HEARING_SCHEDULER",
-      "actionid": 2,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_REQUESTER",
-      "actionid": 3,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 3,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_CREATOR",
-      "actionid": 4,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 4,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_UPDATER",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_REQUESTER",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_CREATOR",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUBMISSION_UPDATER",
-      "actionid": 5,
+      "actionid": 2548,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "CITIZEN",
-      "actionid": 5,
+      "actionid": 2548,
       "actioncode": "",
       "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 5,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":7,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":8,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":9,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":10,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":11,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":12,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":13,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":14,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":15,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":16,
-      "actioncode":"",
-      "tenantId":"kl"
-    },
-    {
-      "rolecode":"EMPLOYEE",
-      "actionid":17,
-      "actioncode":"",
-      "tenantId":"kl"
     },
     {
       "rolecode": "SUPERUSER",
@@ -245,6 +95,378 @@
     {
       "rolecode": "CITIZEN",
       "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2549,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 605,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 604,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 698,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 698,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 698,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 698,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 698,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 699,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1529,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1529,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1529,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1531,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1530,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1530,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 691,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 692,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 693,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 954,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1741,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1741,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1741,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1743,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1729,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1742,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1742,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1742,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 1730,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2317,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1519,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1528,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1528,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1528,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1750,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 1750,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1751,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1751,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1752,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 1752,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -255,8 +477,50 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "EMPLOYEE",
       "actionid": 2550,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2552,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2554,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2555,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2553,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -267,50 +531,8 @@
       "tenantId": "kl"
     },
     {
-      "rolecode": "CITIZEN",
-      "actionid": 2552,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2552,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
-      "rolecode": "ADVOCATE_APPROVER",
-      "actionid": 2553,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2554,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
       "rolecode": "ADVOCATE_APPROVER",
       "actionid": 2554,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
-      "rolecode": "CITIZEN",
-      "actionid": 2554,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
-      "rolecode": "CITIZEN",
-      "actionid": 2555,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2555,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -326,9 +548,15 @@
       "actioncode": "",
       "tenantId": "kl"
     },
-     {
+    {
       "rolecode": "CASE_VIEWER",
       "actionid": 2557,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2578,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -338,147 +566,15 @@
       "actioncode": "",
       "tenantId": "kl"
     },
-     {
-      "rolecode": "SUPERUSER",
-      "actionid": 2548,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2548,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 2548,
+      "rolecode": "HRMS_ADMIN",
+      "actionid": 2149,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "SUPERUSER",
-      "actionid": 604,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 604,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 604,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
-      "rolecode": "EMPLOYEE",
-      "actionid": 2562,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 2562,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_APPROVER",
-      "actionid": 2562,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_CLERK_APPROVER",
-      "actionid": 2562,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_APPROVER",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_CLERK_APPROVER",
-      "actionid": 1730,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-     {
-      "rolecode": "SUPERUSER",
-      "actionid": 1743,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1743,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1743,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_APPROVER",
-      "actionid": 1743,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "ADVOCATE_CLERK_APPROVER",
-      "actionid": 1743,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 701,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 701,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "SUPERUSER",
-      "actionid": 701,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2509,
+      "actionid": 2149,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -489,80 +585,62 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2312,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2312,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1830,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 1830,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 1830,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2490,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2490,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 870,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 870,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "MDMS_ADMIN",
       "actionid": 2513,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2515,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2516,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 698,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 699,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 1556,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2526,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2527,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2528,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2529,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2530,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2531,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2532,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -579,20 +657,62 @@
       "tenantId": "kl"
     },
     {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2535,
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2559,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2536,
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2560,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2537,
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2559,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2560,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_EDITOR",
+      "actionid": 2561,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ADVOCATE_CLERK_APPROVER",
+      "actionid": 2562,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 1734,
       "actioncode": "",
       "tenantId": "kl"
     },
@@ -603,184 +723,593 @@
       "tenantId": "kl"
     },
     {
-      "rolecode": "MDMS_ADMIN",
-      "actionid": 2538,
+      "rolecode": "ORDER_CREATOR",
+      "actionid": 2563,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2563,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2563,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ORDER_APPROVER",
+      "actionid": 2564,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2564,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2564,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2565,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ORDER_APPROVER",
+      "actionid": 2565,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2565,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ORDER_APPROVER",
+      "actionid": 2566,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_CREATOR",
+      "actionid": 2567,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2569,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_VIEWER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "APPLICATION_APPROVER",
+      "actionid": 2570,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 701,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "DEPOSITION_CREATOR",
+      "actionid": 2571,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "DEPOSITION_VIEWER",
+      "actionid": 2572,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "DEPOSITION_EDITOR",
+      "actionid": 2572,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "DEPOSITION_EDITOR",
+      "actionid": 2573,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2574,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "WORKFLOW_ADMIN",
+      "actionid": 2575,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "WORKFLOW_ADMIN",
+      "actionid": 2576,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "WORKFLOW_ADMIN",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+       "rolecode": "MDMS_ADMIN",
+      "actionid": 2579,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2580,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2581,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2582,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2580,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2581,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2582,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2580,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2581,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
+      "actionid": 2582,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2539,
+      "actionid": 2583,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2540,
+      "actionid": 2584,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2541,
+      "actionid": 2585,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2542,
+      "actionid": 2586,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2543,
+      "actionid": 2587,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2544,
+      "actionid": 2588,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2545,
+      "actionid": 2589,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2546,
+      "actionid": 2590,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
       "rolecode": "MDMS_ADMIN",
-      "actionid": 2547,
+      "actionid": 2591,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "GRO",
-      "actionid": 1529,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2592,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "DGRO",
-      "actionid": 1529,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2593,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid":1529,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2594,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"EMPLOYEE",
-      "actionid":1529,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2595,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"CITIZEN",
-      "actionid":1529,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2596,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid":1530,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2597,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"EMPLOYEE",
-      "actionid":1530,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2598,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"GRO",
-      "actionid":1530,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2599,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"DGRO",
-      "actionid":1530,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2600,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid": 1531,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2601,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"EMPLOYEE",
-      "actionid": 1531,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2602,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"CITIZEN",
-      "actionid": 1531,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2603,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"GRO",
-      "actionid": 1531,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2604,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"DGRO",
-      "actionid": 1531,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2605,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid": 1734,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2606,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"LOC_ADMIN",
-      "actionid": 1734,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2607,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid":1980,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2608,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"SUPERUSER",
-      "actionid":2000,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2609,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"EMPLOYEE",
-      "actionid":2000,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2610,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
     },
     {
-      "rolecode":"CITIZEN",
-      "actionid":2000,
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2611,
       "actioncode": "",
-      "tenantId":"kl"
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2612,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "MDMS_ADMIN",
+      "actionid": 2613,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2617,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2618,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2617,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2618,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2619,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_CREATOR",
+      "actionid": 2620,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_APPROVER",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_CLOSER",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_REJECTOR",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_RESPONDER",
+      "actionid": 2616,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_REASSIGN",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_UPDATOR",
+      "actionid": 2614,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_APPROVER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_CLOSER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "TASK_REJECTOR",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }
+
