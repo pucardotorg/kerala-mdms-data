@@ -3,7 +3,7 @@
   "moduleName": "tenant",
   "tenants": [
     {
-      "code": "pg",
+      "code": "kl",
       "name": "State",
       "description": "State",
       "logoId": "https://egov-dev-assets.s3.ap-south-1.amazonaws.com/pucar/govt-of-ind-logo.png",
@@ -21,7 +21,7 @@
         "localName": "Demo State",
         "districtCode": "0",
         "districtName": "State- District",
-        "districtTenantCode": "pg",
+        "districtTenantCode": "kl",
         "regionName": "State- Region",
         "ulbGrade": "ST",
         "longitude": 75.3412,
