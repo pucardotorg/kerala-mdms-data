@@ -136,7 +136,8 @@
                     "patternType": "ifsc",
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
-                  }
+                  },
+                  "minLength": 11
                 },
                 "name": "ifsc"
               }
@@ -242,6 +243,7 @@
               "populators": {
                 "inputs": [
                   {
+                    "name": "text",
                     "textAreaSubHeader": "CS_CHEQUE_ADDITIONAL_DETAILS",
                     "isOptional": true,
                     "type": "TextAreaComponent"
