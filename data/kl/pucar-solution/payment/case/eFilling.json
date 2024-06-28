@@ -8,7 +8,7 @@
       "vakalathnamaFee": 10,
       "advocateWelfareFund": 10,
       "advocateClerkWelfareFund": 10,
-      "petitionFeePercentage": 0.5,
+      "petitionFeePercentage": 0.05,
       "defaultPetitionFee":250
     }
   ]
