@@ -1309,6 +1309,53 @@
          "serviceCode": "task",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2621,
+         "name":"Process Payment",
+         "url": "/etreasury/payment/v1/_processPayment",
+         "displayName": "Process Payment",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "payment",
+         "code": "null",
+         "path": ""
+
+      },
+      {
+         "id": 2622,
+         "name":"Verify Payment",
+         "url": "/etreasury/payment/v1/_doubleVerification",
+         "displayName": "Verify Payment",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "payment",
+         "code": "null",
+         "path": ""
+
+      },
+      {
+         "id": 2623,
+         "name":"Print Pay-In-Slip",
+         "url": "/etreasury/payment/v1/_printPayInSlip",
+         "displayName": "Print Pay-In-Slip",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "payment",
+         "code": "null",
+         "path": ""
+
+      },
+      {
+         "id": 2624,
+         "name": "Fetch Transaction Details",
+         "url": "/etreasury/payment/v1/_transactionDetails",
+         "displayName": "Fetch Transaction Details",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "payment",
+         "code": "null",
+         "path": ""
       }
    ]
 }
