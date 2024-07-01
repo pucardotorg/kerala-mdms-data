@@ -273,6 +273,94 @@
       "sourceFilterPathList": [
         "Data"
       ]
+    },
+    {
+      "module": "Reschedule service",
+      "index": "reschedule-index-test",
+      "allowedSearchCriteria": [
+        {
+          "name": "rescheduledRequestId",
+          "path": "Data.reScheduleHearing.rescheduledRequestId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "tenantId",
+          "path": "Data.reScheduleHearing.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "hearingBookingId",
+          "path": "Data.reScheduleHearing.hearingBookingId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "judgeId",
+          "path": "Data.reScheduleHearing.judgeId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "caseId",
+          "path": "Data.reScheduleHearing.caseId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "requesterId",
+          "path": "Data.reScheduleHearing.requesterId.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "status",
+          "path": "Data.reScheduleHearing.status.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
+          "isMandatory": false
+        },
+        {
+          "name": "createdTime",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data.reScheduleHearing.rescheduledRequestId",
+        "Data.reScheduleHearing.hearingBookingId",
+        "Data.reScheduleHearing.tenantId",
+        "Data.reScheduleHearing.judgeId",
+        "Data.reScheduleHearing.caseId",
+        "Data.reScheduleHearing.requesterId",
+        "Data.reScheduleHearing.reason",
+        "Data.reScheduleHearing.availableAfter",
+        "Data.reScheduleHearing.status",
+        "Data.reScheduleHearing.actionComment",
+        "Data.reScheduleHearing.suggestedDates",
+        "Data.reScheduleHearing.availableDates",
+        "Data.reScheduleHearing.scheduleDate",
+        "Data.auditDetails.createdBy",
+        "Data.auditDetails.lastModifiedBy",
+        "Data.auditDetails.createdTime",
+        "Data.auditDetails.lastModifiedTime",
+        "Data.history",
+        "Data.currentProcessInstance"
+
+      ]
     }
   ]
 }
