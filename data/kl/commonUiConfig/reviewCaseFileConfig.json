@@ -16,8 +16,8 @@
               "populators": {
                 "inputs": [
                   {
-                    "key": "complaintDetails",
-                    "name": "complaintDetails",
+                    "key": "complainantDetails",
+                    "name": "complainantDetails",
                     "label": "CS_COMPLAINT_DETAILS",
                     "icon": "ComplainantDetailsIcon",
                     "config": [
@@ -93,23 +93,23 @@
                       {
                         "type": "address",
                         "label": "ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "INDIVIDUAL",
                         "value": "addressDetails"
                       },
                       {
                         "type": "text",
                         "label": "company_Name",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
                         "value": "companyName"
                       },
                       {
                         "type": "address",
                         "label": "COMPANY_ADDRESS",
-                        "dependentOn": "complainantType.code",
+                        "dependentOn": "respondentType.code",
                         "dependentValue": "REPRESENTATIVE",
-                        "value": "addressCompanyDetails"
+                        "value": "addressDetails"
                       },
                       {
                         "type": "image",
@@ -166,8 +166,8 @@
                       },
                       {
                         "type": "text",
-                        "label": "CS_NAME_SIGNATORY",
-                        "value": "signatory"
+                        "label": "CS_DISHONOURED_CHEQUE_SIGNATORY_NAME",
+                        "value": "chequeSignatoryName"
                       },
                       {
                         "type": "text",
@@ -245,7 +245,7 @@
                       {
                         "type": "text",
                         "label": "CS_MODE_OF_DISPATCH",
-                        "value": "SelectUserTypeComponent.modeOfDispatchType.name"
+                        "value": "modeOfDispatchType.modeOfDispatchType.name"
                       },
                       {
                         "type": "text",
@@ -271,10 +271,10 @@
                         "type": "image",
                         "label": "CS_DOCUMENT",
                         "value": [
-                          "SelectCustomDragDrop.legalDemandNoticeFileUpload",
-                          "SelectCustomDragDrop.proofOfAcknowledgmentFileUpload",
-                          "SelectCustomDragDrop.proofOfDispatchFileUpload",
-                          "SelectCustomDragDrop.proofOfReplyFileUpload"
+                          "legalDemandNoticeFileUpload.document",
+                          "proofOfAcknowledgmentFileUpload.document",
+                          "proofOfDispatchFileUpload.document",
+                          "proofOfReplyFileUpload.document"
                         ]
                       }
                     ],
@@ -387,7 +387,7 @@
                         "type": "image",
                         "label": "CS_DOCUMENT",
                         "value": [
-                          "SelectCustomDragDrop.swornStatement",
+                          "swornStatement.document",
                           "memorandumOfComplaint.document",
                           "prayerForRelief.document",
                           "SelectUploadDocWithName"
