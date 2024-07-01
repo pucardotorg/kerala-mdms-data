@@ -84,6 +84,9 @@
               "label": "CS_CHEQUE_NUMBER",
               "isMandatory": true,
               "populators": {
+                "validation": {
+                  "minLength": 6
+                },
                 "name": "chequeNumber"
               }
             }
