@@ -1351,6 +1351,48 @@
       "actionid": 2622,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2622,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_SCHEDULER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
