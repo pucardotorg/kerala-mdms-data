@@ -39,7 +39,7 @@
                         "type": "image",
                         "label": "CS_ID_PROOF",
                         "value": [
-                          "individualDetails.document",
+                          "complainantVerification.individualDetails.document",
                           "companyDetailsUpload.document"
                         ]
                       },
