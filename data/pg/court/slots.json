@@ -1,0 +1,22 @@
+{
+  "tenantId": "pg",
+  "moduleName": "court",
+  "slots": [
+    {
+      "id": 1,
+      "slotName": "Slot 1",
+      "slotStartTime": "10:00:00",
+      "slotEndTime": "13:00:00",
+      "slotDuration": "180",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 2,
+      "slotName": "Slot 2",
+      "slotStartTime": "14:00:00",
+      "slotEndTime": "17:00:00",
+      "slotDuration": "180",
+      "unitOfMeasurement": "Minutes"
+    }
+  ]
+}

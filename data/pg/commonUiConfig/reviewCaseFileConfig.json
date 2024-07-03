@@ -11,6 +11,7 @@
               "component": "SelectReviewAccordion",
               "key": "litigentDetails",
               "label": "CS_LITIGENT_DETAILS",
+              "number": 1,
               "withoutLabel": true,
               "textAreaMaxLength": "255",
               "populators": {
@@ -38,7 +39,7 @@
                         "type": "image",
                         "label": "CS_ID_PROOF",
                         "value": [
-                          "individualDetails.document",
+                          "complainantVerification.individualDetails.document",
                           "companyDetailsUpload.document"
                         ]
                       },
@@ -130,6 +131,7 @@
               "component": "SelectReviewAccordion",
               "key": "caseSpecificDetails",
               "label": "CS_CASE_SPECIFIC_DETAILS",
+              "number": 2,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -220,6 +222,11 @@
                         "type": "text",
                         "label": "CS_CHEQUE_RECIEVED_FOR",
                         "value": "liabilityType.name"
+                      },
+                      {
+                        "type": "amount",
+                        "label": "CS_PARIAL_AMOUNT",
+                        "value": "totalAmount"
                       },
                       {
                         "type": "text",
@@ -314,6 +321,7 @@
               "component": "SelectReviewAccordion",
               "key": "additionalDetails",
               "label": "CS_ADDITIONAL_DETAILS",
+              "number": 3,
               "withoutLabel": true,
               "populators": {
                 "inputs": [

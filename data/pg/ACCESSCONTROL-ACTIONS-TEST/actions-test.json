@@ -1332,6 +1332,28 @@
          "serviceCode": "case",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2622,
+         "name": "Inbox get fields for UI",
+         "url": "/inbox/v2/_getFields",
+         "displayName": "Inbox get fields",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "inbox",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2623,
+         "name": "Update Hearing no workflow",
+         "url": "/hearing/v1/updateNoWorkflow",
+         "displayName": "Update Hearing No workflow",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "hearing",
+         "code": "null",
+         "path": ""
       }
    ]
 }

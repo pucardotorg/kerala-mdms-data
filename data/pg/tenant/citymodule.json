@@ -2,13 +2,13 @@
   "tenantId": "pg",
   "moduleName": "tenant",
   "citymodule": [
-{
+    {
       "module": "Pucar",
       "code": "Pucar",
       "active": true,
       "order": 1,
       "tenants": [
-      {
+        {
           "code": "pg"
         }
       ]
@@ -19,7 +19,7 @@
       "active": true,
       "order": 1,
       "tenants": [
-      {
+        {
           "code": "pg"
         }
       ]
@@ -30,7 +30,7 @@
       "active": true,
       "order": 2,
       "tenants": [
-       {
+        {
           "code": "pg"
         }
       ]
@@ -41,7 +41,7 @@
       "active": true,
       "order": 3,
       "tenants": [
-       {
+        {
           "code": "pg"
         }
       ]
@@ -57,7 +57,7 @@
         }
       ]
     },
-       {
+    {
       "module": "Submissions",
       "code": "Submissions",
       "active": true,
@@ -68,7 +68,7 @@
         }
       ]
     },
-       {
+    {
       "module": "Workbench",
       "code": "Workbench",
       "active": true,
@@ -79,11 +79,33 @@
         }
       ]
     },
-       {
+    {
       "module": "HRMS",
       "code": "HRMS",
       "active": true,
       "order": 4,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "Home",
+      "code": "Home",
+      "active": true,
+      "order": 5,
+      "tenants": [
+        {
+          "code": "pg"
+        }
+      ]
+    },
+    {
+      "module": "DRISTI",
+      "code": "DRISTI",
+      "active": true,
+      "order": 6,
       "tenants": [
         {
           "code": "pg"
