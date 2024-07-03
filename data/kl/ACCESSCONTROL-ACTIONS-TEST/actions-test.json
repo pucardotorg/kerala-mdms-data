@@ -1263,6 +1263,50 @@
       "serviceCode": "task",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2617,
+      "name": "Create Demand",
+      "url": "/billing-service/demand/_create",
+      "displayName": "Create Demand",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2618,
+      "name": "Fetch Bill",
+      "url": "/billing-service/bill/v2/_fetchbill",
+      "displayName": "Fetch Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "billing",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2619,
+      "name": "Create Payment",
+      "url": "/collection-services/payments/_create",
+      "displayName": "Create Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "collection",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2620,
+      "name": "Task Create",
+      "url": "/task/v1/create",
+      "displayName": "Task Create",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "task",
+      "code": "null",
+      "path": ""
     }
 
   ]
