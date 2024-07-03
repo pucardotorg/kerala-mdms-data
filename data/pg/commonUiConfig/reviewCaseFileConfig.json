@@ -39,7 +39,7 @@
                         "type": "image",
                         "label": "CS_ID_PROOF",
                         "value": [
-                          "individualDetails.document",
+                          "complainantVerification.individualDetails.document",
                           "companyDetailsUpload.document"
                         ]
                       },
@@ -222,11 +222,6 @@
                         "type": "text",
                         "label": "CS_CHEQUE_RECIEVED_FOR",
                         "value": "liabilityType.name"
-                      },
-                      {
-                        "type": "amount",
-                        "label": "CS_PARIAL_AMOUNT",
-                        "value": "totalAmount"
                       },
                       {
                         "type": "text",
