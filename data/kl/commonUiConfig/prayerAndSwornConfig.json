@@ -159,22 +159,23 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
-              "key": "SelectCustomDragDrop",
+              "key": "swornStatement",
               "populators": {
                 "inputs": [
                   {
                     "isOptional": "CS_IS_OPTIONAL",
-                    "name": "swornStatement",
+                    "name": "document",
                     "documentSubText": "CS_SWORN_STATEMENT_SUBTEXT",
                     "documentHeader": "CS_SWORN_STATEMENT_HEADER",
                     "type": "DragDropComponent",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
+                      "JPG",
                       "PDF"
                     ],
                     "isMultipleUpload": false,
-                    "uploadGuidelines": "UPLOAD_PDF_50"
+                    "uploadGuidelines": "UPLOAD_DOC_50"
                   }
                 ]
               }
@@ -187,13 +188,13 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalDetails",
-              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
                     "name": "text",
                     "textAreaSubHeader": "CS_ADDITIONAL_DETAILS",
-                    "type": "TextAreaComponent"
+                    "type": "TextAreaComponent",
+                    "isOptional": true
                   }
                 ]
               }
@@ -252,12 +253,13 @@
                     "name": "document",
                     "documentHeader": "CS_SWORN_ADDITIONAL_ACTS_DOCUMENT_HEADER",
                     "type": "DragDropComponent",
-                    "maxFileSize": 5,
+                    "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
+                      "JPG",
                       "PDF"
                     ],
-                    "uploadGuidelines": "UPLOAD_PDF_50",
+                    "uploadGuidelines": "UPLOAD_DOC_50",
                     "isMultipleUpload": false
                   }
                 ],

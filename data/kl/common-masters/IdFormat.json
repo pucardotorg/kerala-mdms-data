@@ -73,6 +73,18 @@
     {
       "format": "CW-[SEQ_WITNESS_COURT]",
       "idname": "document.witness_court"
+    },
+    {
+      "format": "HR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "hearing.sh"
+    },
+    {
+      "format": "AS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "async.submission.sh"
+    },
+    {
+      "format": "HRR-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "reschedule.sh"
     }
   ]
 }
