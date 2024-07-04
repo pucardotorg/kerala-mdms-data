@@ -60,7 +60,9 @@
             "value": "CS_RESPONDENT_NAME"
           },
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -125,7 +127,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -148,7 +152,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "head": "CS_RESPONDENT_PHONE",
           "body": [
@@ -188,7 +194,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "head": "CS_RESPONDENT_EMAIL",
           "body": [
@@ -225,7 +233,9 @@
         {
           "head": "CS_RESPONDENT_COMPANY_DETAIL",
           "dependentKey": {
-            "respondentType": ["showCompanyDetails"]
+            "respondentType": [
+              "showCompanyDetails"
+            ]
           },
           "body": [
             {
@@ -264,7 +274,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false
                   }
                 ]
@@ -274,7 +287,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -359,7 +374,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -382,7 +399,9 @@
         },
         {
           "dependentKey": {
-            "respondentType": ["commonFields"]
+            "respondentType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -402,7 +421,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false
                   }
                 ]
