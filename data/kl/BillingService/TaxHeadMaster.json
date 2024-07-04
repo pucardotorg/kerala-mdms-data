@@ -21,6 +21,16 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "task",
+      "name": "Task Settlement advance carry forward",
+      "code": "TASK_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
