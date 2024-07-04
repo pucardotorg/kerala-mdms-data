@@ -33,6 +33,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "bouncedChequeFileUpload",
+              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
@@ -187,6 +188,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "depositChequeFileUpload",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -215,6 +217,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "returnMemoFileUpload",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [

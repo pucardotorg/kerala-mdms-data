@@ -259,6 +259,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "companyDetailsUpload",
+              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
