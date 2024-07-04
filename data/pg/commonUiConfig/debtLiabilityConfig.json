@@ -42,9 +42,7 @@
                     "apiDetails": {
                       "serviceName": "/advocate/advocate/v1/_create",
                       "requestKey": "advocates",
-                      "AdditionalFields": [
-                        "barRegistrationNumber"
-                      ]
+                      "AdditionalFields": ["barRegistrationNumber"]
                     }
                   }
                 ]
@@ -91,9 +89,7 @@
                     "apiDetails": {
                       "serviceName": "/advocate/advocate/v1/_create",
                       "requestKey": "advocates",
-                      "AdditionalFields": [
-                        "barRegistrationNumber"
-                      ]
+                      "AdditionalFields": ["barRegistrationNumber"]
                     }
                   }
                 ]
@@ -103,9 +99,7 @@
         },
         {
           "dependentKey": {
-            "liabilityType": [
-              "showAmountCovered"
-            ]
+            "liabilityType": ["showAmountCovered"]
           },
           "body": [
             {
@@ -150,6 +144,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "debtLiabilityFileUpload",
+              "withoutLabel": true,
+              "label": "CS_PROOF_DEBT",
               "populators": {
                 "inputs": [
                   {
@@ -161,10 +157,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -178,6 +171,8 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalDebtLiabilityDetails",
+              "label": "CS_DEBT_ADDITIONAL_DETAILS",
+              "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
