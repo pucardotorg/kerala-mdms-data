@@ -68,9 +68,7 @@
         },
         {
           "dependentKey": {
-            "delayCondonationType": [
-              "showForm"
-            ]
+            "delayCondonationType": ["showForm"]
           },
           "body": [
             {
@@ -78,6 +76,7 @@
               "component": "SelectCustomTextArea",
               "key": "delayApplicationReason",
               "isMandatory": true,
+              "label": "CS_TEXTAREA_HEADER_DELAY_REASON",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -94,9 +93,7 @@
         },
         {
           "dependentKey": {
-            "delayCondonationType": [
-              "showForm"
-            ]
+            "delayCondonationType": ["showForm"]
           },
           "body": [
             {
@@ -119,9 +116,7 @@
         },
         {
           "dependentKey": {
-            "delayCondonationType": [
-              "showForm"
-            ]
+            "delayCondonationType": ["showForm"]
           },
           "body": [
             {
@@ -129,6 +124,7 @@
               "component": "SelectCustomDragDrop",
               "key": "condonationFileUpload",
               "isMandatory": true,
+              "label": "CS_DELAY_CONDONATION_APPLICATION",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -140,10 +136,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_1_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ]
+                    "fileTypes": ["JPG", "PDF"]
                   }
                 ]
               }

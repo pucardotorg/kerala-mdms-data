@@ -61,6 +61,7 @@
             {
               "type": "component",
               "component": "SelectCustomTextArea",
+              "label": "CS_CASE_SETTLEMENT_CONDITION_SUBHEADER",
               "key": "caseSettlementCondition",
               "withoutLabel": true,
               "populators": {
@@ -105,9 +106,7 @@
                     "allowedMaxSizeInMB": 25,
                     "noteMsg": "CS_DOCUMENT_BLURB",
                     "notSupportedError": "NOT_SUPPORTED_ERROR",
-                    "fileTypes": [
-                      "PDF"
-                    ],
+                    "fileTypes": ["PDF"],
                     "isMultipleUpload": true
                   }
                 ]
@@ -144,9 +143,7 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_25_MB",
                     "noteMsg": "CS_DOCUMENT_BLURB",
                     "notSupportedError": "NOT_SUPPORTED_ERROR",
-                    "fileTypes": [
-                      "PDF"
-                    ],
+                    "fileTypes": ["PDF"],
                     "isMultipleUpload": true
                   }
                 ]
@@ -159,6 +156,8 @@
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
+              "label": "CS_SWORN_STATEMENT_HEADER",
+              "withoutLabel": true,
               "key": "swornStatement",
               "populators": {
                 "inputs": [
@@ -170,10 +169,7 @@
                     "type": "DragDropComponent",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false,
                     "uploadGuidelines": "UPLOAD_DOC_50"
                   }
@@ -188,6 +184,8 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalDetails",
+              "label": "CS_ADDITIONAL_DETAILS",
+              "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
@@ -207,6 +205,8 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "additionalActsSections",
+              "label": "CS_SWORN_PAGE_ADDITIONAL_ACTS_SECTIONS_HEADER",
+              "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
@@ -255,10 +255,7 @@
                     "type": "DragDropComponent",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "isMultipleUpload": false
                   }
