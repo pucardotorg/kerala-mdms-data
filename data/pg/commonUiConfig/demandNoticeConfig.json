@@ -10,6 +10,7 @@
               "type": "component",
               "component": "SelectUserTypeComponent",
               "key": "modeOfDispatchType",
+              "label": "CS_MODE_OF_DISPATCH_TYPE",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -94,10 +95,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -123,10 +121,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -215,10 +210,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false,
                     "documentHeaderStyle": {
                       "textAlign": "left"
@@ -273,9 +265,7 @@
         },
         {
           "dependentKey": {
-            "proofOfReply": [
-              "showProofOfReply"
-            ]
+            "proofOfReply": ["showProofOfReply"]
           },
           "body": [
             {
@@ -315,10 +305,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
