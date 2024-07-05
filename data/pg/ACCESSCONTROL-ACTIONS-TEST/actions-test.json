@@ -1347,7 +1347,7 @@
       {
          "id": 2623,
          "name": "Update Hearing no workflow",
-         "url": "/hearing/v1/updateNoWorkflow",
+         "url": "/hearing/v1/update_transcript_additional_attendees",
          "displayName": "Update Hearing No workflow",
          "orderNumber": 0,
          "enabled": false,
