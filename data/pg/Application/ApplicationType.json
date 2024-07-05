@@ -14,56 +14,41 @@
     },
     {
       "id": 3,
-      "type": "CHECKOUT",
-      "isactive": true
-    },
-    {
-      "id": 4,
-      "type": "DELAY",
-      "isactive": true
-    },
-    {
-      "id": 5,
-      "type": "PENALTY_WAIVER",
-      "isactive": true
-    },
-    {
-      "id": 6,
       "type": "PRODUCTION_DOCUMENTS",
       "isactive": true
     },
     {
-      "id": 7,
+      "id": 4,
       "type": "WITHDRAWAL",
       "isactive": true
     },
     {
-      "id": 8,
+      "id": 5,
       "type": "TRANSFER",
       "isactive": true
     },
     {
-      "id": 9,
+      "id": 6,
       "type": "SETTLEMENT",
       "isactive": true
     },
     {
-      "id": 10,
+      "id": 7,
       "type": "BAIL_BOND",
       "isactive": true
     },
     {
-      "id": 11,
+      "id": 8,
       "type": "SURETY",
       "isactive": true
     },
     {
-      "id": 12,
+      "id": 9,
       "type": "CHECKOUT_REQUEST",
       "isactive": true
     },
     {
-      "id": 13,
+      "id": 10,
       "type": "SETTLEMENT",
       "isactive": true
     }
