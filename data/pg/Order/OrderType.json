@@ -4,15 +4,15 @@
   "OrderType": [
     {
       "id": 1,
-      "type": "NOTICE",
+      "type": "SECTION_202_CRPC",
       "isactive": true,
-      "code": "NOTICE"
+      "code": "SECTION_202_CRPC"
     },
     {
       "id": 2,
-      "type": "DOCUMENT_SUBMISSION",
+      "type": "MANDATORY_SUBMISSIONS_RESPONSES",
       "isactive": true,
-      "code": "DOCUMENT_SUBMISSION"
+      "code": "MANDATORY_SUBMISSIONS_RESPONSES"
     },
     {
       "id": 3,
@@ -22,57 +22,57 @@
     },
     {
       "id": 4,
-      "type": "SUMMONS",
+      "type": "REFERRAL_CASE_TO_ADR",
       "isactive": true,
-      "code": "SUMMONS"
+      "code": "REFERRAL_CASE_TO_ADR"
     },
     {
       "id": 5,
-      "type": "WARRANT",
+      "type": "APPROVAL_REJECTION_RESCHEDULE_REQUEST",
       "isactive": true,
-      "code": "WARRANT"
+      "code": "APPROVAL_REJECTION_RESCHEDULE_REQUEST"
     },
     {
       "id": 6,
-      "type": "BAIL",
-      "isactive": true,
-      "code": "BAIL"
-    },
-    {
-      "id": 7,
-      "type": "PAYMENT_AGAINST_PENALTY",
-      "isactive": true,
-      "code": "PAYMENT_AGAINST_PENALTY"
-    },
-    {
-      "id": 8,
-      "type": "NEXT_HEARING",
-      "isactive": true,
-      "code": "NEXT_HEARING"
-    },
-    {
-      "id": 9,
       "type": "RESCHEDULE_OF_HEARING_DATE",
       "isactive": true,
       "code": "RESCHEDULE_OF_HEARING_DATE"
     },
     {
-      "id": 10,
-      "type": "EDIT_OF_CASE_DETAILS",
+      "id": 7,
+      "type": "APPROVE_REJECT_VOLUNTARY_SUBMISSIONS",
       "isactive": true,
-      "code": "EDIT_OF_CASE_DETAILS"
+      "code": "APPROVE_REJECT_VOLUNTARY_SUBMISSIONS"
+    },
+    {
+      "id": 8,
+      "type": "CASE_TRANSFER",
+      "isactive": true,
+      "code": "CASE_TRANSFER"
+    },
+    {
+      "id": 9,
+      "type": "SETTLEMENT",
+      "isactive": true,
+      "code": "SETTLEMENT"
+    },
+    {
+      "id": 10,
+      "type": "SUMMONS",
+      "isactive": true,
+      "code": "SUMMONS"
     },
     {
       "id": 11,
-      "type": "TRANSFER_TO_ADR",
+      "type": "WARRANT",
       "isactive": true,
-      "code": "TRANSFER_TO_ADR"
+      "code": "WARRANT"
     },
     {
       "id": 12,
-      "type": "JUDGEMENT",
+      "type": "BAIL",
       "isactive": true,
-      "code": "JUDGEMENT"
+      "code": "BAIL"
     },
     {
       "id": 13,
