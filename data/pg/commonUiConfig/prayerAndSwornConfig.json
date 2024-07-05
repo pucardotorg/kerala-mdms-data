@@ -31,6 +31,7 @@
               "label": "CS_PRAYER_AND_SWORN_STATEMENT_TYPE",
               "isMandatory": true,
               "populators": {
+                "name": "prayerAndSwornStatementType",
                 "label": "SELECT_PRAYER_AND_SWORN_STATEMENT_TYPE",
                 "type": "radioButton",
                 "optionsKey": "name",
