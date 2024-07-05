@@ -34,48 +34,54 @@
     },
     {
       "id": 6,
+      "type": "SCHEDULE_OF_HEARING_DATE",
+      "isactive": true,
+      "code": "SCHEDULE_OF_HEARING_DATE"
+    },
+    {
+      "id": 7,
       "type": "RESCHEDULE_OF_HEARING_DATE",
       "isactive": true,
       "code": "RESCHEDULE_OF_HEARING_DATE"
     },
     {
-      "id": 7,
+      "id": 8,
       "type": "APPROVE_REJECT_VOLUNTARY_SUBMISSIONS",
       "isactive": true,
       "code": "APPROVE_REJECT_VOLUNTARY_SUBMISSIONS"
     },
     {
-      "id": 8,
+      "id": 9,
       "type": "CASE_TRANSFER",
       "isactive": true,
       "code": "CASE_TRANSFER"
     },
     {
-      "id": 9,
+      "id": 10,
       "type": "SETTLEMENT",
       "isactive": true,
       "code": "SETTLEMENT"
     },
     {
-      "id": 10,
+      "id": 11,
       "type": "SUMMONS",
       "isactive": true,
       "code": "SUMMONS"
     },
     {
-      "id": 11,
+      "id": 12,
       "type": "WARRANT",
       "isactive": true,
       "code": "WARRANT"
     },
     {
-      "id": 12,
+      "id": 13,
       "type": "BAIL",
       "isactive": true,
       "code": "BAIL"
     },
     {
-      "id": 13,
+      "id": 14,
       "type": "OTHERS",
       "isactive": true,
       "code": "OTHERS"
