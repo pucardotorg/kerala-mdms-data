@@ -161,6 +161,7 @@
             {
               "type": "component",
               "component": "SelectBulkInputs",
+              "label": "CORE_COMMON_PHONE_NUMBER",
               "key": "phonenumbers",
               "withoutLabel": true,
               "populators": {
@@ -203,6 +204,7 @@
               "type": "component",
               "component": "SelectBulkInputs",
               "key": "emails",
+              "label": "CORE_COMMON_EMAILS",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -259,6 +261,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "companyDetailsUpload",
+              "label": "COMPANY_DOCUMENT_DETAILS",
+              "withoutLabel": true,
+              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
@@ -403,6 +408,7 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "inquiryAffidavitFileUpload",
+              "label": "CS_202_INQUIRY_AFFIDAVIT",
               "withoutLabel": true,
               "populators": {
                 "inputs": [

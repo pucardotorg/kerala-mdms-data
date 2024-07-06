@@ -46,9 +46,7 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
           },
           "head": "CS_ADVOCATE_BASIC_DETAILS",
           "body": [
@@ -79,9 +77,7 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
           },
           "body": [
             {
@@ -129,15 +125,15 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
           },
           "body": [
             {
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "vakalatnamaFileUpload",
+              "label": "UPLOAD_VAKALATNAMA",
+              "withoutLabel": true,
               "isMandatory": true,
               "populators": {
                 "inputs": [
@@ -149,11 +145,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PNG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PNG", "PDF"],
                     "isMultipleUpload": false,
                     "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT",
                    "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx"

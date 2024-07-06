@@ -77,6 +77,8 @@
               "type": "component",
               "component": "SelectCustomTextArea",
               "key": "delayApplicationReason",
+              "isMandatory": true,
+              "label": "CS_TEXTAREA_HEADER_DELAY_REASON",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -127,6 +129,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "condonationFileUpload",
+              "isMandatory": true,
+              "label": "CS_DELAY_CONDONATION_APPLICATION",
               "withoutLabel": true,
               "populators": {
                 "inputs": [

@@ -10,6 +10,7 @@
               "type": "component",
               "component": "SelectUserTypeComponent",
               "key": "modeOfDispatchType",
+              "label": "CS_MODE_OF_DISPATCH_TYPE",
               "isMandatory": true,
               "withoutLabel": true,
               "populators": {
@@ -82,6 +83,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "legalDemandNoticeFileUpload",
+              "label": "LEGAL_DEMAND_NOTICE",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -92,10 +95,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -109,6 +109,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfDispatchFileUpload",
+              "label": "PROOF_OF_DISPATCH_LDN",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -119,10 +121,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]
@@ -197,6 +196,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfAcknowledgmentFileUpload",
+              "isMandatory": true,
+              "label": "PROOF_LEGAL_DEMAND_NOTICE",
+              "withoutLabel": true,
               "isDocDependentOn": "proofOfService",
               "isDocDependentKey": "showProofOfAcknowledgment",
               "populators": {
@@ -208,10 +210,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false,
                     "documentHeaderStyle": {
                       "textAlign": "left"
@@ -266,9 +265,7 @@
         },
         {
           "dependentKey": {
-            "proofOfReply": [
-              "showProofOfReply"
-            ]
+            "proofOfReply": ["showProofOfReply"]
           },
           "body": [
             {
@@ -294,6 +291,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "proofOfReplyFileUpload",
+              "isMandatory": true,
+              "label": "CS_PROOF_TO_REPLY_DEMAND_NOTICE",
+              "withoutLabel": true,
               "isDocDependentOn": "proofOfReply",
               "isDocDependentKey": "showProofOfReply",
               "populators": {
@@ -305,10 +305,7 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PDF"],
                     "isMultipleUpload": false
                   }
                 ]

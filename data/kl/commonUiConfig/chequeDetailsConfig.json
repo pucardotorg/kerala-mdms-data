@@ -33,6 +33,9 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "bouncedChequeFileUpload",
+              "label": "CS_BOUNCED_CHEQUE",
+              "withoutLabel": true,
+              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
@@ -187,6 +190,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "depositChequeFileUpload",
+              "label": "CS_PROOF_DEPOSIT_CHEQUE",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -215,6 +220,8 @@
               "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "returnMemoFileUpload",
+              "label": "CS_CHEQUE_RETURN_MEMO",
+              "isMandatory": true,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
@@ -242,6 +249,8 @@
             {
               "type": "component",
               "component": "SelectCustomTextArea",
+              "label": "CS_CHEQUE_ADDITIONAL_DETAILS",
+              "withoutLabel": true,
               "key": "chequeAdditionalDetails",
               "populators": {
                 "inputs": [
