@@ -771,7 +771,7 @@
       "tenantId": "pg"
     },
     {
-      "rolecode": "ORDER_APPROVER",
+      "rolecode": "ORDER_VIEWER",
       "actionid": 2565,
       "actioncode": "",
       "tenantId": "pg"

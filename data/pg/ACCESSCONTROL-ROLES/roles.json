@@ -153,6 +153,11 @@
       "description": "ORDER_CLOSER"
     },
     {
+      "code": "ORDER_VIEWER",
+      "name": "ORDER_VIEWER",
+      "description": "ORDER_VIEWER"
+    },
+    {
       "code": "DEPOSITION_CREATOR",
       "name": "DEPOSITION_CREATOR",
       "description": "DEPOSITION_CREATOR"
