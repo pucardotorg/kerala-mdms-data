@@ -94,6 +94,12 @@
     },
     {
       "id": 16,
+      "type": "WITHDRAWAL",
+      "isactive": true,
+      "code": "WITHDRAWAL"
+    },
+    {
+      "id": 17,
       "type": "OTHERS",
       "isactive": true,
       "code": "OTHERS"
