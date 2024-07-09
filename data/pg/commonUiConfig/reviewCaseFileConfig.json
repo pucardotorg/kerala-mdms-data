@@ -374,15 +374,15 @@
                       {
                         "type": "text",
                         "label": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
-                        "dependentOn": "memorandumOfComplaint.document",
-                        "dependentValue": "Document Attached",
+                        "textDependentOn": "memorandumOfComplaint.document",
+                        "textDependentValue": "Document Attached",
                         "value": "memorandumOfComplaint.text"
                       },
                       {
                         "type": "text",
                         "label": "CS_PRAYER_FOR_RELIEF_HEADER",
-                        "dependentOn": "prayerForRelief.document",
-                        "dependentValue": "Document Attached",
+                        "textDependentOn": "prayerForRelief.document",
+                        "textDependentValue": "Document Attached",
                         "value": "prayerForRelief.text"
                       },
                       {
