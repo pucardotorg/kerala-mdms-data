@@ -1373,6 +1373,94 @@
       "serviceCode": "e-sign-svc",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2627,
+      "name": "Create Hub",
+      "url": "/payment-calculator/hub/v1/_create",
+      "displayName": "Create Hub",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2628,
+      "name": "Update Hub",
+      "url": "/payment-calculator/hub/v1/_update",
+      "displayName": "Update Hub",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2629,
+      "name": "Search Hub",
+      "url": "/payment-calculator/hub/v1/_search",
+      "displayName": "Search Hub",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2631,
+      "name": "Create Postal Service",
+      "url": "/payment-calculator/postal/v1/_create",
+      "displayName": "Create Postal Service",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2632,
+      "name": "Update Postal Service",
+      "url": "/payment-calculator/postal/v1/_update",
+      "displayName": "Update Postal Service",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2633,
+      "name": "Search Postal Service",
+      "url": "/payment-calculator/postal/v1/_search",
+      "displayName": "Search Postal Service",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2634,
+      "name": "Summons payment-calculator",
+      "url": "/payment-calculator/v1/summons/_calculate",
+      "displayName": "Summons Payment",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2635,
+      "name": "Case Fees",
+      "url": "/payment-calculator/v1/case/fees/_calculate",
+      "displayName": "Case Fees",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment-calculator-svc",
+      "code": "null",
+      "path": ""
     }
   ]
 }
