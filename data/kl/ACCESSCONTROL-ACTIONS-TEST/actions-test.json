@@ -1351,6 +1351,28 @@
       "serviceCode": "payment",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2625,
+      "name": "E-Sign the Document",
+      "url": "/e-sign-svc/v1/_esign",
+      "displayName": "E-Sign the Document",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "e-sign-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2626,
+      "name": "Embed Digital Signature",
+      "url": "/e-sign-svc/v1/_signed",
+      "displayName": "Embed Digital Signature",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "e-sign-svc",
+      "code": "null",
+      "path": ""
     }
   ]
 }
