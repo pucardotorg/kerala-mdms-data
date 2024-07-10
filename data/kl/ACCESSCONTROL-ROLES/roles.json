@@ -246,6 +246,11 @@
       "code": "WORKFLOW_ABANDON",
       "name": "WORKFLOW_ABANDON",
       "description": "User will be able to abandon workflow"
+    },
+    {
+      "code": "INTERCEPTOR",
+      "name": "INTERCEPTOR",
+      "description": "interceptor user for e-sign service"
     }
   ]
 }
