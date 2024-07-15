@@ -251,6 +251,11 @@
       "code": "INTERCEPTOR",
       "name": "INTERCEPTOR",
       "description": "interceptor user for e-sign service"
+    },
+    {
+      "code": "ORDER_VIEWER",
+      "name": "ORDER_VIEWER",
+      "description": "ORDER_VIEWER"
     }
   ]
 }
