@@ -1,0 +1,78 @@
+{
+  "tenantId": "kl",
+  "moduleName": "mail-template",
+  "email-template": [
+    {
+      "name": "demo-template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>EMAIL_NOTIFICATION_Template</title>\n    <style>\n        body{\n            display: block;\n            margin: 10px;\n        }\n        .container {\n            width: 100%;\n        }\n        .card {\n            margin: 20px 0px 20px 0px;\n            padding: 25px 25px 25px 25px;\n            background-color: rgb(245, 246, 247);\n            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n            transition: 0.3s;\n        }\n    </style>\n</head>\n<body>\n<div class=\"container\">\n    <div style=\"width: 100%\">\n        <div style=\" margin-top: 20px; display: flex; justify-content: center\">\n            <img\n                src=\"cid:Logo\"\n                alt=\"Beehyv Logo\"\n                height=\"50px\"\n                width=\"150px\"\n            />\n        </div>\n        <div class=\"card\">\n            <p>Hi {{name}},</p>\n            <p>{{message}}</p>\n            <p>Thank you for your time and consideration.</p>\n            <p>Best regards</p>\n\n            <div style=\"margin-top: 30px;\">\n                <i style=\"font-size:14px ;\">You are receiving this email from smartcourtkollam </i>\n            </div>\n        </div>\n    </div>\n</div>\n</body>\n</html>"
+    },
+    {
+      "name": "E-Filing Confirmation",
+      "value": "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>E-Filing Confirmation</title><style>body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }.container { background-color: #ffffff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }.footer { margin-top: 20px; font-size: 12px; color: #777777; }</style></head><body><div class='container'><p>Hello,</p><p>The court fees payment for your case <strong>{{efilingNumber}}</strong> is pending. The case will be filed after the payment is recorded.</p><p>Smart Court Kollam</p></div><div class='footer'><p>This is an automated message. Please do not reply.</p></div></body></html>"
+    },
+    {
+      "name": "e-sign pending",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>eSignature Pending</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The eSignature for your case <strong>(Efiling number {{efilingnumber}})</strong> is pending. The case will be filed after the eSignature is recorded.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "eSignature Pending Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>eSignature Pending</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The eSignature for your case <strong>(CASE ID {{caseId}})</strong> is pending. The case will be filed after the eSignature is recorded.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Case Ready for Submission Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Case Ready for Submission</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Your case <strong>{{efilingnumber}}</strong> is ready for submission. Visit <a href=\"{{link}}\">this link</a> to make the case fee payment and to view the complaint.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Payment Complete and Case Filed Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Payment Complete and Case Filed</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Your payment for case <strong>{{efilingnumber}}</strong> is complete. The case is filed and under scrutiny. Visit <a href=\"{{link}}\">this link</a> to view case updates.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Scrutiny Complete and Case Registered Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Scrutiny Complete and Case Registered</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Scrutiny for case <strong>{{efilingnumber}}</strong> is complete. The case is registered with <strong>{{cnrnumber}}</strong>. Visit <a href=\"{{link}}\">this link</a> to view case updates.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Errors Identified in Case Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Errors Identified in Case</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Errors have been identified in your case <strong>{{efilingnumber}}</strong> submitted. To rectify the errors, visit <a href=\"{{link}}\">this link</a> and resubmit the e-file.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Hearing Scheduled Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Scheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The hearing for case <strong>{{cnr}}</strong> is scheduled on <strong>{{date}}</strong> for taking cognizance. Please be on time.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Errors Identified in Case File Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Errors Identified in Case File</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Errors have been identified in your case file <strong>{{cnr}}</strong>. To rectify the errors, visit <a href=\"{{link}}\">this link</a> and resubmit the e-file.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Next Hearing Scheduled Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Next Hearing Scheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The next hearing for case <strong>{{cnr}}</strong> is scheduled on <strong>{{date}}</strong>. Please be on time.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Case Admitted Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Case Admitted</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Your case <strong>{{efilingnumber}}</strong> has been admitted. Please click the <a href=\"{{link}}\">link</a> for further details and instructions.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Aadhaar OTP Verification Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Aadhaar OTP Verification</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Your OTP for Aadhaar verification is <strong>{{otpCode}}</strong>. Do not share this code with anyone.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Mobile Number Verification OTP Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Mobile Number Verification</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Your OTP for mobile number verification is <strong>{{otpCode}}</strong>. Do not share this code with anyone.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Hearing Scheduled with Purpose Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Scheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The hearing for case <strong>{{cnr}}</strong> is scheduled on <strong>{{date}}</strong> for <strong>{{purpose}}</strong>. Please be on time.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Hearing Rescheduled Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Rescheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The hearing for case <strong>{{cnr}}</strong> on <strong>{{originalDate}}</strong> has been rescheduled to <strong>{{date}}</strong>. Please be on time for the hearing.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Hearing Reschedule Request Accepted Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Reschedule Request Accepted</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Request to reschedule hearing for case <strong>{{cnr}}</strong> has been accepted. Please mark unavailable dates for hearing <a href=\"{{link}}\">here</a>.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    },
+    {
+      "name": "Hearing Rescheduled Due to Opposing Party Request Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Rescheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The hearing for case <strong>{{cnr}}</strong> has been rescheduled to <strong>{{date}}</strong> due to a request from the opposing party.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+    }
+  ]
+}
