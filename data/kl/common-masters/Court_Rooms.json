@@ -1,0 +1,14 @@
+{
+    "tenantId": "kl",
+    "moduleName": "common-masters",
+    "Court_Rooms":
+    [
+      {
+                    "code": "CJFCM_KOLLAM",
+                    "name": "Court of the Judicial First Class Magistrate Kollam",
+                    "email": "court@gmail.com",
+                    "active": true,
+                    "address": "dummy address"
+                }
+    ]
+  }
