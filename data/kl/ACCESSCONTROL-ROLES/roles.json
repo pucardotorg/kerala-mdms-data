@@ -276,6 +276,16 @@
       "code": "SUBMISSION_RESPONDER",
       "name": "SUBMISSION_RESPONDER",
       "description": "SUBMISSION_RESPONDER"
+    },
+    {
+       "code": "TASK_VIEWER",
+      "name": "TASK_VIEWER",
+      "description": "TASK_VIEWER"
+    },
+     {
+       "code": "SUBMISSION_APPROVER",
+      "name": "SUBMISSION_APPROVER",
+      "description": "SUBMISSION_APPROVER"
     }
   ]
 }
