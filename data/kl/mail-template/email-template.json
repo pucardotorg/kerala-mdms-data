@@ -121,6 +121,11 @@
       "code": "SCRUTINY_COMPLETE_CASE_REGISTERED",
       "name": "Scrutiny Complete Case Registered Template",
       "value": "<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
+    },
+    {
+      "code":"ADVOCATE_APPROVE",
+      "name":"Approval for advocate",
+      "value":"<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
     }
   ]
 }
