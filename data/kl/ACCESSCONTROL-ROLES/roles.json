@@ -153,9 +153,9 @@
       "description": "ORDER_VIEWER"
     },
     {
-      "code":"HEARING_VIEWER",
-      "name":"HEARING_VIEWER",
-      "description":"HEARING_VIEWER"
+      "code": "HEARING_VIEWER",
+      "name": "HEARING_VIEWER",
+      "description": "HEARING_VIEWER"
     },
     {
       "code": "DEPOSITION_CREATOR",
@@ -266,6 +266,16 @@
       "code": "ORDER_VIEWER",
       "name": "ORDER_VIEWER",
       "description": "ORDER_VIEWER"
+    },
+    {
+      "code": "SUBMISSION_CREATOR",
+      "name": "SUBMISSION_CREATOR",
+      "description": "SUBMISSION_CREATOR"
+    },
+    {
+      "code": "SUBMISSION_RESPONDER",
+      "name": "SUBMISSION_RESPONDER",
+      "description": "SUBMISSION_RESPONDER"
     }
   ]
 }
