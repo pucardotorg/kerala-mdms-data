@@ -1461,6 +1461,17 @@
       "serviceCode": "payment-calculator-svc",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2636,
+      "name": "Search Bill",
+      "url": "/billing-service/bill/v2/_search",
+      "displayName": "Search Bill",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "billing",
+      "code": "null",
+      "path": ""
     }
   ]
 }
