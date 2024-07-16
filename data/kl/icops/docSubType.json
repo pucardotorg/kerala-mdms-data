@@ -2,743 +2,866 @@
   "tenantId": "kl",
   "moduleName": "icops",
   "docSubType": [
-    {
-      "code": "100001",
-      "subType": "Summons for disposal of suit",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100002",
-      "subType": "Summons for settlement of issues",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100003",
-      "subType": "Summons to appear in person",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100004",
-      "subType": "Summons in a summary suit",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100005",
-      "subType": "Summons for judgment in summary suit",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100006",
-      "subType": "Notice to person who, the court considers, should be added as co-plaintiff",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100007",
-      "subType": "Summons to legal representative of a deceased defendant",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100008",
-      "subType": "Order for transmission of summons to be served on a prisoner",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "100009",
-      "subType": "Order for transmission of summons to be served on a public servant or soldier",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "200001",
-      "subType": "Summons to an accused person",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200002",
-      "subType": "Warrant of arrest",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200003",
-      "subType": "Proclamation requiring the appearance of a person accused",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200004",
-      "subType": "Proclamation requiring the attendance of a witness",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200005",
-      "subType": "Order of attachment to compel the attendance of a witness",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200006",
-      "subType": "Order of attachment to compel the appearance of a person accused",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200007",
-      "subType": "Order authorising an attachment by the district magistrate or collector",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200008",
-      "subType": "Warrant in the first instance to bring up a witness",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "200009",
-      "subType": "Warrant to search after information of a particular offence",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "1000010",
-      "subType": "Summons to witness",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000011",
-      "subType": "Proclamation requiring attendance of witness",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000012",
-      "subType": "Proclamation requiring attendance of witness",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000013",
-      "subType": "Warrant of attachment of property of witness",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000014",
-      "subType": "Warrant of arrest of witness",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000015",
-      "subType": "Warrant of committal",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000016",
-      "subType": "Warrant of committal",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000017",
-      "subType": "Notice to show cause why a payment or adjustment should not be recorded as certified",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000018",
-      "subType": "Precept",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000019",
-      "subType": "Notice to show cause why execution should not issue",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000020",
-      "subType": "Warrant of attachment for movable property in execution of a decree for money",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000021",
-      "subType": "Warrant for seizure of specific movable property adjuged by decree",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000022",
-      "subType": "Notice to state objection to draft of document",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000023",
-      "subType": "Warrant to bailiff to give possession of land etc.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000024",
-      "subType": "Warrant to show cause why warrant of arrest should not issue",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000025",
-      "subType": "Warrant of arrest in execution",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000026",
-      "subType": "Warrant of committal of judgment debtor to jail",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000027",
-      "subType": "Order for the release of a person imprisoned in execution",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000028",
-      "subType": "Attachment in execution",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000029",
-      "subType": "Attachment in execution prohibitory order",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000030",
-      "subType": "Attachment in execution CAPITAL Of corporation",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000031",
-      "subType": "Order to attach salary of public officer",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000032",
-      "subType": "Order of attachment of negotiable instrument",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000033",
-      "subType": "Attachment prohibitory order, where the property consists of money or of any security in the custody",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000034",
-      "subType": "Notice of attachment of a decree to the court which passed it - o. 21, r. 52.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000035",
-      "subType": "Notice of attachment of a decree to the holder of the decree",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000036",
-      "subType": "Attachment in execution, prohibitory order, where the property consists of immovable property.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000037",
-      "subType": "Order for payment to the plaintiff, etc., Of money, etc., In the hands of a third party.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000038",
-      "subType": "Notice of attaching creditor",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000039",
-      "subType": "Warrant of sale of property in execution of a decree for money.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000040",
-      "subType": "Notice of day fixed for setting a sale proclamation",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000041",
-      "subType": "Proclamation of sale",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000042",
-      "subType": "Order on the nazir for causing service of proclamation of sale",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000043",
-      "subType": "Notice to person in possession of movable property sold in execution",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000044",
-      "subType": "Prohibitory order against payment of debts sold in execution to any other than the purchaser.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000045",
-      "subType": "Prohibitory order against the transfer of share sold in execution.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000046",
-      "subType": "Notice to show cause why sale should not be set aside",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000047",
-      "subType": "Notice to show cause why sale should not be set aside",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000048",
-      "subType": "Certificate of sale",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000049",
-      "subType": "Order for delivery to certified purchaser of land at a sale in execution.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000050",
-      "subType": "Summons to appear and answer charge of obstructing execution of decree.",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000051",
-      "subType": "Warrant of committal",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000052",
-      "subType": "Authority of the collector to stay public sale of land.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000053",
-      "subType": "Warrant of arrest before judgment",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000054",
-      "subType": "Summons to defendant to appear on surety’s application for discharge.",
-      "docTypeCode": "2",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000055",
-      "subType": "Order of committal",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000056",
-      "subType": "Attachment before judgment, with order to call for security for fulfillment of decree.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000057",
-      "subType": "Attachment before judgment, on proof of failure to furnish security",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000058",
-      "subType": "Appointment of receiver",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000059",
-      "subType": "Intimation to lower court of admission of appeal",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000060",
-      "subType": "Notice to respondent of the day fixed for the hearing of the appeal.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000061",
-      "subType": "Notice to a party to a suit not made a party to the appeal but joined by the court as a respondent",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000062",
-      "subType": "Notice of appeal in forma pauperis.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000063",
-      "subType": "Notice to show cause why a certificate of appeal to the supreme court should not be granted",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000064",
-      "subType": "Notice to respondent of admission of appeal to the supreme court",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000065",
-      "subType": "Notice of application for the transfer of a suit to another court for trial.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000066",
-      "subType": "Notice to show cause (general form)",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000067",
-      "subType": "Notice to parties of the day fixed for examination of a witness about to leave the jurisdiction.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000068",
-      "subType": "Commission to examine absent witness.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000069",
-      "subType": "Commission for a local investigation, or to examine accounts.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000070",
-      "subType": "Commission to make partition.",
-      "docTypeCode": "1",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000071",
-      "subType": "Notice to certificate, natural or defacto guardian",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000072",
-      "subType": "Notice to minor defendant.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000073",
-      "subType": "Notice to opposite party of day fixed for hearing evidence of pauperism",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000074",
-      "subType": "Notice to surety of his liability under a decree.",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000075",
-      "subType": "Notice / Summons under Motor Accident Claim Petition",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "1000076",
-      "subType": "Blank Template",
-      "docTypeCode": "3",
-      "docCaseType": "Civil"
-    },
-    {
-      "code": "2000010",
-      "subType": "Warrant to search suspected place of deposit",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000011",
-      "subType": "Summons on the information of a probable breach of peace",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000012",
-      "subType": "Warrant of commitment on failure to find security to keep the peace",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000013",
-      "subType": "Warrant of commitment on failure to find security for good behavior",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000014",
-      "subType": "Warrant to discharge a person imprisoned on failure to give security",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000015",
-      "subType": "Warrant of imprisonment on failure to pay maintenance",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000016",
-      "subType": "Warrant to enforce the payment of maintenance by attachment and sale",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000017",
-      "subType": "Magistrate's notice and peremptory order",
-      "docTypeCode": "3",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000018",
-      "subType": "Warrant of attachment in the case of a dispute as to the possession of land etc.",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000019",
-      "subType": "Special summons to a person accused of a petty offence",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000020",
-      "subType": "Summons to witness",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000021",
-      "subType": "Warrant of commitment on a sentence of imprisonment or fine if passed by a court",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000022",
-      "subType": "Warrant of imprisonment on failure to pay compensation",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000023",
-      "subType": "Order requiring production in court of person in prison for answering to charge of offence",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000024",
-      "subType": "Order requiring production in court of person in prison for giving evidence",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000025",
-      "subType": "Warrant of commitment in certain cases of contempt when a fine is imposed",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000026",
-      "subType": "Magistrate's or judge's warrant of commitment of witness refusing to answer or to produce document",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000027",
-      "subType": "Warrant after a commutation of a sentence",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000028",
-      "subType": "Warrant to levy a fine by attachment and sale",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000029",
-      "subType": "Warrant for recovery of fine",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000030",
-      "subType": "Warrant to discharge a person imprisoned on failure to give security",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000031",
-      "subType": "Warrant of attachment to enforce bond",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000032",
-      "subType": "Notice to surety on breach of a bond",
-      "docTypeCode": "3",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000033",
-      "subType": "Notice to surety of forfeiture of bond of good behaviour",
-      "docTypeCode": "3",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000034",
-      "subType": "Warrant of attachment against a surety",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000035",
-      "subType": "Warrant or commitment of the surety of an accused person admitted to bail",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000036",
-      "subType": "Notice to the principal of forfeiture of bond to keep the peace",
-      "docTypeCode": "3",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000037",
-      "subType": "Warrant to attach the property of the principal on breach of a bond to keep the peace.",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000038",
-      "subType": "Warrant of imprisonment on breach of a bond to keep the peace",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000039",
-      "subType": "Warrant of attachment and sale on forfeiture of bond for good",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000040",
-      "subType": "Warrant of imprisonment on forfeiture of bond for good behaviour",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000041",
-      "subType": "Summons to an accused 138",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000042",
-      "subType": "Warrent of arrest of accused 138",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000043",
-      "subType": "Warrent of arrest of accused in Private Complaints",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000044",
-      "subType": "Summons to an accused in Pvt. Complaint",
-      "docTypeCode": "2",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000045",
-      "subType": "Blank Process template",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000046",
-      "subType": "Bailable Warrant Police Cases",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    },
-    {
-      "code": "2000047",
-      "subType": "Bailable Warrant Pvt. Complnt.",
-      "docTypeCode": "1",
-      "docCaseType": "Criminal"
-    }
+      {
+        "code": "100001",
+        "subType": "Summons for disposal of suit",
+        "name": "Summons for disposal of suit",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100002",
+        "subType": "Summons for settlement of issues",
+        "name": "Summons for settlement of issues",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100003",
+        "subType": "Summons to appear in person",
+        "name": "Summons to appear in person",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100004",
+        "subType": "Summons in a summary suit",
+        "name": "Summons in a summary suit",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100005",
+        "subType": "Summons for judgment in summary suit",
+        "name": "Summons for judgment in summary suit",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100006",
+        "subType": "Notice to person who, the court considers, should be added as co-plaintiff",
+        "name": "Notice to person who, the court considers, should be added as co-plaintiff",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100007",
+        "subType": "Summons to legal representative of a deceased defendant",
+        "name": "Summons to legal representative of a deceased defendant",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100008",
+        "subType": "Order for transmission of summons to be served on a prisoner",
+        "name": "Order for transmission of summons to be served on a prisoner",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "100009",
+        "subType": "Order for transmission of summons to be served on a public servant or soldier",
+        "name": "Order for transmission of summons to be served on a public servant or soldier",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "200001",
+        "subType": "Summons to an accused person",
+        "name": "Summons to an accused person",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200002",
+        "subType": "Warrant of arrest",
+        "name": "Warrant of arrest",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200003",
+        "subType": "Proclamation requiring the appearance of a person accused",
+        "name": "Proclamation requiring the appearance of a person accused",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200004",
+        "subType": "Proclamation requiring the attendance of a witness",
+        "name": "Proclamation requiring the attendance of a witness",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200005",
+        "subType": "Order of attachment to compel the attendance of a witness",
+        "name": "Order of attachment to compel the attendance of a witness",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200006",
+        "subType": "Order of attachment to compel the appearance of a person accused",
+        "name": "Order of attachment to compel the appearance of a person accused",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200007",
+        "subType": "Order authorising an attachment by the district magistrate or collector",
+        "name": "Order authorising an attachment by the district magistrate or collector",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200008",
+        "subType": "Warrant in the first instance to bring up a witness",
+        "name": "Warrant in the first instance to bring up a witness",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "200009",
+        "subType": "Warrant to search after information of a particular offence",
+        "name": "Warrant to search after information of a particular offence",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "1000010",
+        "subType": "Summons to witness",
+        "name": "Summons to witness",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000011",
+        "subType": "Proclamation requiring attendance of witness",
+        "name": "Proclamation requiring attendance of witness",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000012",
+        "subType": "Proclamation requiring attendance of witness",
+        "name": "Proclamation requiring attendance of witness",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000013",
+        "subType": "Warrant of attachment of property of witness",
+        "name": "Warrant of attachment of property of witness",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000014",
+        "subType": "Warrant of arrest of witness",
+        "name": "Warrant of arrest of witness",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000015",
+        "subType": "Warrant of committal",
+        "name": "Warrant of committal",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000016",
+        "subType": "Warrant of committal",
+        "name": "Warrant of committal",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000017",
+        "subType": "Notice to show cause why a payment or adjustment should not be recorded as certified",
+        "name": "Notice to show cause why a payment or adjustment should not be recorded as certified",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000018",
+        "subType": "Precept",
+        "name": "Precept",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000019",
+        "subType": "Notice to show cause why execution should not issue",
+        "name": "Notice to show cause why execution should not issue",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000020",
+        "subType": "Warrant of attachment for movable property in execution of a decree for money",
+        "name": "Warrant of attachment for movable property in execution of a decree for money",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000021",
+        "subType": "Warrant for seizure of specific movable property adjuged by decree",
+        "name": "Warrant for seizure of specific movable property adjuged by decree",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000022",
+        "subType": "Notice to state objection to draft of document",
+        "name": "Notice to state objection to draft of document",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000023",
+        "subType": "Warrant to bailiff to give possession of land etc.",
+        "name": "Warrant to bailiff to give possession of land etc.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000024",
+        "subType": "Warrant to show cause why warrant of arrest should not issue",
+        "name": "Warrant to show cause why warrant of arrest should not issue",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000025",
+        "subType": "Warrant of arrest in execution",
+        "name": "Warrant of arrest in execution",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000026",
+        "subType": "Warrant of committal of judgment debtor to jail",
+        "name": "Warrant of committal of judgment debtor to jail",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000027",
+        "subType": "Order for the release of a person imprisoned in execution",
+        "name": "Order for the release of a person imprisoned in execution",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000028",
+        "subType": "Attachment in execution",
+        "name": "Attachment in execution",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000029",
+        "subType": "Attachment in execution prohibitory order",
+        "name": "Attachment in execution prohibitory order",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000030",
+        "subType": "Attachment in execution CAPITAL Of corporation",
+        "name": "Attachment in execution CAPITAL Of corporation",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000031",
+        "subType": "Order to attach salary of public officer",
+        "name": "Order to attach salary of public officer",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000032",
+        "subType": "Order of attachment of negotiable instrument",
+        "name": "Order of attachment of negotiable instrument",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000033",
+        "subType": "Attachment prohibitory order, where the property consists of money or of any security in the custody",
+        "name": "Attachment prohibitory order, where the property consists of money or of any security in the custody",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000034",
+        "subType": "Notice of attachment of a decree to the court which passed it - o. 21, r. 52.",
+        "name": "Notice of attachment of a decree to the court which passed it - o. 21, r. 52.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000035",
+        "subType": "Notice of attachment of a decree to the holder of the decree",
+        "name": "Notice of attachment of a decree to the holder of the decree",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000036",
+        "subType": "Attachment in execution, prohibitory order, where the property consists of immovable property.",
+        "name": "Attachment in execution, prohibitory order, where the property consists of immovable property.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000037",
+        "subType": "Order for payment to the plaintiff, etc., Of money, etc., In the hands of a third party.",
+        "name": "Order for payment to the plaintiff, etc., Of money, etc., In the hands of a third party.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000038",
+        "subType": "Notice of attaching creditor",
+        "name": "Notice of attaching creditor",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000039",
+        "subType": "Warrant of sale of property in execution of a decree for money.",
+        "name": "Warrant of sale of property in execution of a decree for money.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000040",
+        "subType": "Notice of day fixed for setting a sale proclamation",
+        "name": "Notice of day fixed for setting a sale proclamation",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000041",
+        "subType": "Proclamation of sale",
+        "name": "Proclamation of sale",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000042",
+        "subType": "Order on the nazir for causing service of proclamation of sale",
+        "name": "Order on the nazir for causing service of proclamation of sale",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000043",
+        "subType": "Notice to person in possession of movable property sold in execution",
+        "name": "Notice to person in possession of movable property sold in execution",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000044",
+        "subType": "Prohibitory order against payment of debts sold in execution to any other than the purchaser.",
+        "name": "Prohibitory order against payment of debts sold in execution to any other than the purchaser.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000045",
+        "subType": "Prohibitory order against the transfer of share sold in execution.",
+        "name": "Prohibitory order against the transfer of share sold in execution.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000046",
+        "subType": "Notice to show cause why sale should not be set aside",
+        "name": "Notice to show cause why sale should not be set aside",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000047",
+        "subType": "Notice to show cause why sale should not be set aside",
+        "name": "Notice to show cause why sale should not be set aside",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000048",
+        "subType": "Certificate of sale",
+        "name": "Certificate of sale",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000049",
+        "subType": "Order for delivery to certified purchaser of land at a sale in execution.",
+        "name": "Order for delivery to certified purchaser of land at a sale in execution.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000050",
+        "subType": "Summons to appear and answer charge of obstructing execution of decree.",
+        "name": "Summons to appear and answer charge of obstructing execution of decree.",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000051",
+        "subType": "Warrant of committal",
+        "name": "Warrant of committal",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000052",
+        "subType": "Authority of the collector to stay public sale of land.",
+        "name": "Authority of the collector to stay public sale of land.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000053",
+        "subType": "Warrant of arrest before judgment",
+        "name": "Warrant of arrest before judgment",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000054",
+        "subType": "Summons to defendant to appear on surety’s application for discharge.",
+        "name": "Summons to defendant to appear on surety’s application for discharge.",
+        "docTypeCode": "2",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000055",
+        "subType": "Order of committal",
+        "name": "Order of committal",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000056",
+        "subType": "Attachment before judgment, with order to call for security for fulfillment of decree.",
+        "name": "Attachment before judgment, with order to call for security for fulfillment of decree.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000057",
+        "subType": "Attachment before judgment, on proof of failure to furnish security",
+        "name": "Attachment before judgment, on proof of failure to furnish security",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000058",
+        "subType": "Appointment of receiver",
+        "name": "Appointment of receiver",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000059",
+        "subType": "Intimation to lower court of admission of appeal",
+        "name": "Intimation to lower court of admission of appeal",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000060",
+        "subType": "Notice to respondent of the day fixed for the hearing of the appeal.",
+        "name": "Notice to respondent of the day fixed for the hearing of the appeal.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000061",
+        "subType": "Notice to a party to a suit not made a party to the appeal but joined by the court as a respondent",
+        "name": "Notice to a party to a suit not made a party to the appeal but joined by the court as a respondent",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000062",
+        "subType": "Notice of appeal in forma pauperis.",
+        "name": "Notice of appeal in forma pauperis.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000063",
+        "subType": "Notice to show cause why a certificate of appeal to the supreme court should not be granted",
+        "name": "Notice to show cause why a certificate of appeal to the supreme court should not be granted",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000064",
+        "subType": "Notice to respondent of admission of appeal to the supreme court",
+        "name": "Notice to respondent of admission of appeal to the supreme court",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000065",
+        "subType": "Notice of application for the transfer of a suit to another court for trial.",
+        "name": "Notice of application for the transfer of a suit to another court for trial.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000066",
+        "subType": "Notice to show cause (general form)",
+        "name": "Notice to show cause (general form)",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000067",
+        "subType": "Notice to parties of the day fixed for examination of a witness about to leave the jurisdiction.",
+        "name": "Notice to parties of the day fixed for examination of a witness about to leave the jurisdiction.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000068",
+        "subType": "Commission to examine absent witness.",
+        "name": "Commission to examine absent witness.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000069",
+        "subType": "Commission for a local investigation, or to examine accounts.",
+        "name": "Commission for a local investigation, or to examine accounts.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000070",
+        "subType": "Commission to make partition.",
+        "name": "Commission to make partition.",
+        "docTypeCode": "1",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000071",
+        "subType": "Notice to certificate, natural or defacto guardian",
+        "name": "Notice to certificate, natural or defacto guardian",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000072",
+        "subType": "Notice to minor defendant.",
+        "name": "Notice to minor defendant.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000073",
+        "subType": "Notice to opposite party of day fixed for hearing evidence of pauperism",
+        "name": "Notice to opposite party of day fixed for hearing evidence of pauperism",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000074",
+        "subType": "Notice to surety of his liability under a decree.",
+        "name": "Notice to surety of his liability under a decree.",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000075",
+        "subType": "Notice / Summons under Motor Accident Claim Petition",
+        "name": "Notice / Summons under Motor Accident Claim Petition",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "1000076",
+        "subType": "Blank Template",
+        "name": "Blank Template",
+        "docTypeCode": "3",
+        "docCaseType": "Civil"
+      },
+      {
+        "code": "2000010",
+        "subType": "Warrant to search suspected place of deposit",
+        "name": "Warrant to search suspected place of deposit",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000011",
+        "subType": "Summons on the information of a probable breach of peace",
+        "name": "Summons on the information of a probable breach of peace",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000012",
+        "subType": "Warrant of commitment on failure to find security to keep the peace",
+        "name": "Warrant of commitment on failure to find security to keep the peace",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000013",
+        "subType": "Warrant of commitment on failure to find security for good behavior",
+        "name": "Warrant of commitment on failure to find security for good behavior",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000014",
+        "subType": "Warrant to discharge a person imprisoned on failure to give security",
+        "name": "Warrant to discharge a person imprisoned on failure to give security",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000015",
+        "subType": "Warrant of imprisonment on failure to pay maintenance",
+        "name": "Warrant of imprisonment on failure to pay maintenance",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000016",
+        "subType": "Warrant to enforce the payment of maintenance by attachment and sale",
+        "name": "Warrant to enforce the payment of maintenance by attachment and sale",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000017",
+        "subType": "Magistrate's notice and peremptory order",
+        "name": "Magistrate's notice and peremptory order",
+        "docTypeCode": "3",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000018",
+        "subType": "Warrant of attachment in the case of a dispute as to the possession of land etc.",
+        "name": "Warrant of attachment in the case of a dispute as to the possession of land etc.",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000019",
+        "subType": "Special summons to a person accused of a petty offence",
+        "name": "Special summons to a person accused of a petty offence",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000020",
+        "subType": "Summons to witness",
+        "name": "Summons to witness",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000021",
+        "subType": "Warrant of commitment on a sentence of imprisonment or fine if passed by a court",
+        "name": "Warrant of commitment on a sentence of imprisonment or fine if passed by a court",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000022",
+        "subType": "Warrant of imprisonment on failure to pay compensation",
+        "name": "Warrant of imprisonment on failure to pay compensation",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000023",
+        "subType": "Order requiring production in court of person in prison for answering to charge of offence",
+        "name": "Order requiring production in court of person in prison for answering to charge of offence",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000024",
+        "subType": "Order requiring production in court of person in prison for giving evidence",
+        "name": "Order requiring production in court of person in prison for giving evidence",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000025",
+        "subType": "Warrant of commitment in certain cases of contempt when a fine is imposed",
+        "name": "Warrant of commitment in certain cases of contempt when a fine is imposed",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000026",
+        "subType": "Magistrate's or judge's warrant of commitment of witness refusing to answer or to produce document",
+        "name": "Magistrate's or judge's warrant of commitment of witness refusing to answer or to produce document",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000027",
+        "subType": "Warrant after a commutation of a sentence",
+        "name": "Warrant after a commutation of a sentence",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000028",
+        "subType": "Warrant to levy a fine by attachment and sale",
+        "name": "Warrant to levy a fine by attachment and sale",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000029",
+        "subType": "Warrant for recovery of fine",
+        "name": "Warrant for recovery of fine",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000030",
+        "subType": "Warrant to discharge a person imprisoned on failure to give security",
+        "name": "Warrant to discharge a person imprisoned on failure to give security",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000031",
+        "subType": "Warrant of attachment to enforce bond",
+        "name": "Warrant of attachment to enforce bond",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000032",
+        "subType": "Notice to surety on breach of a bond",
+        "name": "Notice to surety on breach of a bond",
+        "docTypeCode": "3",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000033",
+        "subType": "Notice to surety of forfeiture of bond of good behaviour",
+        "name": "Notice to surety of forfeiture of bond of good behaviour",
+        "docTypeCode": "3",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000034",
+        "subType": "Warrant of attachment against a surety",
+        "name": "Warrant of attachment against a surety",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000035",
+        "subType": "Warrant or commitment of the surety of an accused person admitted to bail",
+        "name": "Warrant or commitment of the surety of an accused person admitted to bail",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000036",
+        "subType": "Notice to the principal of forfeiture of bond to keep the peace",
+        "name": "Notice to the principal of forfeiture of bond to keep the peace",
+        "docTypeCode": "3",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000037",
+        "subType": "Warrant to attach the property of the principal on breach of a bond to keep the peace.",
+        "name": "Warrant to attach the property of the principal on breach of a bond to keep the peace.",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000038",
+        "subType": "Warrant of imprisonment on breach of a bond to keep the peace",
+        "name": "Warrant of imprisonment on breach of a bond to keep the peace",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000039",
+        "subType": "Warrant of attachment and sale on forfeiture of bond for good",
+        "name": "Warrant of attachment and sale on forfeiture of bond for good",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000040",
+        "subType": "Warrant of imprisonment on forfeiture of bond for good behaviour",
+        "name": "Warrant of imprisonment on forfeiture of bond for good behaviour",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000041",
+        "subType": "Summons to an accused 138",
+        "name": "Summons to an accused 138",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000042",
+        "subType": "Warrent of arrest of accused 138",
+        "name": "Warrent of arrest of accused 138",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000043",
+        "subType": "Warrent of arrest of accused in Private Complaints",
+        "name": "Warrent of arrest of accused in Private Complaints",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000044",
+        "subType": "Summons to an accused in Pvt. Complaint",
+        "name": "Summons to an accused in Pvt. Complaint",
+        "docTypeCode": "2",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000045",
+        "subType": "Blank Process template",
+        "name": "Blank Process template",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000046",
+        "subType": "Bailable Warrant Police Cases",
+        "name": "Bailable Warrant Police Cases",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      },
+      {
+        "code": "2000047",
+        "subType": "Bailable Warrant Pvt. Complnt.",
+        "name": "Bailable Warrant Pvt. Complnt.",
+        "docTypeCode": "1",
+        "docCaseType": "Criminal"
+      }
   ]
 }

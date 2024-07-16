@@ -4,15 +4,18 @@
   "docType": [
     {
       "code": "1",
-      "type": "Warrant"
+      "type": "Warrant",
+      "name": "warrant"
     },
     {
       "code": "2",
-      "type": "Summons"
+      "type": "Summons",
+      "name": "summons"
     },
     {
       "code": "3",
-      "type": "Notice"
+      "type": "Notice",
+      "name": "notice"
     }
   ]
 }
