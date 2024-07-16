@@ -89,6 +89,28 @@
           "code": "kl"
         }
       ]
+    },
+     {
+      "module": "Home",
+      "code": "Home",
+      "active": true,
+      "order": 5,
+      "tenants": [
+        {
+          "code": "kl"
+        }
+      ]
+    },
+    {
+      "module": "DRISTI",
+      "code": "DRISTI",
+      "active": true,
+      "order": 6,
+      "tenants": [
+        {
+          "code": "kl"
+        }
+      ]
     }
   ]
 }
