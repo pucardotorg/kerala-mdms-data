@@ -1,0 +1,18 @@
+{
+  "tenantId": "kl",
+  "moduleName": "icops",
+  "actionStatus": [
+    {
+      "code": "1",
+      "type": "Executed"
+    },
+    {
+      "code": "2",
+      "type": "Not Executed"
+    },
+    {
+      "code": "3",
+      "type": "Pending"
+    }
+  ]
+}
