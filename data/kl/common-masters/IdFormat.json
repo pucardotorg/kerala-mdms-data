@@ -91,8 +91,8 @@
       "idname": "summons.sh"
     },
     {
-      "format": "KERTRE-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
-      "idname": "treasory.sh"
+      "format": "TREASURY-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "treasury.sh"
     }
   ]
 }
