@@ -71,8 +71,19 @@
       "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Reschedule Request Accepted</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>Request to reschedule hearing for case <strong>{{cnr}}</strong> has been accepted. Please mark unavailable dates for hearing <a href=\"{{link}}\">here</a>.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
     },
     {
-      "name": "Hearing Rescheduled Due to Opposing Party Request Template",
-      "value": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Hearing Rescheduled</title>\n</head>\n<body>\n    <p>Hello,</p>\n    <p>The hearing for case <strong>{{cnr}}</strong> has been rescheduled to <strong>{{date}}</strong> due to a request from the opposing party.</p>\n    <p>Smart Court Kollam</p>\n</body>\n</html>"
+      "code": "SCRUTINY_COMPLETE_CASE_REGISTERED",
+      "name": "Scrutiny Complete Case Registered Template",
+      "value": "<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
+    },
+    {
+      "code":"ADVOCATE_APPROVE",
+      "name":"Approval for advocate",
+      "value":"<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
+    },
+    {
+      "code":"ADVOCATE_CLERK_APPROVE",
+      "name":"Approval for clerk",
+      "value":"<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
     }
   ]
 }
