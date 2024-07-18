@@ -1472,6 +1472,17 @@
       "serviceCode": "billing",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2637,
+      "name": "Get Fields Inbox",
+      "url": "/inbox/v2/_getFields",
+      "displayName": "Get Fields Inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "inbox",
+      "code": "null",
+      "path": ""
     }
   ]
 }
