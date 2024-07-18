@@ -4,15 +4,18 @@
   "actionStatus": [
     {
       "code": "1",
-      "type": "Executed"
+      "type": "Executed",
+      "name": "executed"
     },
     {
       "code": "2",
-      "type": "Not Executed"
+      "type": "Not Executed",
+      "name": "not executed"
     },
     {
       "code": "3",
-      "type": "Pending"
+      "type": "Pending",
+      "name": "pending"
     }
   ]
 }
