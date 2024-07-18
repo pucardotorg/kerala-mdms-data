@@ -1483,6 +1483,12 @@
       "actionid": 2636,
       "actioncode": "",
       "tenantId": "kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid":"2637",
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
