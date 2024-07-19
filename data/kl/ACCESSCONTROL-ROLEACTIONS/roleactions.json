@@ -243,6 +243,18 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 692,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 692,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 693,
       "actioncode": "",
@@ -250,6 +262,18 @@
     },
     {
       "rolecode": "SUPERUSER",
+      "actionid": 954,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 954,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
       "actionid": 954,
       "actioncode": "",
       "tenantId": "kl"
@@ -1251,6 +1275,12 @@
       "tenantId": "kl"
     },
     {
+      "rolecode":"CITIZEN",
+      "actionid":2619,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
       "rolecode": "TASK_CREATOR",
       "actionid": 2620,
       "actioncode": "",
@@ -1407,7 +1437,19 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 2627,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "EMPLOYEE",
+      "actionid": 2628,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
       "actionid": 2628,
       "actioncode": "",
       "tenantId": "kl"
@@ -1419,7 +1461,19 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "CITIZEN",
+      "actionid": 2631,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "EMPLOYEE",
+      "actionid": 2632,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
       "actionid": 2632,
       "actioncode": "",
       "tenantId": "kl"
@@ -1489,6 +1543,222 @@
       "actionid":"2637",
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2638,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2638,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2639,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2639,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2645,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2645,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2646,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2646,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2647,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2647,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2648,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2648,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2649,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2649,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2650,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2650,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2651,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2651,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2652,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2652,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2653,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2653,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2654,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2654,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2655,
+      "actioncode":"",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2655,
+      "actioncode":"",
+      "tenantId": "kl"
     }
   ]
 }
