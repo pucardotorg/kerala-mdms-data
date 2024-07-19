@@ -1483,6 +1483,215 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2638,
+      "name": "Verify Payment Connection",
+      "url": "/payment/v1/_verifyConnection",
+      "displayName": "Get Fields Inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2638,
+      "name": "Verify Payment Connection",
+      "url": "/payment/v1/_verifyConnection",
+      "displayName": "Get Fields Inbox",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2639,
+      "name": "Process Challan",
+      "url": "/payment/v1/_processChallan",
+      "displayName": "Process Challan",
+      "orderNumber": 1,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2640,
+      "name": "Double Verification",
+      "url": "/payment/v1/_doubleVerification",
+      "displayName": "Double Verification",
+      "orderNumber": 2,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2641,
+      "name": "Print Pay In Slip",
+      "url": "/payment/v1/_printPayInSlip",
+      "displayName": "Print Pay In Slip",
+      "orderNumber": 3,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2642,
+      "name": "Transaction Details",
+      "url": "/payment/v1/_transactionDetails",
+      "displayName": "Transaction Details",
+      "orderNumber": 4,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2643,
+      "name": "Refund Payment",
+      "url": "/payment/v1/_refundPayment",
+      "displayName": "Refund Payment",
+      "orderNumber": 5,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2644,
+      "name": "Refund Status",
+      "url": "/payment/v1/_refundStatus",
+      "displayName": "Refund Status",
+      "orderNumber": 6,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2645,
+      "name": "Decrypt Treasury Response",
+      "url": "/payment/v1/_decryptTreasuryResponse",
+      "displayName": "Decrypt Treasury Response",
+      "orderNumber": 7,
+      "enabled": false,
+      "serviceCode": "payment",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2646,
+      "name": "OAuth Token",
+      "url": "/user/oauth/token",
+      "displayName": "OAuth Token",
+      "orderNumber": 8,
+      "enabled": false,
+      "serviceCode": "user",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2647,
+      "name": "Send OTP",
+      "url": "/user-otp/v1/_send",
+      "displayName": "Send OTP",
+      "orderNumber": 9,
+      "enabled": false,
+      "serviceCode": "user-otp",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2648,
+      "name": "Create Citizen",
+      "url": "/user/citizen/_create",
+      "displayName": "Create Citizen",
+      "orderNumber": 10,
+      "enabled": false,
+      "serviceCode": "user",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2649,
+      "name": "Update Password No Login",
+      "url": "/user/password/nologin/_update",
+      "displayName": "Update Password No Login",
+      "orderNumber": 11,
+      "enabled": false,
+      "serviceCode": "user",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2650,
+      "name": "Search Tenant",
+      "url": "/tenant/v1/tenant/_search",
+      "displayName": "Search Tenant",
+      "orderNumber": 12,
+      "enabled": false,
+      "serviceCode": "tenant",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2651,
+      "name": "Boundarys",
+      "url": "/egov-location/boundarys",
+      "displayName": "Boundarys",
+      "orderNumber": 13,
+      "enabled": false,
+      "serviceCode": "egov-location",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2652,
+      "name": "Boundaries by Type Name and Hierarchy Type Name",
+      "url": "/egov-location/boundarys/boundariesByBndryTypeNameAndHierarchyTypeName",
+      "displayName": "Boundaries by Type Name and Hierarchy Type Name",
+      "orderNumber": 14,
+      "enabled": false,
+      "serviceCode": "egov-location",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2653,
+      "name": "Get Location by Name",
+      "url": "/egov-location/boundarys/getLocationByLocationName",
+      "displayName": "Get Location by Name",
+      "orderNumber": 15,
+      "enabled": false,
+      "serviceCode": "egov-location",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2654,
+      "name": "Search Geography",
+      "url": "/egov-location/location/v11/geography/_search",
+      "displayName": "Search Geography",
+      "orderNumber": 16,
+      "enabled": false,
+      "serviceCode": "egov-location",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2655,
+      "name": "Search Billing Slab",
+      "url": "/pt-calculator-v2/billing-slab/_search",
+      "displayName": "Search Billing Slab",
+      "orderNumber": 17,
+      "enabled": false,
+      "serviceCode": "pt-calculator-v2",
+      "code": "null",
+      "path": ""
     }
   ]
 }
