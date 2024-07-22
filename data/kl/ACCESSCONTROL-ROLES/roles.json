@@ -291,6 +291,11 @@
             "code": "INTERNAL_MICROSERVICE_ROLE",
             "name": "INTERNAL_MICROSERVICE_ROLE",
             "description": "INTERNAL_MICROSERVICE_ROLE"
+        },
+        {
+            "code":"APPLICATION_REJECTOR",
+            "description":"APPLICATION_REJECTOR",
+            "name":"APPLICATION_REJECTOR"
         }
     ]
 }
