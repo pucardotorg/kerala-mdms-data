@@ -6,8 +6,9 @@
       "consumerId": "objectpath",
       "moduleCode": "case",
       "taxHeadMasterCode": "master code",
-      "updateTopic": "update-case-application",
+      "updateTopic": "save-case-application",
       "workflowAction": "SUBMIT_CASE",
+      "serviceCode":"case",
       "payment": {
         "heading": "EFillingCalculationCriteria",
         "checkAmount": "object path",
