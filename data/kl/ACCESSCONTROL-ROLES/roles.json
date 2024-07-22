@@ -301,6 +301,11 @@
            "code":"JUDGE_ROLE",
             "description":"JUDGE_ROLE",
             "name":"JUDGE_ROLE"
+        },
+        {
+            "code":"FSO_ROLE",
+            "name":"FSO_ROLE",
+            "description":"FSO_ROLE"
         }
     ]
 }
