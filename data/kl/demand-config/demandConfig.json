@@ -15,7 +15,6 @@
         "numberOfApplication": "object path",
         "tenantId": "object path",
         "caseId": "object path"
-
       }
     }
   ]
