@@ -84,6 +84,11 @@
       "code":"ADVOCATE_CLERK_APPROVE",
       "name":"Approval for clerk",
       "value":"<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
+    },
+    {
+      "code":"PENDING_TASK_CASE",
+      "name":"Pending Task in Case",
+      "value":"<!DOCTYPE html>\n<html>\n<head>\n    </head>\n<body>\n <p>{{header}}</p>\n   <p>{{message}}</p>\n    <p>{{footer}}</p>\n</body>\n</html>"
     }
   ]
 }
