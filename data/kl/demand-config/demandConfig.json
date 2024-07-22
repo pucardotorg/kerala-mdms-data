@@ -1,0 +1,20 @@
+{
+  "tenantId": "kl",
+  "moduleName": "DEMAND",
+  "DemandConfiguration": [
+    {
+      "consumerId": "objectpath",
+      "moduleCode": "case",
+      "taxHeadMasterCode": "master code",
+      "updateTopic": "update-case-application",
+      "workflowAction": "SUBMIT_CASE",
+      "payment": {
+        "heading": "EFillingCalculationCriteria",
+        "checkAmount": "object path",
+        "numberOfApplication": "object path",
+        "tenantId": "object path",
+        "caseId": "object path"
+      }
+    }
+  ]
+}
