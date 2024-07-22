@@ -296,6 +296,11 @@
             "code":"APPLICATION_REJECTOR",
             "description":"APPLICATION_REJECTOR",
             "name":"APPLICATION_REJECTOR"
+        },
+        {
+           "code":"JUDGE_ROLE",
+            "description":"JUDGE_ROLE",
+            "name":"JUDGE_ROLE"
         }
     ]
 }
