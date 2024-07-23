@@ -256,6 +256,11 @@
       "code": "NYAY_MITRA_ROLE",
       "name": "NYAY_MITRA_ROLE",
       "description": "NYAY_MITRA_ROLE"
+    },
+    {
+      "code": "SUBMISSION_APPROVER",
+      "name": "SUBMISSION_APPROVER",
+      "description": "SUBMISSION_APPROVER"
     }
   ]
 }
