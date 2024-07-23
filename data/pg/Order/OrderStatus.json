@@ -3,18 +3,6 @@
   "moduleName": "Order",
   "OrderStatus": [
     {
-      "id": 1,
-      "code": "DRAFTED",
-      "type": "DRAFTED",
-      "isactive": true
-    },
-    {
-      "id": 2,
-      "code": "PENDINGESIGN",
-      "type": "PENDINGESIGN",
-      "isactive": true
-    },
-    {
       "id": 3,
       "code": "PENDINGSTAMPING",
       "type": "PENDINGSTAMPING",
@@ -27,15 +15,21 @@
       "isactive": true
     },
     {
-      "id": 5,
-      "code": "COMPLETED",
-      "type": "COMPLETED",
-      "isactive": true
-    },
-    {
       "id": 6,
       "code": "ABATED",
       "type": "ABATED",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "code": "DELETED",
+      "type": "DELETED",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "code": "DRAFT_IN_PROGRESS",
+      "type": "DRAFT_IN_PROGRESS",
       "isactive": true
     }
   ]
