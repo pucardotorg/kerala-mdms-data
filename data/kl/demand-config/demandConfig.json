@@ -3,18 +3,18 @@
   "moduleName": "DEMAND",
   "DemandConfiguration": [
     {
-      "consumerId": "objectpath",
       "moduleCode": "case",
-      "taxHeadMasterCode": "master code",
+      "consumerId": "cases.filingNumber",
+      "taxHeadMasterCode": "CASE_ADVANCE_CARRYFORWARD",
       "updateTopic": "save-case-application",
       "workflowAction": "SUBMIT_CASE",
       "serviceCode":"case",
       "payment": {
         "heading": "EFillingCalculationCriteria",
-        "checkAmount": "object path",
-        "numberOfApplication": "object path",
-        "tenantId": "object path",
-        "caseId": "object path"
+        "checkAmount": "cases.caseDetails.chequeDetails.formdata[0].data.chequeAmount",
+        "numberOfApplication": "1",
+        "tenantId": "cases.tenantId",
+        "caseId": "cases.id"
       }
     }
   ]
