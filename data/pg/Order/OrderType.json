@@ -101,7 +101,7 @@
     {
       "id": 17,
       "type": "JUDGEMENT",
-      "isactive": true,
+      "isactive": false,
       "code": "JUDGEMENT"
     },
     {
@@ -109,6 +109,24 @@
       "type": "OTHERS",
       "isactive": true,
       "code": "OTHERS"
+    },
+    {
+      "id": 19,
+      "type": "INITIATING_RESCHEDULING_OF_HEARING_DATE",
+      "isactive": true,
+      "code": "INITIATING_RESCHEDULING_OF_HEARING_DATE"
+    },
+    {
+      "id": 20,
+      "type": "ASSIGNING_NEW_HEARING_DATE",
+      "isactive": true,
+      "code": "ASSIGNING_NEW_HEARING_DATE"
+    },
+    {
+      "id": 21,
+      "type": "ASSIGNING_DATE_RESCHEDULED_HEARING",
+      "isactive": true,
+      "code": "ASSIGNING_DATE_RESCHEDULED_HEARING"
     }
   ]
 }
