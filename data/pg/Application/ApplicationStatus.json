@@ -9,27 +9,9 @@
       "isactive": true
     },
     {
-      "id": 2,
-      "code": "PENDINGRESPONSEAPPROVAL",
-      "type": "PENDINGRESPONSEAPPROVAL",
-      "isactive": true
-    },
-    {
       "id": 3,
       "code": "PENDINGRESPONSE",
       "type": "PENDINGRESPONSE",
-      "isactive": true
-    },
-    {
-      "id": 4,
-      "code": "RESPONSESUBMITTED",
-      "type": "RESPONSESUBMITTED",
-      "isactive": true
-    },
-    {
-      "id": 5,
-      "code": "CLOSED",
-      "type": "CLOSED",
       "isactive": true
     },
     {
@@ -42,12 +24,6 @@
       "id": 7,
       "code": "ABATED",
       "type": "ABATED",
-      "isactive": true
-    },
-    {
-      "id": 8,
-      "code": "ISRESPONSEREQUIRED",
-      "type": "ISRESPONSEREQUIRED",
       "isactive": true
     },
     {
@@ -69,9 +45,27 @@
       "isactive": true
     },
     {
-      "id": 12,
-      "code": "RESPONSEPENDING",
-      "type": "RESPONSEPENDING",
+      "id": 13,
+      "code": "PENDINGPAYMENT",
+      "type": "PENDINGPAYMENT",
+      "isactive": true
+    },
+    {
+      "id": 14,
+      "code": "PENDINGESIGN",
+      "type": "PENDINGESIGN",
+      "isactive": true
+    },
+    {
+      "id": 15,
+      "code": "DELETED",
+      "type": "DELETED",
+      "isactive": true
+    },
+    {
+      "id": 16,
+      "code": "REQUESTDELAY",
+      "type": "REQUESTDELAY",
       "isactive": true
     }
   ]
