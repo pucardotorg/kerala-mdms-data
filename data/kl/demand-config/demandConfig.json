@@ -11,7 +11,7 @@
       "serviceCode":"case",
       "payment": {
         "heading": "EFillingCalculationCriteria",
-        "checkAmount": "cases.caseDetails.chequeDetails.formdata[0].data.chequeAmount",
+        "checkAmount": "cases.caseDetails.chequeDetails.formdata.0.data.chequeAmount",
         "numberOfApplication": "1",
         "tenantId": "cases.tenantId",
         "caseId": "cases.id"
