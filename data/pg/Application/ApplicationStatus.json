@@ -1,0 +1,78 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Application",
+  "ApplicationStatus": [
+    {
+      "id": 1,
+      "code": "PENDINGREVIEW",
+      "type": "PENDINGREVIEW",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "code": "PENDINGRESPONSEAPPROVAL",
+      "type": "PENDINGRESPONSEAPPROVAL",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "code": "PENDINGRESPONSE",
+      "type": "PENDINGRESPONSE",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "code": "RESPONSESUBMITTED",
+      "type": "RESPONSESUBMITTED",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "code": "CLOSED",
+      "type": "CLOSED",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "code": "REJECTED",
+      "type": "REJECTED",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "code": "ABATED",
+      "type": "ABATED",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "code": "ISRESPONSEREQUIRED",
+      "type": "ISRESPONSEREQUIRED",
+      "isactive": true
+    },
+    {
+      "id": 9,
+      "code": "PENDINGAPPROVAL",
+      "type": "PENDINGAPPROVAL",
+      "isactive": true
+    },
+    {
+      "id": 10,
+      "code": "PENDINGSUBMISSION",
+      "type": "PENDINGSUBMISSION",
+      "isactive": true
+    },
+    {
+      "id": 11,
+      "code": "COMPLETED",
+      "type": "COMPLETED",
+      "isactive": true
+    },
+    {
+      "id": 12,
+      "code": "RESPONSEPENDING",
+      "type": "RESPONSEPENDING",
+      "isactive": true
+    }
+  ]
+}
