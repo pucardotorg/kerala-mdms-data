@@ -1393,6 +1393,18 @@
       "actionid": 2623,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

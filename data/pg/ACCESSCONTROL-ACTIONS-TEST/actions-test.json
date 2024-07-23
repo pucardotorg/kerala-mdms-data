@@ -1354,6 +1354,17 @@
          "serviceCode": "hearing",
          "code": "null",
          "path": ""
+      },
+      {
+         "id": 2638,
+         "name": "create pending task",
+         "url": "/analytics/pending_task/v1/create",
+         "displayName": "Create pending task No workflow",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "analytics",
+         "code": "null",
+         "path": ""
       }
    ]
 }

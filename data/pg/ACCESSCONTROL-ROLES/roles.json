@@ -251,6 +251,11 @@
       "code": "ADVOCATE_CLERK_ROLE",
       "name": "ADVOCATE_CLERK_ROLE",
       "description": "User will be assigned an advocate-clerk role"
+    },
+    {
+      "code": "NYAY_MITRA_ROLE",
+      "name": "NYAY_MITRA_ROLE",
+      "description": "NYAY_MITRA_ROLE"
     }
   ]
 }
