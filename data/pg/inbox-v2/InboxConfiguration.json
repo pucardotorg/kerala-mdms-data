@@ -217,12 +217,12 @@
         },
         {
           "name": "assignedTo",
-          "path": "Data.assignedTo.keyword",
+          "path": "Data.assignedTo.uuid.keyword",
           "isMandatory": false
         },
         {
           "name": "assignedRole",
-          "path": "Data.assignedRole",
+          "path": "Data.assignedRole.keyword",
           "isMandatory": false
         },
         {

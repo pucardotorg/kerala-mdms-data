@@ -123,6 +123,11 @@
       "description": "HEARING_CLOSER"
     },
     {
+      "code": "HEARING_VIEWER",
+      "name": "HEARING_VIEWER",
+      "description": "HEARING_VIEWER"
+    },
+    {
       "code": "ORDER_CREATOR",
       "name": "ORDER_CREATOR",
       "description": "ORDER_CREATOR"

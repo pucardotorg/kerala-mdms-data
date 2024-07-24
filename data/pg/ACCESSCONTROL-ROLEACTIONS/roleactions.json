@@ -1411,6 +1411,12 @@
       "actionid": 2638,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "HEARING_VIEWER",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
