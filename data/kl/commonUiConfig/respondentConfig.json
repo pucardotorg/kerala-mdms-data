@@ -3,6 +3,7 @@
   "moduleName": "commonUiConfig",
   "respondentConfig": [
     {
+      "id":1,
       "formconfig": [
         {
           "head": "CS_RESPONDENT_TYPE",

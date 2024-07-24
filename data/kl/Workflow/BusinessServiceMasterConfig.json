@@ -3,11 +3,13 @@
     "moduleName": "Workflow",
     "BusinessServiceMasterConfig": [
       {
+        "id":1,
         "businessService": "NewTL",
         "active": "true",
         "isStatelevel": "true"
       },
       {
+        "id":2,
         "businessService": "PGR",
         "active": "true",
         "isStatelevel": "true"

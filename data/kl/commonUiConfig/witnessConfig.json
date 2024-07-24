@@ -3,6 +3,7 @@
   "moduleName": "commonUiConfig",
   "witnessConfig": [
     {
+      "id":1,
       "formconfig": [
         {
           "head": "CS_WITNESS_NAME",

@@ -3,6 +3,7 @@
   "moduleName": "pucar-ui",
   "DocumentConfig": [ 
     {
+      "id":1,
       "module": "Project",
       "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
       "maxSizeInMB": 5,
@@ -51,6 +52,7 @@
       ]
     },
     {
+      "id":2,
       "module": "Estimate",
       "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
       "maxSizeInMB": 5,
@@ -63,7 +65,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -73,7 +75,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -83,7 +85,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -93,7 +95,7 @@
           "isMandatory": false,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -103,12 +105,13 @@
           "isMandatory": false,
           "showTextInput" : true,
           "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
       ]
     }, 
     {
+      "id":3,
       "module": "Work Order",
       "allowedFileTypes": ["pdf","doc","docx","xlsx","xls","jpeg","jpg","png"],
       "maxSizeInMB": 5,
@@ -147,6 +150,7 @@
       ]
     },
     {
+      "id":4,
       "module": "Expenditure",
       "allowedFileTypes": ["pdf"],
       "maxSizeInMB": 5,
@@ -159,7 +163,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -169,7 +173,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -179,7 +183,7 @@
           "isMandatory": true,
           "showTextInput" : false,
           "allowedFileTypes": ["pdf"],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         },
         {
@@ -189,12 +193,13 @@
           "isMandatory": false,
           "showTextInput" : true,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 1
         }
       ]
     },
     {
+      "id":5,
       "module": "Bill",
       "allowedFileTypes": ["pdf","docx"],
       "maxSizeInMB": 2,
@@ -207,7 +212,7 @@
           "isMandatory": true,
           "showTextInput" : true,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 2
         },
         {
@@ -217,7 +222,7 @@
           "isMandatory": false,
           "showTextInput" : false,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 0
         },
         {
@@ -227,12 +232,13 @@
           "isMandatory": false,
           "showTextInput" : false,
           "allowedFileTypes": [],
-          "maxSizeInMB": null,
+          "maxSizeInMB": 5,
           "maxFilesAllowed": 0
         }
       ]
     },
     {
+      "id":6,
       "module": "SUBMISSION",
       "allowedFileTypes": ["pdf","docx","xlsx","xls","jpeg","jpg","doc"],
       "maxSizeInMB": 5,

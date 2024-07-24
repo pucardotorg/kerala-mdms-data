@@ -3,6 +3,7 @@
     "moduleName": "INBOX",
     "InboxQueryConfiguration": [
         {
+            "id":1,
             "module": "Advocate services",
             "index": "advocate-index-test",
             "allowedSearchCriteria": [
@@ -103,6 +104,7 @@
             ]
         },
         {
+            "id":2,
             "module": "Advocate Clerk Service",
             "index": "advocate-clerk-index-test",
             "allowedSearchCriteria": [
@@ -191,6 +193,7 @@
             ]
         },
         {
+            "id":3,
             "module": "Pending Tasks Service",
             "index": "pending-tasks-index",
             "allowedSearchCriteria": [
@@ -275,6 +278,7 @@
             ]
         },
         {
+            "id":4,
             "module": "Reschedule service",
             "index": "reschedule-index-test",
             "allowedSearchCriteria": [
@@ -362,6 +366,7 @@
             ]
         },
         {
+            "id":5,
             "module": "Pending Tasks Service",
             "index": "pending-tasks-index",
             "allowedSearchCriteria": [

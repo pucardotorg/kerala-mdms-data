@@ -3,14 +3,17 @@
   "moduleName": "user-registration",
   "LitigantType": [
     {
+      "id":1,
       "code": "COMPLAINANT",
       "active": true
     },
     {
+      "id":2,
       "code": "RESPONDANT",
       "active": true
     },
     {
+      "id":3,
       "code": "WITNESS",
       "active": true
     }

@@ -3,7 +3,8 @@
   "moduleName": "tenant",
   "citymodule": [
 {
-      "module": "Pucar",
+  "id":1,    
+  "module": "Pucar",
       "code": "Pucar",
       "active": true,
       "order": 1,
@@ -14,6 +15,7 @@
       ]
     },
     {
+      "id":2,
       "module": "Sample",
       "code": "Sample",
       "active": true,
@@ -25,6 +27,7 @@
       ]
     },
     {
+      "id":3,
       "module": "Cases",
       "code": "Cases",
       "active": true,
@@ -36,6 +39,7 @@
       ]
     },
     {
+      "id":4,
       "module": "Hearings",
       "code": "Hearings",
       "active": true,
@@ -47,6 +51,7 @@
       ]
     },
     {
+      "id":5,
       "module": "Orders",
       "code": "Orders",
       "active": true,
@@ -58,7 +63,8 @@
       ]
     },
        {
-      "module": "Submissions",
+      "id":6,
+        "module": "Submissions",
       "code": "Submissions",
       "active": true,
       "order": 4,
@@ -69,7 +75,8 @@
       ]
     },
        {
-      "module": "Workbench",
+      "id":7,
+        "module": "Workbench",
       "code": "Workbench",
       "active": true,
       "order": 4,
@@ -80,7 +87,8 @@
       ]
     },
        {
-      "module": "HRMS",
+      "id":8,
+        "module": "HRMS",
       "code": "HRMS",
       "active": true,
       "order": 4,
@@ -91,6 +99,7 @@
       ]
     },
      {
+      "id":9,
       "module": "Home",
       "code": "Home",
       "active": true,
@@ -102,6 +111,7 @@
       ]
     },
     {
+      "id":10,
       "module": "DRISTI",
       "code": "DRISTI",
       "active": true,

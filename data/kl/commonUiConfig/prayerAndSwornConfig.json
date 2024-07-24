@@ -3,6 +3,7 @@
   "moduleName": "commonUiConfig",
   "prayerAndSwornConfig": [
     {
+      "id":1,
       "formconfig": [
         {
           "body": [

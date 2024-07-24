@@ -3,6 +3,7 @@
   "moduleName": "case",
   "e-filling": [
     {
+      "id":1,
       "applicationFee": 10,
       "courtFee": 10,
       "vakalathnamaFee": 10,

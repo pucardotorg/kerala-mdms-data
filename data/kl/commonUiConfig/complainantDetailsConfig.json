@@ -3,6 +3,7 @@
   "moduleName": "commonUiConfig",
   "complainantDetailsConfig": [
     {
+      "id":1,
       "formconfig": [
         {
           "body": [

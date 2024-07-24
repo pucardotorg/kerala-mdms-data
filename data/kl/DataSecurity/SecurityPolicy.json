@@ -177,73 +177,73 @@
         {
           "name": "name",
           "jsonPath": "name",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "emailId",
           "jsonPath": "emailId",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "username",
           "jsonPath": "username",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "altContactNumber",
           "jsonPath": "altContactNumber",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "alternatemobilenumber",
           "jsonPath": "alternatemobilenumber",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "pan",
           "jsonPath": "pan",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "aadhaarNumber",
           "jsonPath": "aadhaarNumber",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "guardian",
           "jsonPath": "guardian",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "permanentAddress",
           "jsonPath": "permanentAddress/address",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "correspondenceAddress",
           "jsonPath": "correspondenceAddress/address",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {
           "name": "fatherOrHusbandName",
           "jsonPath": "fatherOrHusbandName",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -339,7 +339,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -366,7 +366,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -393,7 +393,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -511,7 +511,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -581,7 +581,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -597,7 +597,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -613,7 +613,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -783,7 +783,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -810,7 +810,7 @@
         {
           "name": "sample",
           "jsonPath": "sample",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         }
       ],
@@ -920,7 +920,7 @@
         {
           "name": "mobileNumber",
           "jsonPath": "mobileNumber",
-          "patternId": null,
+          "patternId": "",
           "defaultVisibility": "PLAIN"
         },
         {

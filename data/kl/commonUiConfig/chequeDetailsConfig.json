@@ -3,6 +3,7 @@
   "moduleName": "commonUiConfig",
   "chequeDetailsConfig": [
     {
+      "id":1,
       "formconfig": [
         {
           "body": [

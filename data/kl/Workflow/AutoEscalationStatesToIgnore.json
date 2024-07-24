@@ -3,6 +3,7 @@
     "moduleName": "Workflow",
     "AutoEscalationStatesToIgnore": [
       {
+        "id":1,
         "businessService": "NewTL",
         "module": "TL",
         "state": ["INITIATED","PENDINGAPPROVAL"]

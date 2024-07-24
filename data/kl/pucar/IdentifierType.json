@@ -3,22 +3,27 @@
   "moduleName": "user-registration",
   "IdentifierType": [
     {
+      "id":1,
       "code": "AADHAAR_CARD",
       "active": true
     },
     {
+      "id":2,
       "code": "PAN_CARD",
       "active": true
     },
     {
+      "id":3,
       "code": "VOTER_ID",
       "active": true
     },
     {
+      "id":4,
       "code": "DRIVER_LICENSE",
       "active": true
     },
     {
+      "id":5,
       "code": "PASSPORT",
       "active": true
     }

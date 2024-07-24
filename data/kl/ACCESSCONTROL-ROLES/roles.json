@@ -148,11 +148,6 @@
             "description": "ORDER_CLOSER"
         },
         {
-            "code": "ORDER_VIEWER",
-            "name": "ORDER_VIEWER",
-            "description": "ORDER_VIEWER"
-        },
-        {
             "code": "HEARING_VIEWER",
             "name": "HEARING_VIEWER",
             "description": "HEARING_VIEWER"
