@@ -93,6 +93,10 @@
     {
       "format": "TREASURY-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
       "idname": "treasury.sh"
+    },
+    {
+      "format": "ENOTICE-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
+      "idname": "epost.sh"
     }
   ]
 }
