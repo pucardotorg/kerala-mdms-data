@@ -14,7 +14,8 @@
         "checkAmount": "cases.caseDetails.chequeDetails.formdata.0.data.chequeAmount",
         "numberOfApplication": "1",
         "tenantId": "cases.tenantId",
-        "caseId": "cases.id"
+        "caseId": "cases.id",
+        "endPoint":"/payment-calculator/v1/case/fees/_calculate"
       }
     }
   ]
