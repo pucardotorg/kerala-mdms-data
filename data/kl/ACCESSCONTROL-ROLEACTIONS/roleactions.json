@@ -1489,6 +1489,30 @@
       "actionid":"2637",
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid":"2639",
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid":"2639",
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }

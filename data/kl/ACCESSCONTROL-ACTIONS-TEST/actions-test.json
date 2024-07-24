@@ -1483,6 +1483,28 @@
       "serviceCode": "inbox",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2638,
+      "name": "Process Challan",
+      "url": "/etreasury/payment/v1/_processChallan",
+      "displayName": "Process Challan",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "etreasury",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2639,
+      "name": "Decrypt ETreasury Response",
+      "url": "/etreasury/payment/v1/_decryptTreasuryResponse",
+      "displayName": "Decrypt ETreasury Response",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "etreasury",
+      "code": "null",
+      "path": ""
     }
   ]
 }
