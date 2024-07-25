@@ -3,9 +3,9 @@
   "moduleName": "Order",
   "DocumentType": [
     {
-      "id": 1,
+      "id": 2,
       "isActive": true,
-      "value": "default"
+      "value": "DOCUMENT_1"
     }
   ]
 }
