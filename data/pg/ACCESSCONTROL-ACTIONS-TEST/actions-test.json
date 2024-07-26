@@ -458,7 +458,7 @@
       {
          "id": 2556,
          "name": "Create Case",
-         "url": "/case/case/v1/_create",
+         "url": "/case/v1/_create",
          "displayName": "Create Case",
          "orderNumber": 0,
          "enabled": false,
@@ -469,7 +469,7 @@
       {
          "id": 2557,
          "name": "Search Case",
-         "url": "/case/case/v1/_search",
+         "url": "/case/v1/_search",
          "displayName": "Search Case",
          "orderNumber": 0,
          "enabled": false,
@@ -480,7 +480,7 @@
       {
          "id": 2558,
          "name": "Update Case ",
-         "url": "/case/case/v1/_update",
+         "url": "/case/v1/_update",
          "displayName": "Update Case",
          "orderNumber": 0,
          "enabled": false,
@@ -584,7 +584,7 @@
       {
          "id": 2559,
          "name": "Create witness",
-         "url": "/case/case/witness/v1/_create",
+         "url": "/case/witness/v1/_create",
          "displayName": "Create witness",
          "orderNumber": 0,
          "enabled": false,
@@ -595,7 +595,7 @@
       {
          "id": 2560,
          "name": "Search witness",
-         "url": "/case/case/witness/v1/_search",
+         "url": "/case/witness/v1/_search",
          "displayName": "Search witness",
          "orderNumber": 0,
          "enabled": false,
@@ -606,7 +606,7 @@
       {
          "id": 2561,
          "name": "Update witness ",
-         "url": "/case/case/witness/v1/_update",
+         "url": "/case/witness/v1/_update",
          "displayName": "Update witness",
          "orderNumber": 0,
          "enabled": false,
@@ -628,7 +628,7 @@
       {
          "id": 2563,
          "name": "Order Create",
-         "url": "/order/order/v1/create",
+         "url": "/order/v1/create",
          "displayName": "Order Create",
          "orderNumber": 0,
          "enabled": false,
@@ -639,7 +639,7 @@
       {
          "id": 2564,
          "name": "Order Update",
-         "url": "/order/order/v1/update",
+         "url": "/order/v1/update",
          "displayName": "Order Update",
          "orderNumber": 0,
          "enabled": false,
@@ -650,7 +650,7 @@
       {
          "id": 2565,
          "name": "Order Search",
-         "url": "/order/order/v1/search",
+         "url": "/order/v1/search",
          "displayName": "Order Search",
          "orderNumber": 0,
          "enabled": false,
@@ -661,7 +661,7 @@
       {
          "id": 2566,
          "name":"Order Exists",
-         "url": "/order/order/v1/exists",
+         "url": "/order/v1/exists",
          "displayName": "Order Exists",
          "orderNumber": 0,
          "enabled": false,
@@ -672,7 +672,7 @@
       {
          "id": 2567,
          "name": "Application Create",
-         "url": "/application/application/v1/create",
+         "url": "/application/v1/create",
          "displayName": "Application Create",
          "orderNumber": 0,
          "enabled": false,
@@ -683,7 +683,7 @@
       {
          "id": 2568,
          "name": "Application Update",
-         "url": "/application/application/v1/update",
+         "url": "/application/v1/update",
          "displayName": "Application Update",
          "orderNumber": 0,
          "enabled": false,
@@ -694,7 +694,7 @@
       {
          "id": 2569,
          "name": "Application Search",
-         "url": "/application/application/v1/search",
+         "url": "/application/v1/search",
          "displayName": "Application Search",
          "orderNumber": 0,
          "enabled": false,
@@ -705,7 +705,7 @@
       {
          "id": 2570,
          "name": "Application Exists",
-         "url": "/application/application/v1/exists",
+         "url": "/application/v1/exists",
          "displayName": "Application Exists",
          "orderNumber": 0,
          "enabled": false,
@@ -716,7 +716,7 @@
       {
          "id": 2571,
          "name":"Evidence Create",
-         "url": "/evidence/artifacts/v1/_create",
+         "url": "/evidence/v1/_create",
          "displayName": "Evidence Create",
          "orderNumber": 0,
          "enabled": false,
@@ -726,7 +726,7 @@
       },{
          "id": 2572,
          "name": "Evidence Search",
-         "url": "/evidence/artifacts/v1/_search",
+         "url": "/evidence/v1/_search",
          "displayName": "Evidence Search",
          "orderNumber": 0,
          "enabled": false,
@@ -737,7 +737,7 @@
       {
          "id": 2573,
          "name":"Evidence Update",
-         "url": "/evidence/artifacts/v1/_update",
+         "url": "/evidence/v1/_update",
          "displayName": "Evidence Update",
          "orderNumber": 0,
          "enabled": false,
@@ -815,7 +815,7 @@
       {
          "id": 2578,
          "name": "Exist Case",
-         "url": "/case/case/v1/_exists",
+         "url": "/case/v1/_exists",
          "displayName": "Exist Case",
          "orderNumber": 0,
          "enabled": false,
@@ -1325,7 +1325,7 @@
       {
          "id": 2621,
          "name": "Verify Join a Case",
-         "url": "/case/case/v1/_verify",
+         "url": "/case/v1/_verify",
          "displayName": "Verify Join a Case",
          "orderNumber": 0,
          "enabled": false,
