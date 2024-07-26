@@ -270,8 +270,8 @@
       "header": "CS_PRAYER_AND_SWORN_STATEMENT_HEADING",
       "className": "prayer-and-sworm",
       "selectDocumentName": {
-        "memorandumOfComplaint": "ATTACHED_DOCUMENT",
-        "prayerForRelief": "ATTACHED_DOCUMENT",
+        "memorandumOfComplaint": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
+        "prayerForRelief": "CS_PRAYER_FOR_RELIEF_HEADER",
         "swornStatement": "CS_SWORN_STATEMENT_HEADER"
       }
     }
