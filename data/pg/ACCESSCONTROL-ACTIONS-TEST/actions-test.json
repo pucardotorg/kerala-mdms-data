@@ -1356,6 +1356,17 @@
          "path": ""
       },
       {
+         "id": 2642,
+         "name": "Add witness",
+         "url": "/case/v1/add/witness",
+         "displayName": "Add witness",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "case",
+         "code": "null",
+         "path": ""
+       },
+       {
          "id": 2637,
          "name": "Case History",
          "url": "/casemanagement/casemanager/case/v1/_history",
@@ -1365,8 +1376,8 @@
          "serviceCode": "hearing",
          "code": "null",
          "path": ""
-      },
-      {
+       },
+       {
          "id": 2638,
          "name": "create pending task",
          "url": "/analytics/pending_task/v1/create",
@@ -1376,6 +1387,6 @@
          "serviceCode": "analytics",
          "code": "null",
          "path": ""
-      }
+        }
    ]
 }

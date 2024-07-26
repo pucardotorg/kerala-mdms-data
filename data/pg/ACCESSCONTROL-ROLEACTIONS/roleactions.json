@@ -1395,6 +1395,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2642,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CASE_VIEWER",
       "actionid": 2637,
       "actioncode": "",
