@@ -1513,6 +1513,96 @@
       "actionid":"2639",
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SYSTEM_ADMIN",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SYSTEM_ADMIN",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SYSTEM_ADMIN",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"POST_MANAGER",
+      "actionid": 2640,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"POST_MANAGER",
+      "actionid": 2641,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"POST_MANAGER",
+      "actionid": 2642,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SYSTEM_ADMIN",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }

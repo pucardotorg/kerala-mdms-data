@@ -306,6 +306,11 @@
             "code":"FSO_ROLE",
             "name":"FSO_ROLE",
             "description":"FSO_ROLE"
+        },
+        {
+            "code": "POST_MANAGER",
+            "name": "POST_MANAGER",
+            "description": "POST_MANAGER"
         }
     ]
 }

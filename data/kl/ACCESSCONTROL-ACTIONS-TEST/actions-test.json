@@ -1505,6 +1505,50 @@
       "serviceCode": "etreasury",
       "code": "null",
       "path": ""
+    },
+    {
+      "id":2640,
+      "name":"Epost Tracker Create",
+      "url":"/epost-tracker/epost/v1/_sendEPost",
+      "displayName":"Epost Tracker Create",
+      "orderNumber":0,
+      "enabled":false,
+      "serviceCode":"epost-tracker",
+      "code":"null",
+      "path":""
+    },
+    {
+      "id": 2641,
+      "name": "Epost Tracker Update",
+      "url": "/epost-tracker/epost/v1/_updateEPost",
+      "displayName": "Epost Tracker Update",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "epost-tracker",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2642,
+      "name": "Epost Tracker Search",
+      "url": "/epost-tracker/epost/v1/_getEPost",
+      "displayName": "Epost Tracker Search",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "epost-tracker",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2643,
+      "name": "Send icops request",
+      "url": "/egov-kerala-icops/v1/integrations/iCops/_sendRequest",
+      "displayName": "Send icops request",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "icops_integration-kerala",
+      "code": "null",
+      "path": ""
     }
   ]
 }
