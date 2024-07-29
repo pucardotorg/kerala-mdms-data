@@ -1272,5 +1272,28 @@
       ]
     }
   }
+  },
+  "icops": {
+    "actionStatus": {
+      "masterName": "actionStatus",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "docSubType": {
+      "masterName": "docSubType",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    },
+    "docType": {
+      "masterName": "docType",
+      "isStateLevel": false,
+      "uniqueKeys": [
+        "$.code"
+      ]
+    }
   }
 }
