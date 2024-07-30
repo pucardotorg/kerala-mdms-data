@@ -1,0 +1,726 @@
+{
+    "tenantId": "kl",
+    "moduleName": "court-calendar",
+    "calendar": [
+        {
+            "courtId": "COURT123",
+            "courtName": "Court Name",
+            "holidays": [
+                {
+                    "id": 1,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "06-01-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 2,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "07-01-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 3,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "13-01-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 4,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "14-01-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 5,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "20-01-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 6,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "21-01-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 7,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "26-01-2024",
+                    "description": "Republic Day"
+                },
+                {
+                    "id": 8,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "27-01-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 9,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "28-01-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 10,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "03-02-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 11,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "04-02-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 12,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "10-02-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 13,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "11-02-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 14,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-02-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 15,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "18-02-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 16,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "24-02-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 17,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "25-02-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 18,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "02-03-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 19,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "03-03-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 20,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "09-03-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 21,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "10-03-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 22,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "16-03-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 23,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-03-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 24,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "23-03-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 25,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "24-03-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 26,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "25-03-2024",
+                    "description": "Holi"
+                },
+                {
+                    "id": 27,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "29-03-2024",
+                    "description": "Good Friday"
+                },
+                {
+                    "id": 28,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "30-03-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 29,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "31-03-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 30,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "06-04-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 31,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "07-04-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 32,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "11-04-2024",
+                    "description": "Id-ul-Fitr"
+                },
+                {
+                    "id": 33,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "13-04-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 34,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "14-04-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 35,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-04-2024",
+                    "description": "Ram Navami"
+                },
+                {
+                    "id": 36,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "20-04-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 37,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "21-04-2024",
+                    "description": "Sunday/Mahavir Jayanti"
+                },
+                {
+                    "id": 38,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "27-04-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 39,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "28-04-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 40,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "04-05-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 41,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "05-05-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 42,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "11-05-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 43,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "12-05-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 44,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "18-05-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 45,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "19-05-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 46,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "23-05-2024",
+                    "description": "Buddha Purnima"
+                },
+                {
+                    "id": 47,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "25-05-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 48,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "26-05-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 49,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "01-06-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 50,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "02-06-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 51,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "08-06-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 52,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "09-06-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 53,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "15-06-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 54,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "16-06-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 55,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-06-2024",
+                    "description": "Id-ul-Zuha (Bakrid)"
+                },
+                {
+                    "id": 56,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "22-06-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 57,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "23-06-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 58,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "29-06-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 59,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "30-06-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 60,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "06-07-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 61,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "07-07-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 62,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "13-07-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 63,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "14-07-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 64,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-07-2024",
+                    "description": "Muharram"
+                },
+                {
+                    "id": 65,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "20-07-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 66,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "21-07-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 67,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "27-07-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 68,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "28-07-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 69,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "03-08-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 70,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "04-08-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 71,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "10-08-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 72,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "11-08-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 73,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "15-08-2024",
+                    "description": "Independence Day"
+                },
+                {
+                    "id": 74,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-08-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 75,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "18-08-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 76,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "24-08-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 77,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "25-08-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 78,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "26-08-2024",
+                    "description": "Janmashtami"
+                },
+                {
+                    "id": 79,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "31-08-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 80,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "01-09-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 81,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "07-09-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 82,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "08-09-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 83,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "14-09-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 84,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "15-09-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 85,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "16-09-2024",
+                    "description": "Milad-un-Nabi or Id-e-Milad"
+                },
+                {
+                    "id": 86,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "21-09-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 87,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "22-09-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 88,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "28-09-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 89,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "29-09-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 90,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "02-10-2024",
+                    "description": "Mahatma Gandhi's Birthday"
+                },
+                {
+                    "id": 91,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "05-10-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 92,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "06-10-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 93,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "12-10-2024",
+                    "description": "Saturday/Dussehra"
+                },
+                {
+                    "id": 94,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "13-10-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 95,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "19-10-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 96,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "20-10-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 97,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "26-10-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 98,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "27-10-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 99,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "31-10-2024",
+                    "description": "Diwali"
+                },
+                {
+                    "id": 100,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "02-11-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 101,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "03-11-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 102,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "09-11-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 103,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "10-11-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 104,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "15-11-2024",
+                    "description": "Guru Nanak's Birthday"
+                },
+                {
+                    "id": 105,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "16-11-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 106,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "17-11-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 107,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "23-11-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 108,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "24-11-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 109,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "30-11-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 110,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "01-12-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 111,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "07-12-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 112,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "08-12-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 113,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "14-12-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 114,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "15-12-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 115,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "21-12-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 116,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "22-12-2024",
+                    "description": "Sunday"
+                },
+                {
+                    "id": 117,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "25-12-2024",
+                    "description": "Christmas Day"
+                },
+                {
+                    "id": 118,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "28-12-2024",
+                    "description": "Saturday"
+                },
+                {
+                    "id": 119,
+                    "ruleType": "NON-WORKING-DAY",
+                    "date": "29-12-2024",
+                    "description": "Sunday"
+                }
+            ]
+        }
+    ]
+}
