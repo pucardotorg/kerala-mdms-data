@@ -1609,6 +1609,12 @@
       "actionid": 2643,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"JUDGE_ROLE",
+      "actionid": 2571,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
