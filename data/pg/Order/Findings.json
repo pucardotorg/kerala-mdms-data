@@ -1,0 +1,36 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Order",
+    "Findings": [
+      {
+        "id": 1,
+        "code": "DISMISSED",
+        "name": "DISMISSED",
+        "isactive": true
+      },
+      {
+        "id": 2,
+        "code": "ALLOWED",
+        "name": "ALLOWED",
+        "isactive": true
+      },
+      {
+        "id": 3,
+        "code": "PARTIALLYALLOWED",
+        "name": "PARTIALLYALLOWED",
+        "isactive": true
+      },
+      {
+        "id": 4,
+        "code": "CONVICTED",
+        "name": "CONVICTED",
+        "isactive": true
+      },
+      {
+        "id": 5,
+        "code": "PARTIALLYCONVICTED",
+        "name": "PARTIALLYCONVICTED",
+        "isactive": true
+      }
+    ]
+  }
