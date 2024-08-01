@@ -1549,6 +1549,17 @@
       "serviceCode": "icops_integration-kerala",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2644,
+      "name": "Advocate Status",
+      "url": "/advocate/advocate/v1/status/_search",
+      "displayName": "Advocate Status",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "advocate",
+      "code": "null",
+      "path": ""
     }
   ]
 }
