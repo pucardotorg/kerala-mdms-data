@@ -1609,6 +1609,18 @@
       "actionid": 2643,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"ADVOCATE_APPROVER",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
