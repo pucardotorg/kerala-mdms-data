@@ -1609,6 +1609,36 @@
       "actionid": 2643,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"JUDGE_ROLE",
+      "actionid": 2571,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2565,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"ADVOCATE_ROLE",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CASE_CREATOR",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CASE_EDITOR",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
