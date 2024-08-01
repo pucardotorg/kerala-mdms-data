@@ -1627,6 +1627,18 @@
       "actionid": 2644,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"CASE_CREATOR",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CASE_EDITOR",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
