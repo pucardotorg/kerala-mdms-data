@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Application",
+    "ReasonForWithdrawal": [
+      {
+        "id": 1,
+        "code": "REASON_1",
+        "name": "REASON_1",
+        "isactive": true
+      }
+    ]
+  }

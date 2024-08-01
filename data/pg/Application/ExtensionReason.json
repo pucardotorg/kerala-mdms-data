@@ -1,0 +1,30 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Application",
+    "ExtensionReason": [
+      {
+        "id": 1,
+        "code": "CONFLICT",
+        "name": "CONFLICT",
+        "isactive": true
+      },
+      {
+        "id": 2,
+        "code": "ILLNESS",
+        "name": "ILLNESS",
+        "isactive": true
+      },
+      {
+        "id": 3,
+        "code": "UNAVAILABILITY",
+        "name": "UNAVAILABILITY",
+        "isactive": true
+      },
+      {
+        "id": 4,
+        "code": "OTHER",
+        "name": "OTHER",
+        "isactive": true
+      }
+    ]
+  }
