@@ -1621,6 +1621,12 @@
       "actionid": 2565,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"ADVOCATE_ROLE",
+      "actionid": 2644,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }

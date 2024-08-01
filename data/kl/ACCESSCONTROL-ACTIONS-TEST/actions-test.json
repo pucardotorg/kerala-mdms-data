@@ -1549,6 +1549,17 @@
       "serviceCode": "icops_integration-kerala",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2644,
+      "name": "verify Case",
+      "url": "/case/v1/_verify",
+      "displayName": "Verify Case",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "case",
+      "code": "null",
+      "path": ""
     }
   ]
 }
