@@ -1,0 +1,21 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Order",
+  "ADRMode": [
+    {
+      "code": "ARBITRATION",
+      "name": "ARBITRATION",
+      "isActive": true
+    },
+    {
+      "code": "MEDIATION",
+      "name": "MEDIATION",
+      "isActive": true
+    },
+    {
+      "code": "CONCILIATION",
+      "name": "CONCILIATION",
+      "isActive": true
+    }
+  ]
+}

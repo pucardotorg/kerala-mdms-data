@@ -1423,6 +1423,12 @@
       "actionid": 2577,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "SUBMISSION_DELETE",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }

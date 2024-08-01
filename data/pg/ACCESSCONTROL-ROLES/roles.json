@@ -266,6 +266,11 @@
       "code": "SUBMISSION_APPROVER",
       "name": "SUBMISSION_APPROVER",
       "description": "SUBMISSION_APPROVER"
+    },
+    {
+      "code": "SUBMISSION_DELETE",
+      "name": "SUBMISSION_DELETE",
+      "description": "SUBMISSION_DELETE"
     }
   ]
 }
