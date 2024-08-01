@@ -3,17 +3,17 @@
   "moduleName": "Order",
   "ADRMode": [
     {
-      "code": "ARBITRATION",
+      "code": 1,
       "name": "ARBITRATION",
       "isActive": true
     },
     {
-      "code": "MEDIATION",
+      "code": 2,
       "name": "MEDIATION",
       "isActive": true
     },
     {
-      "code": "CONCILIATION",
+      "code": 3,
       "name": "CONCILIATION",
       "isActive": true
     }
