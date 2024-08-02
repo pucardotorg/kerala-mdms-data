@@ -29,7 +29,7 @@
     {
       "id": 5,
       "type": "APPROVAL_RESCHEDULE_REQUEST",
-      "isactive": true,
+      "isactive": false,
       "code": "APPROVAL_RESCHEDULE_REQUEST"
     },
     {
