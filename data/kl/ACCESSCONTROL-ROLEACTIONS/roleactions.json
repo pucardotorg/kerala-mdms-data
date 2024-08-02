@@ -1621,6 +1621,18 @@
       "actionid": 2644,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"APPLICATION_CREATOR",
+      "actionid": 2568,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"APPLICATION_VIEWER",
+      "actionid": 2568,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
