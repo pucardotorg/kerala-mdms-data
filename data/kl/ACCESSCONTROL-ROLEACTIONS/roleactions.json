@@ -1627,6 +1627,18 @@
       "actionid": 2557,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2558,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2556,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
