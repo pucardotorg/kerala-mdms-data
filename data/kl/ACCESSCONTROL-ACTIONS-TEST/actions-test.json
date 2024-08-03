@@ -458,7 +458,7 @@
     {
       "id": 2556,
       "name": "Create Case",
-      "url": "/case/case/v1/_create",
+      "url": "/case/v1/_create",
       "displayName": "Create Case",
       "orderNumber": 0,
       "enabled": false,
@@ -469,7 +469,7 @@
     {
       "id": 2557,
       "name": "Search Case",
-      "url": "/case/case/v1/_search",
+      "url": "/case/v1/_search",
       "displayName": "Search Case",
       "orderNumber": 0,
       "enabled": false,
@@ -480,7 +480,7 @@
     {
       "id": 2558,
       "name": "Update Case ",
-      "url": "/case/case/v1/_update",
+      "url": "/case/v1/_update",
       "displayName": "Update Case",
       "orderNumber": 0,
       "enabled": false,
@@ -492,6 +492,18 @@
       "id": 2510,
       "name": "MDMS v2 Search",
       "url": "/mdms-v2/schema/v1/_search",
+      "parentModule": "",
+      "displayName": "MDMS v2",
+      "orderNumber": 1,
+      "enabled": true,
+      "serviceCode": "MDMS v2",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2511,
+      "name": "MDMS v2 Search with v1 response type",
+      "url": "/mdms-v2/v1/_search",
       "parentModule": "",
       "displayName": "MDMS v2",
       "orderNumber": 1,
@@ -548,7 +560,7 @@
     {
       "id": 2533,
       "name": "MDMS",
-      "url": "/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
+      "url":"/mdms-v2/v2/_create/ACCESSCONTROL-ROLES.roles",
       "displayName": "Create ACCESSCONTROL-ROLES roles",
       "orderNumber": 1,
       "parentModule": "",
@@ -560,7 +572,7 @@
     {
       "id": 2534,
       "name": "MDMS",
-      "url": "/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
+      "url":"/mdms-v2/v2/_update/ACCESSCONTROL-ROLES.roles",
       "displayName": "Update ACCESSCONTROL-ROLES roles",
       "orderNumber": 1,
       "parentModule": "",
@@ -572,7 +584,7 @@
     {
       "id": 2559,
       "name": "Create witness",
-      "url": "/case/case/witness/v1/_create",
+      "url": "/case/witness/v1/_create",
       "displayName": "Create witness",
       "orderNumber": 0,
       "enabled": false,
@@ -583,7 +595,7 @@
     {
       "id": 2560,
       "name": "Search witness",
-      "url": "/case/case/witness/v1/_search",
+      "url": "/case/witness/v1/_search",
       "displayName": "Search witness",
       "orderNumber": 0,
       "enabled": false,
@@ -594,7 +606,7 @@
     {
       "id": 2561,
       "name": "Update witness ",
-      "url": "/case/case/witness/v1/_update",
+      "url": "/case/witness/v1/_update",
       "displayName": "Update witness",
       "orderNumber": 0,
       "enabled": false,
@@ -616,7 +628,7 @@
     {
       "id": 2563,
       "name": "Order Create",
-      "url": "/order/order/v1/create",
+      "url": "/order/v1/create",
       "displayName": "Order Create",
       "orderNumber": 0,
       "enabled": false,
@@ -627,7 +639,7 @@
     {
       "id": 2564,
       "name": "Order Update",
-      "url": "/order/order/v1/update",
+      "url": "/order/v1/update",
       "displayName": "Order Update",
       "orderNumber": 0,
       "enabled": false,
@@ -638,7 +650,7 @@
     {
       "id": 2565,
       "name": "Order Search",
-      "url": "/order/order/v1/search",
+      "url": "/order/v1/search",
       "displayName": "Order Search",
       "orderNumber": 0,
       "enabled": false,
@@ -648,8 +660,8 @@
     },
     {
       "id": 2566,
-      "name": "Order Exists",
-      "url": "/order/order/v1/exists",
+      "name":"Order Exists",
+      "url": "/order/v1/exists",
       "displayName": "Order Exists",
       "orderNumber": 0,
       "enabled": false,
@@ -660,7 +672,7 @@
     {
       "id": 2567,
       "name": "Application Create",
-      "url": "/application/application/v1/create",
+      "url": "/application/v1/create",
       "displayName": "Application Create",
       "orderNumber": 0,
       "enabled": false,
@@ -671,7 +683,7 @@
     {
       "id": 2568,
       "name": "Application Update",
-      "url": "/application/application/v1/update",
+      "url": "/application/v1/update",
       "displayName": "Application Update",
       "orderNumber": 0,
       "enabled": false,
@@ -682,7 +694,7 @@
     {
       "id": 2569,
       "name": "Application Search",
-      "url": "/application/application/v1/search",
+      "url": "/application/v1/search",
       "displayName": "Application Search",
       "orderNumber": 0,
       "enabled": false,
@@ -693,7 +705,7 @@
     {
       "id": 2570,
       "name": "Application Exists",
-      "url": "/application/application/v1/exists",
+      "url": "/application/v1/exists",
       "displayName": "Application Exists",
       "orderNumber": 0,
       "enabled": false,
@@ -703,19 +715,18 @@
     },
     {
       "id": 2571,
-      "name": "Evidence Create",
-      "url": "/evidence/artifacts/v1/_create",
+      "name":"Evidence Create",
+      "url": "/evidence/v1/_create",
       "displayName": "Evidence Create",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "evidence",
       "code": "null",
       "path": ""
-    },
-    {
+    },{
       "id": 2572,
       "name": "Evidence Search",
-      "url": "/evidence/artifacts/v1/_search",
+      "url": "/evidence/v1/_search",
       "displayName": "Evidence Search",
       "orderNumber": 0,
       "enabled": false,
@@ -725,8 +736,8 @@
     },
     {
       "id": 2573,
-      "name": "Evidence Update",
-      "url": "/evidence/artifacts/v1/_update",
+      "name":"Evidence Update",
+      "url": "/evidence/v1/_update",
       "displayName": "Evidence Update",
       "orderNumber": 0,
       "enabled": false,
@@ -804,7 +815,7 @@
     {
       "id": 2578,
       "name": "Exist Case",
-      "url": "/case/case/v1/_exists",
+      "url": "/case/v1/_exists",
       "displayName": "Exist Case",
       "orderNumber": 0,
       "enabled": false,
@@ -1255,7 +1266,7 @@
     },
     {
       "id": 2616,
-      "name": "Task Exists",
+      "name":"Task Exists",
       "url": "/task/v1/exists",
       "displayName": "Task Exists",
       "orderNumber": 0,
@@ -1266,7 +1277,7 @@
     },
     {
       "id": 2617,
-      "name": "Create Demand",
+      "name":"Create Demand",
       "url": "/billing-service/demand/_create",
       "displayName": "Create Demand",
       "orderNumber": 0,
@@ -1274,10 +1285,11 @@
       "serviceCode": "billing",
       "code": "null",
       "path": ""
+
     },
     {
       "id": 2618,
-      "name": "Fetch Bill",
+      "name":"Fetch Bill",
       "url": "/billing-service/bill/v2/_fetchbill",
       "displayName": "Fetch Bill",
       "orderNumber": 0,
@@ -1285,10 +1297,11 @@
       "serviceCode": "billing",
       "code": "null",
       "path": ""
+
     },
     {
       "id": 2619,
-      "name": "Create Payment",
+      "name":"Create Payment",
       "url": "/collection-services/payments/_create",
       "displayName": "Create Payment",
       "orderNumber": 0,
@@ -1296,6 +1309,7 @@
       "serviceCode": "collection",
       "code": "null",
       "path": ""
+
     },
     {
       "id": 2620,
@@ -1310,174 +1324,20 @@
     },
     {
       "id": 2621,
-      "name": "Process Payment",
-      "url": "/etreasury/payment/v1/_processPayment",
-      "displayName": "Process Payment",
+      "name": "Verify Join a Case",
+      "url": "/case/v1/_verify",
+      "displayName": "Verify Join a Case",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "payment",
+      "serviceCode": "case",
       "code": "null",
       "path": ""
     },
     {
       "id": 2622,
-      "name": "Verify Payment",
-      "url": "/etreasury/payment/v1/_doubleVerification",
-      "displayName": "Verify Payment",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2623,
-      "name": "Print Pay-In-Slip",
-      "url": "/etreasury/payment/v1/_printPayInSlip",
-      "displayName": "Print Pay-In-Slip",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2624,
-      "name": "Fetch Transaction Details",
-      "url": "/etreasury/payment/v1/_transactionDetails",
-      "displayName": "Fetch Transaction Details",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2625,
-      "name": "E-Sign the Document",
-      "url": "/e-sign-svc/v1/_esign",
-      "displayName": "E-Sign the Document",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "e-sign-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2626,
-      "name": "Embed Digital Signature",
-      "url": "/e-sign-svc/v1/_signed",
-      "displayName": "Embed Digital Signature",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "e-sign-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2627,
-      "name": "Create Hub",
-      "url": "/payment-calculator/hub/v1/_create",
-      "displayName": "Create Hub",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2628,
-      "name": "Update Hub",
-      "url": "/payment-calculator/hub/v1/_update",
-      "displayName": "Update Hub",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2629,
-      "name": "Search Hub",
-      "url": "/payment-calculator/hub/v1/_search",
-      "displayName": "Search Hub",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2631,
-      "name": "Create Postal Service",
-      "url": "/payment-calculator/postal/v1/_create",
-      "displayName": "Create Postal Service",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2632,
-      "name": "Update Postal Service",
-      "url": "/payment-calculator/postal/v1/_update",
-      "displayName": "Update Postal Service",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2633,
-      "name": "Search Postal Service",
-      "url": "/payment-calculator/postal/v1/_search",
-      "displayName": "Search Postal Service",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2634,
-      "name": "Summons payment-calculator",
-      "url": "/payment-calculator/v1/summons/_calculate",
-      "displayName": "Summons Payment",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2635,
-      "name": "Case Fees",
-      "url": "/payment-calculator/v1/case/fees/_calculate",
-      "displayName": "Case Fees",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "payment-calculator-svc",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2636,
-      "name": "Search Bill",
-      "url": "/billing-service/bill/v2/_search",
-      "displayName": "Search Bill",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "billing",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2637,
-      "name": "Get Fields Inbox",
+      "name": "Inbox get fields for UI",
       "url": "/inbox/v2/_getFields",
-      "displayName": "Get Fields Inbox",
+      "displayName": "Inbox get fields",
       "orderNumber": 0,
       "enabled": false,
       "serviceCode": "inbox",
@@ -1485,79 +1345,46 @@
       "path": ""
     },
     {
-      "id": 2638,
-      "name": "Process Challan",
-      "url": "/etreasury/payment/v1/_processChallan",
-      "displayName": "Process Challan",
+      "id": 2623,
+      "name": "Update Hearing no workflow",
+      "url": "/hearing/v1/update_transcript_additional_attendees",
+      "displayName": "Update Hearing No workflow",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "etreasury",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id": 2639,
-      "name": "Decrypt ETreasury Response",
-      "url": "/etreasury/payment/v1/_decryptTreasuryResponse",
-      "displayName": "Decrypt ETreasury Response",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "etreasury",
-      "code": "null",
-      "path": ""
-    },
-    {
-      "id":2640,
-      "name":"Epost Tracker Create",
-      "url":"/epost-tracker/epost/v1/_sendEPost",
-      "displayName":"Epost Tracker Create",
-      "orderNumber":0,
-      "enabled":false,
-      "serviceCode":"epost-tracker",
-      "code":"null",
-      "path":""
-    },
-    {
-      "id": 2641,
-      "name": "Epost Tracker Update",
-      "url": "/epost-tracker/epost/v1/_updateEPost",
-      "displayName": "Epost Tracker Update",
-      "orderNumber": 0,
-      "enabled": false,
-      "serviceCode": "epost-tracker",
+      "serviceCode": "hearing",
       "code": "null",
       "path": ""
     },
     {
       "id": 2642,
-      "name": "Epost Tracker Search",
-      "url": "/epost-tracker/epost/v1/_getEPost",
-      "displayName": "Epost Tracker Search",
+      "name": "Add witness",
+      "url": "/case/v1/add/witness",
+      "displayName": "Add witness",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "epost-tracker",
+      "serviceCode": "case",
       "code": "null",
       "path": ""
     },
     {
-      "id": 2643,
-      "name": "Send icops request",
-      "url": "/egov-kerala-icops/v1/integrations/iCops/_sendRequest",
-      "displayName": "Send icops request",
+      "id": 2637,
+      "name": "Case History",
+      "url": "/casemanagement/casemanager/case/v1/_history",
+      "displayName": "Case History",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "icops_integration-kerala",
+      "serviceCode": "hearing",
       "code": "null",
       "path": ""
     },
     {
-      "id": 2645,
-      "name": "Advocate Status",
-      "url": "/advocate/advocate/v1/status/_search",
-      "displayName": "Advocate Status",
+      "id": 2638,
+      "name": "create pending task",
+      "url": "/analytics/pending_task/v1/create",
+      "displayName": "Create pending task",
       "orderNumber": 0,
       "enabled": false,
-      "serviceCode": "advocate",
+      "serviceCode": "analytics",
       "code": "null",
       "path": ""
     }
