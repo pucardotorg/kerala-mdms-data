@@ -27,8 +27,8 @@
       "isVoucherCreationEnabled": true
     },
     {
-      "businessService": "task",
-      "code": "task",
+      "businessService": "advocateApplication",
+      "code": "advocateApplication",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
