@@ -1,0 +1,36 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Order",
+  "OrderStatus": [
+    {
+      "id": 3,
+      "code": "PENDINGSTAMPING",
+      "type": "PENDINGSTAMPING",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "code": "PUBLISHED",
+      "type": "PUBLISHED",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "code": "ABATED",
+      "type": "ABATED",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "code": "DELETED",
+      "type": "DELETED",
+      "isactive": true
+    },
+    {
+      "id": 8,
+      "code": "DRAFT_IN_PROGRESS",
+      "type": "DRAFT_IN_PROGRESS",
+      "isactive": true
+    }
+  ]
+}

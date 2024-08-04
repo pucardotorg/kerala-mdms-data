@@ -1,0 +1,72 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Application",
+  "ApplicationStatus": [
+    {
+      "id": 1,
+      "code": "PENDINGREVIEW",
+      "type": "PENDINGREVIEW",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "code": "PENDINGRESPONSE",
+      "type": "PENDINGRESPONSE",
+      "isactive": true
+    },
+    {
+      "id": 6,
+      "code": "REJECTED",
+      "type": "REJECTED",
+      "isactive": true
+    },
+    {
+      "id": 7,
+      "code": "ABATED",
+      "type": "ABATED",
+      "isactive": true
+    },
+    {
+      "id": 9,
+      "code": "PENDINGAPPROVAL",
+      "type": "PENDINGAPPROVAL",
+      "isactive": true
+    },
+    {
+      "id": 10,
+      "code": "PENDINGSUBMISSION",
+      "type": "PENDINGSUBMISSION",
+      "isactive": true
+    },
+    {
+      "id": 11,
+      "code": "COMPLETED",
+      "type": "COMPLETED",
+      "isactive": true
+    },
+    {
+      "id": 13,
+      "code": "PENDINGPAYMENT",
+      "type": "PENDINGPAYMENT",
+      "isactive": true
+    },
+    {
+      "id": 14,
+      "code": "PENDINGESIGN",
+      "type": "PENDINGESIGN",
+      "isactive": true
+    },
+    {
+      "id": 15,
+      "code": "DELETED",
+      "type": "DELETED",
+      "isactive": true
+    },
+    {
+      "id": 16,
+      "code": "REQUESTDELAY",
+      "type": "REQUESTDELAY",
+      "isactive": true
+    }
+  ]
+}
