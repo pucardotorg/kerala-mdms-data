@@ -1515,6 +1515,12 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "SUPERUSER",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "COURT_ADMIN",
       "actionid": 2638,
       "actioncode": "",
@@ -1522,6 +1528,12 @@
     },
     {
       "rolecode":"EMPLOYEE",
+      "actionid":"2639",
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"SUPERUSER",
       "actionid":"2639",
       "actioncode":"",
       "tenantId":"kl"
@@ -1690,6 +1702,12 @@
     },
     {
       "rolecode": "EMPLOYEE",
+      "actionid": 2646,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
       "actionid": 2646,
       "actioncode": "",
       "tenantId": "kl"
