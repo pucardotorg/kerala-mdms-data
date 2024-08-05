@@ -1,0 +1,142 @@
+{
+  "tenantId": "pg",
+  "moduleName": "common-masters",
+  "PendingTaskType": [
+    {
+      "id": "1",
+      "pendingTask": "Admit Case",
+      "actor": "Judge",
+      "triggerAction": ["VALIDATE"],
+      "state": "PENDING_ADMISSION",
+      "workflowModule": "case",
+      "closerAction": ["SEND_BACK", "ADMIT"]
+    },
+    {
+      "id": "2",
+      "pendingTask": "Admit Case",
+      "actor": "Judge",
+      "triggerAction": ["SCHEDULE_ADMISSION_HEARING"],
+      "state": "ADMISSION_HEARING_SCHEDULED",
+      "workflowModule": "case",
+      "closerAction": ["ADMIT", "REJECT"]
+    },
+    {
+      "id": "3",
+      "pendingTask": "Correct File Errors",
+      "actor": "Advocate/Litigant",
+      "triggerAction": ["SEND_BACK"],
+      "state": "CASE_RE_ASSIGNED",
+      "workflowModule": "case",
+      "closerAction": ["EDIT_CASE"]
+    },
+    {
+      "id": "4",
+      "pendingTask": "Scrutiny of Case",
+      "actor": "FSO/CMO",
+      "triggerAction": ["MAKE_PAYMENT", "EDIT_CASE"],
+      "state": "UNDER_SCRUTINY",
+      "workflowModule": "case",
+      "closerAction": ["VALIDATE", "SEND_BACK"]
+    },
+    {
+      "id": "5",
+      "pendingTask": "Payment Pending",
+      "actor": "Collector - Nyay Mitra/Advocate/Litigant",
+      "triggerAction": ["SUBMIT_CASE"],
+      "state": "PAYMENT_PENDING",
+      "workflowModule": "case",
+      "closerAction": ["MAKE_PAYMENT"]
+    },
+    {
+      "id": "6",
+      "pendingTask": "Verify Registration",
+      "actor": "Nyay Mitra",
+      "triggerAction": ["REGISTER"],
+      "state": "VERIFICATIONREQUESTED",
+      "workflowModule": "advocate",
+      "closerAction": ["APPROVE", "REJECT"]
+    },
+    {
+      "id": "7",
+      "pendingTask": "Verify Registration",
+      "actor": "Nyay Mitra",
+      "triggerAction": ["REGISTER"],
+      "state": "VERIFICATIONREQUESTED",
+      "workflowModule": "advocateclerk",
+      "closerAction": ["APPROVE", "REJECT"]
+    },
+    {
+      "id": "8",
+      "pendingTask": "Review Delay in Submission",
+      "actor": "Judge/CMO",
+      "triggerAction": ["DELAY"],
+      "state": "REQUESTDELAY",
+      "workflowModule": "async-order-submission-managelifecycle",
+      "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
+    },
+    {
+      "id": "9",
+      "pendingTask": "Update Response (ONLY IF RESPONSE IS REQUESTED BY JUDGE)",
+      "actor": "Advocate",
+      "triggerAction": ["PAY"],
+      "state": "PENDINGRESPONSE",
+      "workflowModule": "async-submission-with-response-managelifecycle",
+      "closerAction": ["RESPOND", "AUTOESCALATE", "DELETE", "ABANDON"]
+    },
+    {
+      "id": "10",
+      "pendingTask": "Review Delay in Submission",
+      "actor": "Judge/CMO",
+      "triggerAction": ["DELAY"],
+      "state": "REQUESTDELAY",
+      "workflowModule": "async-submission-with-response-managelifecycle",
+      "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
+    },
+    {
+      "id": "11",
+      "pendingTask": "Complete Submission",
+      "actor": "Advocate/Litigant",
+      "triggerAction": ["CREATE"],
+      "state": "PENDINGESIGN",
+      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "closerAction": ["ESIGN", "DELETE"]
+    },
+    {
+      "id": "12",
+      "pendingTask": "Complete Submission",
+      "actor": "Advocate/Litigant",
+      "triggerAction": ["ESIGN"],
+      "state": "PENDINGPAYMENT",
+      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "closerAction": ["PAY", "DELETE"]
+    },
+    {
+      "id": "13",
+      "pendingTask": "Update Response",
+      "actor": "Advocate",
+      "triggerAction": ["RESPOND"],
+      "state": "PENDINGAPPROVAL",
+      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
+    },
+    {
+      "id": "14",
+      "pendingTask": "Review Document Submission",
+      "actor": "Judge/CMO",
+      "triggerAction": ["PAY"],
+      "state": "PENDINGREVIEW",
+      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "closerAction": ["APPROVE", "REJECT", "AUTOESCALATE", "DELETE", "RESPOND", "ABANDON"]
+    },
+    {
+      "id": "15",
+      "pendingTask": "Accept Document Submission",
+      "actor": "Judge/CMO",
+      "triggerAction": ["RESPONSE", "AUTO ESCALATE"],
+      "state": "PENDINGAPPROVAL",
+      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "closerAction": ["APPROVE", "REJECT", "DELETE", "ABANDON"]
+    }
+
+  ]
+}
