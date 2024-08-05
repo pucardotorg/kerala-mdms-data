@@ -1560,6 +1560,42 @@
       "serviceCode": "advocate",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2646,
+      "name": "Get Judge Calendar",
+      "url": "/scheduler/judge/v1/_calendar",
+      "displayName": "Get Judge Calendar",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "scheduler-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2647,
+      "name": "Update Judge Calendar",
+      "url": "/scheduler/judge/v1/_update",
+      "displayName": "Update Judge Calendar",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "scheduler-svc",
+      "code": "null",
+      "path": ""
+    },
+    {
+      "id": 2648,
+      "name": "Judge Availability",
+      "url": "/scheduler/judge/v1/_availability",
+      "displayName": "Judge Availability",
+      "orderNumber": 1,
+      "parentModule": "",
+      "enabled": true,
+      "serviceCode": "scheduler-svc",
+      "code": "null",
+      "path": ""
     }
   ]
 }

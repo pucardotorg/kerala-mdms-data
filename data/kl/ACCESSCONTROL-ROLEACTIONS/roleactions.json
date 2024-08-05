@@ -1621,6 +1621,24 @@
       "actionid": 2644,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2647,
+      "actioncode":"",
+        "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2648,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"EMPLOYEE",
+      "actionid": 2646,
+      "actioncode":"",
+      "tenantId":"kl"
     }
   ]
 }
