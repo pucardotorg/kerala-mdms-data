@@ -1611,6 +1611,54 @@
       "tenantId":"kl"
     },
     {
+      "rolecode":"TASK_CREATOR",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_APPROVER",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_CLOSER",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_REJECTOR",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_RESPONDER",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_REASSIGN",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_UPDATOR",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"TASK_VIEWER",
+      "actionid": 2643,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
       "rolecode":"CITIZEN",
       "actionid": 2644,
       "actioncode":"",
@@ -1621,6 +1669,18 @@
       "actionid": 2644,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode":"CITIZEN",
+      "actionid": 2646,
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2646,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }

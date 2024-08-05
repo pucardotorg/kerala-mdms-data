@@ -1560,6 +1560,17 @@
       "serviceCode": "advocate",
       "code": "null",
       "path": ""
+    },
+    {
+      "id": 2646,
+      "name": "Get payment receipt",
+      "url": "/etreasury/payment/v1/_getPaymentReceipt",
+      "displayName": "Get payment receipt",
+      "orderNumber": 0,
+      "enabled": false,
+      "serviceCode": "etreasury",
+      "code": "null",
+      "path": ""
     }
   ]
 }
