@@ -1515,7 +1515,19 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "COURT_ADMIN",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode":"EMPLOYEE",
+      "actionid":"2639",
+      "actioncode":"",
+      "tenantId":"kl"
+    },
+    {
+      "rolecode":"PAYMENT_COLLECTOR",
       "actionid":"2639",
       "actioncode":"",
       "tenantId":"kl"
