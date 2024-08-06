@@ -1387,6 +1387,28 @@
          "serviceCode": "analytics",
          "code": "null",
          "path": ""
-        }
+        },
+      {
+         "id": 2645,
+         "name": "Add comment",
+         "url": "/application/v1/addcomment",
+         "displayName": "Add comment",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "application",
+         "code": "null",
+         "path": ""
+      },
+      {
+         "id": 2646,
+         "name": "Add comment",
+         "url": "/evidence/v1/addcomment",
+         "displayName": "Add comment",
+         "orderNumber": 0,
+         "enabled": false,
+         "serviceCode": "evidence",
+         "code": "null",
+         "path": ""
+      }
    ]
 }
