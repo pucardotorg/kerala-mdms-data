@@ -41,6 +41,16 @@
       "isActualDemand": false,
       "order": "0",
       "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "summons",
+      "name": "summon delivery advance carry forward",
+      "code": "SUMMONS_DELIVERY_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
     }
   ]
 }
