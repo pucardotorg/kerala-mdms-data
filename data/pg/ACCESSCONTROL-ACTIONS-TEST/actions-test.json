@@ -1420,6 +1420,17 @@
          "serviceCode": "hearing",
          "code": "null",
          "path": ""
-      }
+      },
+      {
+         "id": 2648,
+         "name": "Orders PDF Service",
+         "url": "/egov-pdf/order",
+         "displayName": "Orders PDF generation",
+         "description": "Access Control of Actions",
+         "enabled": false,
+         "serviceCode": "egov-pdf",
+         "code": "null",
+         "path": ""
+       }
    ]
 }
