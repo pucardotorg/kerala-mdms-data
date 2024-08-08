@@ -271,6 +271,11 @@
       "code": "SUBMISSION_DELETE",
       "name": "SUBMISSION_DELETE",
       "description": "SUBMISSION_DELETE"
+    },
+    {
+      "code": "TASK_VIEWER",
+      "name": "TASK_VIEWER",
+      "description": "TASK_VIEWER"
     }
   ]
 }

@@ -981,7 +981,7 @@
       "tenantId": "pg"
     },
     {
-       "rolecode": "MDMS_ADMIN",
+      "rolecode": "MDMS_ADMIN",
       "actionid": 2579,
       "actioncode": "",
       "tenantId": "pg"
@@ -1317,6 +1317,12 @@
       "tenantId": "pg"
     },
     {
+      "rolecode": "TASK_VIEWER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "pg"
+    },
+    {
       "rolecode": "CASE_CREATOR",
       "actionid": 2621,
       "actioncode": "",
@@ -1492,4 +1498,3 @@
     }
   ]
 }
-
