@@ -1,0 +1,11 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Hearing",
+  "HearingLink": [
+    {
+      "id": 1,
+      "link": "https://meet.google.com/ocw-hpyu-atk",
+      "isactive": true
+    }
+  ]
+}
