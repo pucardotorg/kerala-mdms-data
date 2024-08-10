@@ -1,0 +1,18 @@
+{
+    "tenantId": "kl",
+    "moduleName": "SCHEDULER-CONFIG",
+    "config": [
+      {
+        "identifier": "OPT_OUT_DUE",
+        "description": "Number of hours after user can opt out the dates after approval of application",
+        "uom": "hours",
+        "unit": 48
+      },
+      {
+        "identifier": "OPT_OUT_SELECTION_LIMIT",
+        "description": "Number of days user can select for opt out preferences",
+        "uom": "",
+        "unit": 2
+      }
+    ]
+  }
