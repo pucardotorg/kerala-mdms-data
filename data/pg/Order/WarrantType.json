@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg",
+    "moduleName": "Order",
+    "WarrantType": [
+      {
+        "id": 1,
+        "code": "WARRANT_TYPE_1",
+        "name": "WARRANT_TYPE_1",
+        "isactive": true
+      }
+    ]
+  }
