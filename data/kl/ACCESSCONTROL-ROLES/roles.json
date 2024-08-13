@@ -311,6 +311,11 @@
             "code": "POST_MANAGER",
             "name": "POST_MANAGER",
             "description": "POST_MANAGER"
+        },
+        {
+            "code":"ORDER_DELETE",
+            "name":"ORDER_DELETE",
+            "description":"ORDER_DELETE"
         }
     ]
 }
