@@ -8,7 +8,7 @@
       "actor": "Judge",
       "triggerAction": ["VALIDATE"],
       "state": "PENDING_ADMISSION",
-      "workflowModule": "case",
+      "workflowModule": "case-default",
       "closerAction": ["SEND_BACK", "ADMIT"]
     },
     {
@@ -17,7 +17,7 @@
       "actor": "Judge",
       "triggerAction": ["SCHEDULE_ADMISSION_HEARING"],
       "state": "ADMISSION_HEARING_SCHEDULED",
-      "workflowModule": "case",
+      "workflowModule": "case-default",
       "closerAction": ["ADMIT", "REJECT"]
     },
     {
@@ -26,7 +26,7 @@
       "actor": "Advocate/Litigant",
       "triggerAction": ["SEND_BACK"],
       "state": "CASE_RE_ASSIGNED",
-      "workflowModule": "case",
+      "workflowModule": "case-default",
       "closerAction": ["EDIT_CASE"]
     },
     {
@@ -35,7 +35,7 @@
       "actor": "FSO/CMO",
       "triggerAction": ["MAKE_PAYMENT", "EDIT_CASE"],
       "state": "UNDER_SCRUTINY",
-      "workflowModule": "case",
+      "workflowModule": "case-default",
       "closerAction": ["VALIDATE", "SEND_BACK"]
     },
     {
@@ -44,7 +44,7 @@
       "actor": "Collector - Nyay Mitra/Advocate/Litigant",
       "triggerAction": ["SUBMIT_CASE"],
       "state": "PAYMENT_PENDING",
-      "workflowModule": "case",
+      "workflowModule": "case-default",
       "closerAction": ["MAKE_PAYMENT"]
     },
     {
@@ -53,7 +53,7 @@
       "actor": "Nyay Mitra",
       "triggerAction": ["REGISTER"],
       "state": "VERIFICATIONREQUESTED",
-      "workflowModule": "advocate",
+      "workflowModule": "user-registration-advocate",
       "closerAction": ["APPROVE", "REJECT"]
     },
     {
@@ -62,7 +62,7 @@
       "actor": "Nyay Mitra",
       "triggerAction": ["REGISTER"],
       "state": "VERIFICATIONREQUESTED",
-      "workflowModule": "advocateclerk",
+      "workflowModule": "user-registration-advocate-clerk",
       "closerAction": ["APPROVE", "REJECT"]
     },
     {
@@ -71,7 +71,7 @@
       "actor": "Judge/CMO",
       "triggerAction": ["DELAY"],
       "state": "REQUESTDELAY",
-      "workflowModule": "async-order-submission-managelifecycle",
+      "workflowModule": "application-order-submission-default",
       "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
     },
     {
@@ -80,7 +80,7 @@
       "actor": "Advocate",
       "triggerAction": ["PAY"],
       "state": "PENDINGRESPONSE",
-      "workflowModule": "async-submission-with-response-managelifecycle",
+      "workflowModule": "application-order-submission-feedback",
       "closerAction": ["RESPOND", "AUTOESCALATE", "DELETE", "ABANDON"]
     },
     {
@@ -89,7 +89,7 @@
       "actor": "Judge/CMO",
       "triggerAction": ["DELAY"],
       "state": "REQUESTDELAY",
-      "workflowModule": "async-submission-with-response-managelifecycle",
+      "workflowModule": "application-order-submission-feedback",
       "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
     },
     {
@@ -98,7 +98,7 @@
       "actor": "Advocate/Litigant",
       "triggerAction": ["CREATE"],
       "state": "PENDINGESIGN",
-      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "workflowModule": "application-voluntary-submission",
       "closerAction": ["ESIGN", "DELETE"]
     },
     {
@@ -107,7 +107,7 @@
       "actor": "Advocate/Litigant",
       "triggerAction": ["ESIGN"],
       "state": "PENDINGPAYMENT",
-      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "workflowModule": "application-voluntary-submission",
       "closerAction": ["PAY", "DELETE"]
     },
     {
@@ -116,7 +116,7 @@
       "actor": "Advocate",
       "triggerAction": ["RESPOND"],
       "state": "PENDINGAPPROVAL",
-      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "workflowModule": "application-voluntary-submission",
       "closerAction": ["APPROVE", "DELETE", "REJECT", "ABANDON"]
     },
     {
@@ -125,7 +125,7 @@
       "actor": "Judge/CMO",
       "triggerAction": ["PAY"],
       "state": "PENDINGREVIEW",
-      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "workflowModule": "application-voluntary-submission",
       "closerAction": ["APPROVE", "REJECT", "AUTOESCALATE", "DELETE", "RESPOND", "ABANDON"]
     },
     {
@@ -134,7 +134,7 @@
       "actor": "Judge/CMO",
       "triggerAction": ["RESPONSE", "AUTO ESCALATE"],
       "state": "PENDINGAPPROVAL",
-      "workflowModule": "async-voluntary-submission-managelifecycle",
+      "workflowModule": "application-voluntary-submission",
       "closerAction": ["APPROVE", "REJECT", "DELETE", "ABANDON"]
     }
 
