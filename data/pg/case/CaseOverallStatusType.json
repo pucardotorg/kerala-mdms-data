@@ -3,6 +3,15 @@
   "moduleName": "case",
   "CaseOverallStatusType": [
     {
+      "id": "10",
+      "stage": "Referred to ADR",
+      "state": "published",
+      "action": "E-SIGN",
+      "substage": "Referred to ADR",
+      "typeIdentifier": "REFERRAL_CASE_TO_ADR",
+      "workflowModule": "order-default"
+    },
+    {
       "id": "9",
       "stage": "Post-Trial",
       "state": "published",
