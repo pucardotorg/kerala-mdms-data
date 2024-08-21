@@ -1,0 +1,42 @@
+{
+  "tenantId": "kl",
+  "moduleName": "payment",
+  "PaymentHeads": [
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_COURT_FEES"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_VAKALATHNAMA_FEES"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_ADVOCATE_WELFARE_FUND"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_ADVOCATE_CLERK_WELFARE_FUND"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_APPLICATION_FEES"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_PETITION_FEES"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_COURT_FEES"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_GST"
+    },
+    {
+      "headId": "00374",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_I_POST"
+    }
+  ]
+}

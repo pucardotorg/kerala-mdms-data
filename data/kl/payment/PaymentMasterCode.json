@@ -1,7 +1,7 @@
 {
   "tenantId": "kl",
   "moduleName": "payment",
-  "MasterCode": [
+  "PaymentMasterCode": [
     {
       "businessService": "case",
       "type": "Court Fee",
