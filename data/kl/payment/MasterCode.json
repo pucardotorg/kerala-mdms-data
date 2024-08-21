@@ -1,0 +1,51 @@
+{
+  "tenantId": "kl",
+  "moduleName": "payment",
+  "MasterCode": [
+    {
+      "businessService": "case",
+      "type": "Court Fee",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_COURT_FEES"
+    },
+    {
+      "businessService": "case",
+      "type": "Vakalathnama Fee",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_VAKALATHNAMA_FEES"
+    },
+    {
+      "businessService": "case",
+      "type": "Advocate Welfare Fund",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_ADVOCATE_WELFARE_FUND"
+    },
+    {
+      "businessService": "case",
+      "type": "Advocate Clerk Welfare Fund",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_ADVOCATE_CLERK_WELFARE_FUND"
+    },
+    {
+      "businessService": "case",
+      "type": "Total Application Fee",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_APPLICATION_FEES"
+    },
+    {
+      "businessService": "case",
+      "type": "Petition Fee",
+      "masterCode":"CASE_ADVANCE_CARRYFORWARD_PETITION_FEES"
+    },
+    {
+      "businessService": "task-summon",
+      "type": "COURT_FEES",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_COURT_FEES"
+    },
+    {
+      "businessService": "task-summon",
+      "type": "GST",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_GST"
+    },
+    {
+      "businessService": "task-summon",
+      "type": "I_POST",
+      "masterCode":"TASK_SUMMON_ADVANCE_CARRYFORWARD_I_POST"
+    }
+  ]
+}
