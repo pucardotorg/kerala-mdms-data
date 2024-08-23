@@ -51,6 +51,11 @@
       "id": 10,
       "type": "OTHERS",
       "isactive": true
+    },
+    {
+      "id": 11,
+      "type": "DOCUMENT",
+      "isactive": true
     }
   ]
 }
