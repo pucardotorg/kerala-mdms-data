@@ -4,15 +4,15 @@
   "OrderType": [
     {
       "id": 1,
-      "type": "NOTICE",
+      "type": "SECTION_202_CRPC",
       "isactive": true,
-      "code": "NOTICE"
+      "code": "SECTION_202_CRPC"
     },
     {
       "id": 2,
-      "type": "DOCUMENT_SUBMISSION",
+      "type": "MANDATORY_SUBMISSIONS_RESPONSES",
       "isactive": true,
-      "code": "DOCUMENT_SUBMISSION"
+      "code": "MANDATORY_SUBMISSIONS_RESPONSES"
     },
     {
       "id": 3,
@@ -22,63 +22,111 @@
     },
     {
       "id": 4,
-      "type": "SUMMONS",
+      "type": "REFERRAL_CASE_TO_ADR",
       "isactive": true,
-      "code": "SUMMONS"
+      "code": "REFERRAL_CASE_TO_ADR"
     },
     {
       "id": 5,
-      "type": "WARRANT",
-      "isactive": true,
-      "code": "WARRANT"
+      "type": "APPROVAL_RESCHEDULE_REQUEST",
+      "isactive": false,
+      "code": "APPROVAL_RESCHEDULE_REQUEST"
     },
     {
       "id": 6,
-      "type": "BAIL",
+      "type": "REJECTION_RESCHEDULE_REQUEST",
       "isactive": true,
-      "code": "BAIL"
+      "code": "REJECTION_RESCHEDULE_REQUEST"
     },
     {
       "id": 7,
-      "type": "PAYMENT_AGAINST_PENALTY",
+      "type": "SCHEDULE_OF_HEARING_DATE",
       "isactive": true,
-      "code": "PAYMENT_AGAINST_PENALTY"
+      "code": "SCHEDULE_OF_HEARING_DATE"
     },
     {
       "id": 8,
-      "type": "NEXT_HEARING",
-      "isactive": true,
-      "code": "NEXT_HEARING"
-    },
-    {
-      "id": 9,
       "type": "RESCHEDULE_OF_HEARING_DATE",
       "isactive": true,
       "code": "RESCHEDULE_OF_HEARING_DATE"
     },
     {
-      "id": 10,
-      "type": "EDIT_OF_CASE_DETAILS",
+      "id": 9,
+      "type": "APPROVE_VOLUNTARY_SUBMISSIONS",
       "isactive": true,
-      "code": "EDIT_OF_CASE_DETAILS"
+      "code": "APPROVE_VOLUNTARY_SUBMISSIONS"
+    },
+    {
+      "id": 10,
+      "type": "REJECT_VOLUNTARY_SUBMISSIONS",
+      "isactive": true,
+      "code": "REJECT_VOLUNTARY_SUBMISSIONS"
     },
     {
       "id": 11,
-      "type": "TRANSFER_TO_ADR",
+      "type": "CASE_TRANSFER",
       "isactive": true,
-      "code": "TRANSFER_TO_ADR"
+      "code": "CASE_TRANSFER"
     },
     {
       "id": 12,
+      "type": "SETTLEMENT",
+      "isactive": true,
+      "code": "SETTLEMENT"
+    },
+    {
+      "id": 13,
+      "type": "SUMMONS",
+      "isactive": true,
+      "code": "SUMMONS"
+    },
+    {
+      "id": 14,
+      "type": "WARRANT",
+      "isactive": true,
+      "code": "WARRANT"
+    },
+    {
+      "id": 15,
+      "type": "BAIL",
+      "isactive": true,
+      "code": "BAIL"
+    },
+    {
+      "id": 16,
+      "type": "WITHDRAWAL",
+      "isactive": true,
+      "code": "WITHDRAWAL"
+    },
+    {
+      "id": 17,
       "type": "JUDGEMENT",
       "isactive": true,
       "code": "JUDGEMENT"
     },
     {
-      "id": 13,
+      "id": 18,
       "type": "OTHERS",
       "isactive": true,
       "code": "OTHERS"
+    },
+    {
+      "id": 19,
+      "type": "INITIATING_RESCHEDULING_OF_HEARING_DATE",
+      "isactive": true,
+      "code": "INITIATING_RESCHEDULING_OF_HEARING_DATE"
+    },
+    {
+      "id": 20,
+      "type": "ASSIGNING_NEW_HEARING_DATE",
+      "isactive": true,
+      "code": "ASSIGNING_NEW_HEARING_DATE"
+    },
+    {
+      "id": 21,
+      "type": "ASSIGNING_DATE_RESCHEDULED_HEARING",
+      "isactive": true,
+      "code": "ASSIGNING_DATE_RESCHEDULED_HEARING"
     }
   ]
 }
