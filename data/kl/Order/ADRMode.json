@@ -1,0 +1,21 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Order",
+  "ADRMode": [
+    {
+      "code": 1,
+      "name": "ARBITRATION",
+      "isActive": true
+    },
+    {
+      "code": 2,
+      "name": "MEDIATION",
+      "isActive": true
+    },
+    {
+      "code": 3,
+      "name": "CONCILIATION",
+      "isActive": true
+    }
+  ]
+}
