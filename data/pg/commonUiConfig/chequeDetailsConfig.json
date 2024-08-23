@@ -87,6 +87,7 @@
               "label": "CS_CHEQUE_NUMBER",
               "isMandatory": true,
               "populators": {
+                "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
                   "minLength": 6
                 },
@@ -104,6 +105,7 @@
               "isMandatory": true,
               "populators": {
                 "name": "issuanceDate",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
                   "max": {
                     "patternType": "date",
@@ -137,6 +139,7 @@
               "tooltipValue": "IFSC_CODE_SUGGESTION",
               "isMandatory": true,
               "populators": {
+                "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
                   "pattern": {
                     "patternType": "ifsc",
@@ -157,6 +160,7 @@
               "label": "CS_CHEQUE_AMOUNT",
               "isMandatory": true,
               "populators": {
+                "error": "CORE_REQUIRED_FIELD_ERROR",
                 "componentInFront": "₹",
                 "name": "chequeAmount",
                 "prefix": ""
@@ -173,6 +177,7 @@
               "isMandatory": true,
               "populators": {
                 "name": "depositDate",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
                   "max": {
                     "patternType": "date",
