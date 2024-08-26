@@ -88,7 +88,16 @@
               "component": "VerifyPhoneNumber",
               "key": "complainantVerification",
               "withoutLabel": true,
-              "label": "PHONE_NUMBER",
+              "label": "CS_COMPLAINANT_MOBILE_NUMBER",
+              "updateLabelOn": "complainantType.showCompanyDetails",
+              "updateLabel": {
+                "key": "label",
+                "value": "CS_REPRESENTATIVE_MOBILE_NUMBER"
+              },
+              "defaultLabel": {
+                "key": "label",
+                "value": "CS_COMPLAINANT_MOBILE_NUMBER"
+              },
               "name": "mobileNumber",
               "isVerifiedOtpDisabledKey": "isDuplicateNumber",
               "disableConfigFields": [
