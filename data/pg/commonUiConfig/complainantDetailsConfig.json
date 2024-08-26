@@ -399,7 +399,8 @@
                     "name": "locality",
                     "inputFieldClassName": "user-details-form-style",
                     "validation": {
-                      "isRequired": true
+                      "isRequired": true,
+                      "maxLength": 300
                     },
                     "isMandatory": true
                   }
