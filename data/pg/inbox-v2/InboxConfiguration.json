@@ -76,6 +76,18 @@
           "name": "additionalDetails",
           "path": "Data.advocateDetails.additionalDetails",
           "isMandatory": false
+        },
+        {
+          "name": "applicationNumber_WILDCARD",
+          "path": "Data.advocateDetails.applicationNumber.keyword",
+          "operator": "WILDCARD",
+          "isMandatory": false
+        },
+        {
+          "name": "barRegistrationNumber_WILDCARD",
+          "path": "Data.advocateDetails.barRegistrationNumber.keyword",
+          "operator": "WILDCARD",
+          "isMandatory": false
         }
       ],
       "sortBy": {
@@ -165,6 +177,12 @@
         {
           "name": "additionalDetails",
           "path": "Data.clerkDetails.additionalDetails",
+          "isMandatory": false
+        },
+        {
+          "name": "applicationNumber_WILDCARD",
+          "path": "Data.clerkDetails.applicationNumber.keyword",
+          "operator": "WILDCARD",
           "isMandatory": false
         }
       ],
