@@ -3,6 +3,16 @@
     "moduleName": "Workflow",
     "AutoEscalation": [
       {
+        "businessService": "task-notice",
+        "module": "task",
+        "state": "ISSUE_NOTICE",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "notice-auto-escalation"
+      },
+      {
         "businessService": "task-summon",
         "module": "task",
         "state": "ISSUE_SUMMON",
