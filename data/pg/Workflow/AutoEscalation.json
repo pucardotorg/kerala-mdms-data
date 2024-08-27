@@ -1,46 +1,57 @@
 {
-    "tenantId": "pg",
+    "tenantId": "kl",
     "moduleName": "Workflow",
     "AutoEscalation": [
       {
-        "businessService": "NewTL",
-        "module": "tl-services",
-        "state": "PENDINGAPPROVAL",
-        "action": "APPROVE",
-        "active": "false",
-        "stateSLA": 2.0,
+        "businessService": "task-summon",
+        "module": "task",
+        "state": "ISSUE_SUMMON",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
         "businessSLA": null,
-        "topic" : "tl-auto-escalation"
+        "topic" : "summons-auto-escalation"
       },
       {
-        "businessService": "PGR",
-        "module": "pgr-services",
-        "state": "PENDINGATLME",
-        "action": "FORWARD",
+        "businessService": "task-notice",
+        "module": "task",
+        "state": "ISSUE_NOTICE",
+        "action": "NOT_SERVED",
         "active": "true",
-        "stateSLA": 0.01,
+        "stateSLA": 1.0,
         "businessSLA": null,
-        "topic": "pgr-auto-escalation"
+        "topic" : "notice-auto-escalation"
       },
       {
-        "businessService": "PGR",
-        "module": "pgr-services",
-        "state": "PENDINGFORASSIGNMENT",
-        "action": "ASSIGNEDBYAUTOESCALATION",
+        "businessService": "application-order-submission-feedback",
+        "module": "application",
+        "state": "PENDING_RESPONSE",
+        "action": "RESPOND",
         "active": "true",
-        "stateSLA": 0.01,
+        "stateSLA": 1.0,
         "businessSLA": null,
-        "topic": "pgr-auto-escalation"
+        "topic" : "application-response-auto-escalation"
       },
       {
-        "businessService": "PGR",
-        "module": "pgr-services",
-        "state": "REJECTED",
-        "action": "CANCEL",
+        "businessService": "application-voluntary-submission",
+        "module": "application",
+        "state": "PENDING_REVIEW",
+        "action": "RESPOND",
         "active": "true",
-        "stateSLA": 0.01,
+        "stateSLA": 1.0,
         "businessSLA": null,
-        "topic": "pgr-auto-escalation"
+        "topic" : "application-review-auto-escalation"
+
+      },
+      {
+        "businessService": "task-warrant",
+        "module": "task",
+        "state": "OPTOUT",
+        "action": "SET_DATE",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "hearing-optout-auto-escalation"
       }
     ]
   }
