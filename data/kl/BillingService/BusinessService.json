@@ -16,8 +16,8 @@
       "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
     },
     {
-      "businessService": "case",
-      "code": "case",
+      "businessService": "case-default",
+      "code": "case-default",
       "collectionModesNotAllowed": [
         "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
       ],
@@ -47,6 +47,17 @@
       "isAdvanceAllowed": false,
       "demandUpdateTime": 604800000,
       "isVoucherCreationEnabled": true
+    },
+    {
+        "businessService": "application-voluntary-submission",
+        "code": "application-voluntary-submission",
+        "collectionModesNotAllowed": [
+          "OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
+        ],
+        "partPaymentAllowed": false,
+        "isAdvanceAllowed": false,
+        "demandUpdateTime": 604800000,
+        "isVoucherCreationEnabled": true
     }
   ]
 }
