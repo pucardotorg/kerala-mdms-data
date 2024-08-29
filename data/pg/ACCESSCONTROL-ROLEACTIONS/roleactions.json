@@ -1507,6 +1507,12 @@
       "actionid": 2567,
       "actioncode": "",
       "tenantId": "pg"
+    },
+    {
+      "rolecode": "NYAY_MITRA_ROLE",
+      "actionid": 2649,
+      "actioncode": "",
+      "tenantId": "pg"
     }
   ]
 }
