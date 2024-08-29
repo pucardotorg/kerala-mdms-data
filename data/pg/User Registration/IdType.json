@@ -1,0 +1,18 @@
+{
+    "tenantId": "pg",
+    "moduleName": "User Registration",
+    "IdType": [
+        {
+            "id": 1,
+            "code": "AADHAR",
+            "name": "CS_ADHAAR",
+            "subText": "CS_ADHAAR_SUB_TEXT"
+        },
+        {
+            "id": 2,
+            "code": "OTHER_ID",
+            "name": "CS_OTHER",
+            "subText": "CS_OTHER_SUB_TEXT"
+        }
+    ]
+}

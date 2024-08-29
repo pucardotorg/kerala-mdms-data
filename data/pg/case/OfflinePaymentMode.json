@@ -1,0 +1,31 @@
+{
+    "tenantId": "pg",
+    "moduleName": "case",
+    "OfflinePaymentMode": [
+      {
+        "id": 1,
+        "code": "CASH",
+        "name": "Cash",
+        "isactive": true
+      },
+      {
+        "id": 2,
+        "code": "CHEQUE",
+        "name": "Cheque",
+        "isactive": true
+      },
+      {
+        "id": 3,
+        "code": "DD",
+        "name": "Demand Draft",
+        "isactive": true
+      },
+      {
+        "id": 4,
+        "code": "STAMP",
+        "name": "Stamp",
+        "isactive": true
+      }
+    ]
+  }
+  
