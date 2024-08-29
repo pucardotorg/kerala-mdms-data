@@ -277,6 +277,91 @@
       "sourceFilterPathList": [
         "Data"
       ]
+    },
+    {
+      "module": "Billing service",
+      "index": "billing-data-index",
+      "allowedSearchCriteria": [
+        {
+          "name": "id",
+          "path": "Data.billDetails.id.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "tenantId",
+          "path": "Data.billDetails.tenantId.keyword",
+          "isMandatory": true,
+          "operator": "EQUAL"
+        },
+        {
+          "name": "caseTitleFilingNumber",
+          "path": "Data.billDetails.caseTitleFilingNumber.keyword",
+          "isMandatory": false,
+          "operator": "WILDCARD"
+        },
+        {
+          "name": "stage",
+          "path": "Data.billDetails.stage.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "caseType",
+          "path": "Data.billDetails.caseType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "paymentType",
+          "path": "Data.billDetails.paymentType.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "amount",
+          "path": "Data.billDetails.amount.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "billStatus",
+          "path": "Data.billDetails.billStatus.keyword",
+          "isMandatory": false
+        },
+        {
+          "name": "createdBy",
+          "path": "Data.auditDetails.createdBy",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedBy",
+          "path": "Data.auditDetails.lastModifiedBy",
+          "isMandatory": false
+        },
+        {
+          "name": "createdTime",
+          "path": "Data.auditDetails.createdTime",
+          "isMandatory": false
+        },
+        {
+          "name": "lastModifiedTime",
+          "path": "Data.auditDetails.lastModifiedTime",
+          "isMandatory": false
+        },
+        {
+          "name": "consumerCode",
+          "path": "Data.billDetails.consumerCode",
+          "isMandatory": false
+        },
+        {
+          "name": "service",
+          "path": "Data.billDetails.service.keyword",
+          "isMandatory": false
+        }
+      ],
+      "sortBy": {
+        "path": "Data.auditDetails.createdTime",
+        "defaultOrder": "ASC"
+      },
+      "sourceFilterPathList": [
+        "Data"
+      ]
     }
   ]
 }
