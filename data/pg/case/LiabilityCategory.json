@@ -1,0 +1,22 @@
+{
+    "tenantId": "pg",
+    "moduleName": "case",
+    "LiabilityCategory": [
+      {
+        "id": 1,
+        "liabilityType": 1,
+        "code": "FULL_LIABILITY",
+        "name": "FULL_LIABILITY",
+        "showAmountCovered": false,
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "liabilityType": 2,
+        "code": "PARTIAL_LIABILITY",
+        "name": "PARTIAL_LIABILITY",
+        "showAmountCovered": true,
+        "isActive": true
+      }
+    ]
+  }

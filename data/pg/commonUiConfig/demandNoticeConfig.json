@@ -23,14 +23,11 @@
                     "error": "CORE_REQUIRED_FIELD_ERROR",
                     "required": false,
                     "isMandatory": true,
-                    "options": [
-                      {
-                        "code": "POST",
-                        "name": "POST",
-                        "commonFields": true,
-                        "isEnabled": true
-                      }
-                    ]
+                    "mdmsConfig": {
+                      "masterName": "DispatchMode",
+                      "moduleName": "case",
+                      "select": "(data) => {return data['case'].DispatchMode?.map((item) => {return item;});}"
+                    }
                   }
                 ]
               }
@@ -95,7 +92,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false
                   }
                 ]
@@ -121,7 +121,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false
                   }
                 ]
@@ -145,12 +148,6 @@
                 "required": false,
                 "isMandatory": true,
                 "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
                 "options": [
                   {
                     "code": "YES",
@@ -210,7 +207,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false,
                     "documentHeaderStyle": {
                       "textAlign": "left"
@@ -237,12 +237,6 @@
                 "required": false,
                 "isMandatory": true,
                 "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
                 "options": [
                   {
                     "code": "YES",
@@ -265,7 +259,9 @@
         },
         {
           "dependentKey": {
-            "proofOfReply": ["showProofOfReply"]
+            "proofOfReply": [
+              "showProofOfReply"
+            ]
           },
           "body": [
             {
@@ -305,7 +301,10 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": false
                   }
                 ]
@@ -349,12 +348,6 @@
                 "required": false,
                 "isMandatory": true,
                 "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
                 "options": [
                   {
                     "code": "YES",

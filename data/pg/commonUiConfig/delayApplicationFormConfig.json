@@ -42,12 +42,6 @@
                 "required": false,
                 "isMandatory": true,
                 "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
                 "options": [
                   {
                     "code": "YES",
