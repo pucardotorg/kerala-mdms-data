@@ -1,0 +1,47 @@
+{
+    "tenantId": "kl",
+    "moduleName": "case",
+    "OutcomeType": [
+      {
+        "id": "5",
+        "outcome": "JUDGEMENT",
+        "orderType": "JUDGEMENT",
+        "isJudgement": true,
+        "judgementList": [
+          "DISMISSED",
+          "ALLOWED",
+          "PARTLY_ALLOWED",
+          "CONVICTED",
+          "PARTLY_CONVICTED"
+        ]
+      },
+      {
+        "id": "4",
+        "outcome": "Abated",
+        "orderType": "ABATED",
+        "isJudgement": false,
+        "judgementList": []
+      },
+      {
+        "id": "3",
+        "outcome": "Transferred",
+        "orderType": "CASE_TRANSFER",
+        "isJudgement": false,
+        "judgementList": []
+      },
+      {
+        "id": "2",
+        "outcome": "Settled",
+        "orderType": "SETTLEMENT",
+        "isJudgement": false,
+        "judgementList": []
+      },
+      {
+        "id": "1",
+        "outcome": "Withdrawn",
+        "orderType": "WITHDRAWAL",
+        "isJudgement": false,
+        "judgementList": []
+      }
+    ]
+  }
