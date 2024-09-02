@@ -366,7 +366,9 @@
                     "name": "city",
                     "inputFieldClassName": "user-details-form-style",
                     "validation": {
-                      "isRequired": true
+                      "isRequired": true,
+                      "patternType": "Name",
+                      "errMsg": "CORE_COMMON_APPLICANT_CITY_INVALID"
                     },
                     "isMandatory": true
                   },
@@ -377,7 +379,14 @@
                     "inputFieldClassName": "user-details-form-style",
                     "validation": {
                       "isRequired": true,
-                      "maxLength": 300
+                      "maxlength": 256,
+                      "minlength": 2,
+                      "pattern": {
+                        "patternType": "address",
+                        "masterName": "commonUiConfig",
+                        "moduleName": "patternValidation"
+                      },
+                      "errMsg": "CORE_COMMON_APPLICANT_ADDRESS_INVALID"
                     },
                     "isMandatory": true
                   }
@@ -480,7 +489,9 @@
                     "shouldBeEnabled": true,
                     "inputFieldClassName": "user-details-form-style",
                     "validation": {
-                      "isRequired": true
+                      "isRequired": true,
+                      "patternType": "Name",
+                      "errMsg": "CORE_COMMON_APPLICANT_CITY_INVALID"
                     },
                     "isMandatory": true
                   },
@@ -491,7 +502,15 @@
                     "shouldBeEnabled": true,
                     "inputFieldClassName": "user-details-form-style",
                     "validation": {
-                      "isRequired": true
+                      "isRequired": true,
+                      "maxlength": 256,
+                      "minlength": 2,
+                      "pattern": {
+                        "patternType": "address",
+                        "masterName": "commonUiConfig",
+                        "moduleName": "patternValidation"
+                      },
+                      "errMsg": "CORE_COMMON_APPLICANT_ADDRESS_INVALID"
                     },
                     "isMandatory": true
                   }
