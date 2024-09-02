@@ -160,10 +160,11 @@
               "label": "CS_SWORN_STATEMENT_HEADER",
               "withoutLabel": true,
               "key": "swornStatement",
+              "isMandatory": true,
               "populators": {
                 "inputs": [
                   {
-                    "isOptional": "CS_IS_OPTIONAL",
+                    "isOptional": false,
                     "name": "document",
                     "documentSubText": "CS_SWORN_STATEMENT_SUBTEXT",
                     "documentHeader": "CS_SWORN_STATEMENT_HEADER",
