@@ -59,9 +59,10 @@
     {
       "id": 7,
       "suffix": "EPOST_COURT",
-      "gateway": "SBI",
+      "gateway": "eTreasury",
       "paymentMode": [
-        "ONLINE"
+        "ONLINE",
+        "OFFLINE"
       ]
     },
     {
@@ -71,6 +72,14 @@
       "paymentMode": [
         "ONLINE",
         "OFFLINE"
+      ]
+    },
+    {
+      "id": 9,
+      "suffix": "EPOST_PROCESS",
+      "gateway": "SBI",
+      "paymentMode": [
+        "ONLINE"
       ]
     }
   ]
