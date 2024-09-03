@@ -20,30 +20,11 @@
                 "required": false,
                 "isMandatory": true,
                 "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
-                "options": [
-                  {
-                    "code": "INDIVIDUAL",
-                    "name": "Individual",
-                    "showCompanyDetails": false,
-                    "commonFields": true,
-                    "isEnabled": true
-                  },
-                  {
-                    "code": "REPRESENTATIVE",
-                    "name": "Entity",
-                    "showCompanyDetails": true,
-                    "commonFields": true,
-                    "isVerified": true,
-                    "hasBarRegistrationNo": true,
-                    "isEnabled": true
-                  }
-                ]
+                "mdmsConfig": {
+                  "masterName": "ComplainantRespondentType",
+                  "moduleName": "case",
+                  "select": "(data) => {return data['case'].ComplainantRespondentType?.map((item) => {return item;});}"
+                }
               }
             }
           ]
@@ -157,6 +138,15 @@
             ]
           },
           "head": "CS_RESPONDENT_PHONE",
+          "updateLabelOn": "respondentType.showCompanyDetails",
+          "updateLabel": {
+            "key": "head",
+            "value": "CS_REPRESENTATIVE_PHONE"
+          },
+          "defaultLabel": {
+            "key": "head",
+            "value": "CS_RESPONDENT_PHONE"
+          },
           "body": [
             {
               "type": "component",
@@ -199,6 +189,15 @@
             ]
           },
           "head": "CS_RESPONDENT_EMAIL",
+          "updateLabelOn": "respondentType.showCompanyDetails",
+          "updateLabel": {
+            "key": "head",
+            "value": "CS_REPRESENTATIVE_EMAIL"
+          },
+          "defaultLabel": {
+            "key": "head",
+            "value": "CS_RESPONDENT_EMAIL"
+          },
           "body": [
             {
               "type": "component",
@@ -216,6 +215,7 @@
                     "error": "ERR_HRMS_INVALID_MOB_NO",
                     "validation": {
                       "required": true,
+                      "maxLength": 150,
                       "pattern": {
                         "patternType": "email",
                         "masterName": "commonUiConfig",
