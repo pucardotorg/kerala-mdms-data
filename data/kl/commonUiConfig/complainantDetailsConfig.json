@@ -255,7 +255,7 @@
               "key": "companyDetailsUpload",
               "label": "COMPANY_DOCUMENT_DETAILS",
               "withoutLabel": true,
-              "isMandatory": true,
+              "isMandatory": false,
               "populators": {
                 "inputs": [
                   {
