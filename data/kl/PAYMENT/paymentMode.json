@@ -1,0 +1,60 @@
+{
+  "tenantId": "kl",
+  "moduleName": "payment",
+  "paymentMode": [
+    {
+      "id": 1,
+      "suffix": "CASE_FILING",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 2,
+      "suffix": "APPL_FILING",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 3,
+      "suffix": "SMS_COURT",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 4,
+      "suffix": "EMAIL_COURT",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 5,
+      "suffix": "POST_COURT",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 6,
+      "suffix": "POST_PROCESS",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 7,
+      "suffix": "EPOST_COURT",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 8,
+      "suffix": "ICOPS_COURT",
+      "gateway": "eTreasury",
+      "paymentMode": ["ONLINE", "OFFLINE"]
+    },
+    {
+      "id": 9,
+      "suffix": "EPOST_PROCESS",
+      "gateway": "SBI",
+      "paymentMode": ["ONLINE"]
+    }
+  ]
+}

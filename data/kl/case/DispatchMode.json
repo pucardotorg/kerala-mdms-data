@@ -1,0 +1,12 @@
+{
+  "tenantId": "kl",
+  "moduleName": "case",
+  "DispatchMode": [
+    {
+      "id": 1,
+      "code": "POST",
+      "name": "Post",
+      "isActive": true
+    }
+  ]
+}

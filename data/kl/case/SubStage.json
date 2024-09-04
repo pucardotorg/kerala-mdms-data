@@ -1,0 +1,46 @@
+{
+  "tenantId": "kl",
+  "moduleName": "case",
+  "SubStage": [
+    {
+      "id": 1,
+      "subStage": "Filing"
+    },
+    {
+      "id": 2,
+      "subStage": "Cognizance"
+    },
+    {
+      "id": 3,
+      "subStage": "Inquiry"
+    },
+    {
+      "id": 4,
+      "subStage": "Appearance"
+    },
+    {
+      "id": 5,
+      "subStage": "Framing of charges"
+    },
+    {
+      "id": 6,
+      "subStage": "Evidence"
+    },
+    {
+      "id": 7,
+      "subStage": "Arguments"
+    },
+    {
+      "id": 8,
+      "subStage": "Judgement"
+    },
+    {
+      "id": 9,
+      "subStage": "Post-Judgement"
+    },
+    {
+      "id": 10,
+      "subStage": "Referred to ADR"
+    }
+  ]
+}
