@@ -3,28 +3,154 @@
   "moduleName": "BillingService",
   "BusinessService": [
     {
-      "businessService": "PropertyTax",
-      "code": "PT",
-      "collectionModesNotAllowed": [
-        "DD","OFFLINE_NEFT","OFFLINE_RTGS","POSTAL_ORDER"
-      ],
-      "partPaymentAllowed": true,
-      "minAmountPayable":100,
+      "code": "application-order-submission-default",
+      "billGineiURL": " ",
+      "businessService": "application-order-submission-default",
+      "demandUpdateTime": 604800000,
       "isAdvanceAllowed": false,
-      "demandUpdateTime": 86400000,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
       "isVoucherCreationEnabled": true,
-      "billGineiURL" : "egov-searcher/bill-genie/billswithaddranduser/_get"
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
     },
     {
-      "businessService": "case",
-      "code": "case",
-      "collectionModesNotAllowed": [
-        "OFFLINE_NEFT","OFFLINE_RTGS"
-      ],
-      "partPaymentAllowed": false,
-      "isAdvanceAllowed": false,
+      "code": "application-voluntary-submission",
+      "billGineiURL": " ",
+      "businessService": "application-voluntary-submission",
       "demandUpdateTime": 604800000,
-      "isVoucherCreationEnabled": true
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "case-default",
+      "billGineiURL": " ",
+      "businessService": "case-default",
+      "demandUpdateTime": 604800000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "task-summon",
+      "billGineiURL": " ",
+      "businessService": "task-summon",
+      "demandUpdateTime": 604799998,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "async-submission-with-response-managelifecycle",
+      "billGineiURL": " ",
+      "businessService": "async-submission-with-response-managelifecycle",
+      "demandUpdateTime": 604800000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "async-order-submission-managelifecycle",
+      "billGineiURL": " ",
+      "businessService": "async-order-submission-managelifecycle",
+      "demandUpdateTime": 604799999,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "async-order-submission",
+      "billGineiURL": " ",
+      "businessService": "async-order-submission",
+      "demandUpdateTime": 604800000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "advocateApplication",
+      "billGineiURL": " ",
+      "businessService": "advocateApplication",
+      "demandUpdateTime": 604800000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "task",
+      "billGineiURL": "",
+      "businessService": "task",
+      "demandUpdateTime": 604800000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 0,
+      "partPaymentAllowed": false,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
+    },
+    {
+      "code": "PT",
+      "billGineiURL": "egov-searcher/bill-genie/billswithaddranduser/_get",
+      "businessService": "PropertyTax",
+      "demandUpdateTime": 86400000,
+      "isAdvanceAllowed": false,
+      "minAmountPayable": 100,
+      "partPaymentAllowed": true,
+      "isVoucherCreationEnabled": true,
+      "collectionModesNotAllowed": [
+        "OFFLINE_NEFT",
+        "OFFLINE_RTGS",
+        "POSTAL_ORDER"
+      ]
     }
   ]
 }

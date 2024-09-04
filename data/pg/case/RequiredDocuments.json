@@ -1,0 +1,12 @@
+{
+    "tenantId": "pg",
+    "moduleName": "case",
+    "RequiredDocuments": [
+      {
+        "caseType": "NIA-138",
+        "fileStoreId": "a06bd827-1f69-4f4f-99dd-7783e670b6d9",
+        "isActive": true
+      }
+    ]
+  }
+  
