@@ -1,0 +1,12 @@
+{
+    "tenantId": "kl",
+    "moduleName": "case",
+    "RequiredDocuments": [
+      {
+        "caseType": "NIA-138",
+        "fileStoreId": "6a3f7eea-7ee6-4b82-a8e8-6745ba321c9a",
+        "isActive": true
+      }
+    ]
+  }
+  
