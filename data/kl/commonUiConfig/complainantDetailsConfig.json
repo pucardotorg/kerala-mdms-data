@@ -259,9 +259,10 @@
               "populators": {
                 "inputs": [
                   {
-                    "isMandatory": true,
+                    "isMandatory": false,
                     "name": "document",
                     "documentHeader": "COMPANY_DOCUMENT_DETAILS",
+                    "isOptional": "CS_IS_OPTIONAL",
                     "type": "DragDropComponent",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
