@@ -1,0 +1,31 @@
+{
+  "tenantId": "pg",
+  "moduleName": "User Registration",
+  "IdentityType": [
+    {
+      "id": 1,
+      "type": "AADHAR",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "VOTER_ID",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "DRIVING_LICENSE",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "type": "PAN_CARD",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "type": "PASSPORT",
+      "isactive": true
+    }
+  ]
+}
