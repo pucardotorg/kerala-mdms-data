@@ -6,6 +6,7 @@
       "id": 1,
       "paymentType": "Case Filing Fee",
       "suffix": "CASE_FILING",
+      "deliveryChannel": "Online",
       "businessService": [
         {
           "id": 1,
@@ -17,6 +18,7 @@
       "id": 2,
       "paymentType": "Application Filing Fee",
       "suffix": "APPL_FILING",
+      "deliveryChannel": "Online",
       "businessService": [
         {
           "id": 1,
@@ -44,6 +46,7 @@
       "id": 3,
       "paymentType": "Summons SMS Court Fee",
       "suffix": "SMS_COURT",
+      "deliveryChannel": "SMS",
       "businessService": [
         {
           "id": 1,
@@ -55,6 +58,7 @@
       "id": 4,
       "paymentType": "Summons Email Court Fee",
       "suffix": "EMAIL_COURT",
+      "deliveryChannel": "Email",
       "businessService": [
         {
           "id": 1,
@@ -66,6 +70,7 @@
       "id": 5,
       "paymentType": "Summons Post Court Fee",
       "suffix": "POST_COURT",
+      "deliveryChannel": "POST",
       "businessService": [
         {
           "id": 1,
@@ -77,6 +82,7 @@
       "id": 6,
       "paymentType": "Summons Post Process Fee",
       "suffix": "POST_PROCESS",
+      "deliveryChannel": "POST",
       "businessService": [
         {
           "id": 1,
@@ -88,6 +94,7 @@
       "id": 7,
       "paymentType": "Summons Epost Court Fee",
       "suffix": "EPOST_COURT",
+      "deliveryChannel": "EPOST",
       "businessService": [
         {
           "id": 1,
@@ -99,6 +106,7 @@
       "id": 8,
       "paymentType": "Summons iCops Court Fee",
       "suffix": "ICOPS_COURT",
+      "deliveryChannel": "POLICE",
       "businessService": [
         {
           "id": 1,
@@ -110,6 +118,7 @@
       "id": 9,
       "paymentType": "Notice Epost Court Fee",
       "suffix": "EPOST_COURT",
+      "deliveryChannel": "EPOST",
       "businessService": [
         {
           "id": 1,
@@ -121,6 +130,7 @@
       "id": 10,
       "paymentType": "Notice Post Process Fee",
       "suffix": "POST_COURT",
+      "deliveryChannel": "POST",
       "businessService": [
         {
           "id": 1,
@@ -132,6 +142,7 @@
       "id": 11,
       "paymentType": "Notice Post Court Fee",
       "suffix": "POST_PROCESS",
+      "deliveryChannel": "POST",
       "businessService": [
         {
           "id": 1,
@@ -143,6 +154,7 @@
       "id": 12,
       "paymentType": "Notice Email Court Fee",
       "suffix": "EMAIL_COURT",
+      "deliveryChannel": "EMAIL",
       "businessService": [
         {
           "id": 1,
@@ -154,6 +166,7 @@
       "id": 13,
       "paymentType": "Notice SMS Court Fee",
       "suffix": "SMS_COURT",
+      "deliveryChannel": "SMS",
       "businessService": [
         {
           "id": 1,
