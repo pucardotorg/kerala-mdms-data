@@ -24,6 +24,66 @@
     },
     {
       "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward court fees",
+      "code": "CASE_ADVANCE_CARRYFORWARD_COURT_FEES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward vakalathnama fee",
+      "code": "CASE_ADVANCE_CARRYFORWARD_VAKALATHNAMA_FEES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward Advocate welfare fund",
+      "code": "CASE_ADVANCE_CARRYFORWARD_ADVOCATE_WELFARE_FUND",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward advocate clerk welfare fund",
+      "code": "CASE_ADVANCE_CARRYFORWARD_ADVOCATE_CLERK_WELFARE_FUND",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward total application fee",
+      "code": "CASE_ADVANCE_CARRYFORWARD_APPLICATION_FEES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "case",
+      "name": "Case Efiling advance carry forward petition fee",
+      "code": "CASE_ADVANCE_CARRYFORWARD_PETITION_FEES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
       "service": "task",
       "name": "Task Settlement advance carry forward",
       "code": "TASK_ADVANCE_CARRYFORWARD",
@@ -37,6 +97,46 @@
       "service": "advocateApplication",
       "name": "advocate application Settlement advance carry forward",
       "code": "ADVOCATE_APPLICATION_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "task-summon",
+      "name": "Task Summon advance carry forward",
+      "code": "TASK_SUMMON_ADVANCE_CARRYFORWARD",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "task-summon",
+      "name": "Task Summon advance carry forward court fees",
+      "code": "TASK_SUMMON_ADVANCE_CARRYFORWARD_COURT_FEES",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "task-summon",
+      "name": "Task Summon advance carry forward gst",
+      "code": "TASK_SUMMON_ADVANCE_CARRYFORWARD_GST",
+      "isDebit": true,
+      "isActualDemand": false,
+      "order": "0",
+      "isRequired": false
+    },
+    {
+      "category": "ADVANCE_COLLECTION",
+      "service": "task-summon",
+      "name": "Task Summon advance carry forward iPost",
+      "code": "TASK_SUMMON_ADVANCE_CARRYFORWARD_I_POST",
       "isDebit": true,
       "isActualDemand": false,
       "order": "0",
