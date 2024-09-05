@@ -11,7 +11,7 @@
     {
         "id": 2,
         "type": "ADMIN",
-        "isactive": true,
+        "isactive": false,
         "code": "ADMIN"
     },
     {
@@ -67,6 +67,18 @@
         "type": "OTHERS",
         "isactive": true,
         "code": "OTHERS"
+    },
+    {
+        "id": 12,
+        "type": "APPEARANCE",
+        "isactive": true,
+        "code": "APPEARANCE"
+    },
+    {
+        "id": 13,
+        "type": "EXAMINATION_OF_ACCUSED",
+        "isactive": true,
+        "code": "EXAMINATION_OF_ACCUSED"
     }
 ]
 
