@@ -19,7 +19,7 @@
                     "moduleName": "patternValidation"
                   },
                   "patternType": "Name",
-                  "minLength": 2
+                  "minLength": 1
                 },
                 "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
                 "name": "chequeSignatoryName"
@@ -72,7 +72,7 @@
                     "moduleName": "patternValidation"
                   },
                   "patternType": "Name",
-                  "minLength": 2
+                  "minLength": 1
                 },
                 "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
                 "name": "name"

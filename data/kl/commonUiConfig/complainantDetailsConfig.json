@@ -55,7 +55,9 @@
         },
         {
           "dependentKey": {
-            "complainantType": ["commonFields"]
+            "complainantType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -108,7 +110,9 @@
         },
         {
           "dependentKey": {
-            "complainantType": ["commonFields"]
+            "complainantType": [
+              "commonFields"
+            ]
           },
           "body": [
             {
@@ -144,7 +148,9 @@
         },
         {
           "dependentKey": {
-            "complainantType": ["commonFields"]
+            "complainantType": [
+              "commonFields"
+            ]
           },
           "head": "CS_COMMON_COMPLAINANT_DETAIL",
           "updateLabelOn": "complainantType.showCompanyDetails",
@@ -171,7 +177,7 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
-                  "minLength": 2,
+                  "minLength": 1,
                   "title": "",
                   "patternType": "Name"
                 }
@@ -181,6 +187,7 @@
               "type": "text",
               "label": "MIDDLE_NAME",
               "labelChildren": "optional",
+              "isMandatory": false,
               "populators": {
                 "name": "middleName",
                 "validation": {
@@ -198,9 +205,10 @@
             {
               "type": "text",
               "label": "LAST_NAME",
+              "labelChildren": "optional",
+              "isMandatory": false,
               "populators": {
                 "name": "lastName",
-                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
                 "validation": {
                   "pattern": {
                     "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
@@ -208,7 +216,6 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
-                  "minLength": 2,
                   "title": "",
                   "patternType": "Name"
                 }
@@ -219,7 +226,9 @@
         {
           "head": "CS_RESPONDENT_COMPANY_DETAIL",
           "dependentKey": {
-            "complainantType": ["showCompanyDetails"]
+            "complainantType": [
+              "showCompanyDetails"
+            ]
           },
           "body": [
             {
@@ -258,7 +267,10 @@
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "uploadGuidelines": "UPLOAD_DOC_50",
-                    "fileTypes": ["JPG", "PDF"],
+                    "fileTypes": [
+                      "JPG",
+                      "PDF"
+                    ],
                     "isMultipleUpload": true
                   }
                 ]
@@ -268,7 +280,9 @@
         },
         {
           "dependentKey": {
-            "complainantType": ["complainantLocation"]
+            "complainantType": [
+              "complainantLocation"
+            ]
           },
           "head": "CS_COMPLAINANT_LOCATION",
           "body": [
@@ -385,7 +399,9 @@
         },
         {
           "dependentKey": {
-            "complainantType": ["showCompanyDetails"]
+            "complainantType": [
+              "showCompanyDetails"
+            ]
           },
           "head": "CS_COMPANY_LOCATION",
           "body": [

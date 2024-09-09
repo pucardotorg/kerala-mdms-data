@@ -58,7 +58,7 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
-                  "minLength": 2,
+                  "minLength": 1,
                   "title": "",
                   "patternType": "Name"
                 }
@@ -68,6 +68,7 @@
               "type": "text",
               "label": "MIDDLE_NAME",
               "labelChildren": "optional",
+        "isMandatory": false,
               "populators": {
                 "name": "respondentMiddleName",
                 "validation": {
@@ -85,9 +86,10 @@
             {
               "type": "text",
               "label": "LAST_NAME",
+              "labelChildren": "optional",
+              "isMandatory": false,
               "populators": {
                 "name": "respondentLastName",
-                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
                 "validation": {
                   "pattern": {
                     "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
@@ -95,7 +97,6 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
-                  "minLength": 2,
                   "title": "",
                   "patternType": "Name"
                 }
