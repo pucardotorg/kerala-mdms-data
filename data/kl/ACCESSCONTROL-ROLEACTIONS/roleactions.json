@@ -981,7 +981,7 @@
       "tenantId": "kl"
     },
     {
-       "rolecode": "MDMS_ADMIN",
+      "rolecode": "MDMS_ADMIN",
       "actionid": 2579,
       "actioncode": "",
       "tenantId": "kl"
@@ -1317,6 +1317,12 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "TASK_VIEWER",
+      "actionid": 2615,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "SUPERUSER",
       "actionid": 2621,
       "actioncode": "",
@@ -1342,6 +1348,12 @@
     },
     {
       "rolecode": "EMPLOYEE",
+      "actionid": 2622,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUPERUSER",
       "actionid": 2622,
       "actioncode": "",
       "tenantId": "kl"
@@ -1365,7 +1377,37 @@
       "tenantId": "kl"
     },
     {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
       "rolecode": "CITIZEN",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2623,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
       "actionid": 2623,
       "actioncode": "",
       "tenantId": "kl"
@@ -1627,6 +1669,120 @@
       "actionid": 2645,
       "actioncode":"",
       "tenantId":"kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2642,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_VIEWER",
+      "actionid": 2637,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CASE_CREATOR",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2638,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_VIEWER",
+      "actionid": 2577,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_DELETE",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2645,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2645,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "CITIZEN",
+      "actionid": 2646,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "EMPLOYEE",
+      "actionid": 2646,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_DATE_REQUESTOR",
+      "actionid": 2647,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_START",
+      "actionid": 2647,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_APPROVER",
+      "actionid": 2647,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_ACCEPTOR",
+      "actionid": 2647,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "HEARING_CLOSER",
+      "actionid": 2647,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "ORDER_CREATOR",
+      "actionid": 2648,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_CREATOR",
+      "actionid": 2568,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "SUBMISSION_CREATOR",
+      "actionid": 2567,
+      "actioncode": "",
+      "tenantId": "kl"
+    },
+    {
+      "rolecode": "NYAY_MITRA_ROLE",
+      "actionid": 2649,
+      "actioncode": "",
+      "tenantId": "kl"
     }
   ]
 }

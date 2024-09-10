@@ -1,0 +1,96 @@
+{
+  "tenantId": "pg",
+  "moduleName": "case",
+  "CaseOverallStatusType": [
+    {
+      "id": "10",
+      "stage": "Referred to ADR",
+      "state": "published",
+      "action": "E-SIGN",
+      "substage": "Referred to ADR",
+      "typeIdentifier": "REFERRAL_CASE_TO_ADR",
+      "workflowModule": "order-default"
+    },
+    {
+      "id": "9",
+      "stage": "Post-Trial",
+      "state": "published",
+      "action": "",
+      "substage": "Post-Judgement",
+      "typeIdentifier": "judgement",
+      "workflowModule": "order-default"
+    },
+    {
+      "id": "8",
+      "stage": "Post-Trial",
+      "state": "",
+      "action": "create",
+      "substage": "Judgment",
+      "typeIdentifier": "judgement",
+      "workflowModule": "hearing-default"
+    },
+    {
+      "id": "7",
+      "stage": "Trial",
+      "state": "",
+      "action": "create",
+      "substage": "Arguments",
+      "typeIdentifier": "arguments",
+      "workflowModule": "hearing-default"
+    },
+    {
+      "id": "6",
+      "stage": "Trial",
+      "state": "",
+      "action": "create",
+      "substage": "Evidence",
+      "typeIdentifier": "evidence",
+      "workflowModule": "hearing-default"
+    },
+    {
+      "id": "5",
+      "stage": "Pre-Trial",
+      "state": "",
+      "action": "save_draft",
+      "substage": "Draft",
+      "typeIdentifier": "",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "4",
+      "stage": "Pre-Trial",
+      "state": "",
+      "action": "admit",
+      "substage": "Appearance",
+      "typeIdentifier": "",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "3",
+      "stage": "Pre-Trial",
+      "state": "",
+      "action": "validate",
+      "substage": "Cognizance",
+      "typeIdentifier": "",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "2",
+      "stage": "Pre-Trial",
+      "state": "",
+      "action": "submit_case",
+      "substage": "Filing",
+      "typeIdentifier": "",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "1",
+      "stage": "Pre-Trial",
+      "state": "",
+      "action": "send_back",
+      "substage": "Filing",
+      "typeIdentifier": "",
+      "workflowModule": "case-default"
+    }
+  ]
+}

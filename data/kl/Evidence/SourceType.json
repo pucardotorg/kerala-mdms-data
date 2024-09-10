@@ -1,0 +1,24 @@
+{
+  "tenantId": "pg",
+  "moduleName": "Evidence",
+  "SourceType": [
+    {
+      "id": 1,
+      "type": "COMPLAINANT",
+      "subtype": "",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "type": "ACCUSED",
+      "subtype": "",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "type": "COURT",
+      "subtype": "",
+      "isactive": true
+    }
+  ]
+}

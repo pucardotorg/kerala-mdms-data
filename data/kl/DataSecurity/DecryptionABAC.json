@@ -1623,6 +1623,22 @@
           ]
         }
       ]
+    },
+    {
+      "key": "CourtCase",
+      "roleAttributeAccessList": [
+        {
+          "roleCode": "EMPLOYEE",
+          "attributeAccessList": [
+            {
+              "attribute": {
+                "jsonPath": "/accessCode"
+              },
+              "accessType": "PLAIN"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
