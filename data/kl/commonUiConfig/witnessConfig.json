@@ -53,6 +53,7 @@
               "isMandatory": false,
               "populators": {
                 "name": "lastName",
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
                 "validation": {
                   "pattern": {
                     "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
@@ -60,6 +61,7 @@
                     "masterName": "commonUiConfig",
                     "moduleName": "patternValidation"
                   },
+                  "minLength": 2,
                   "title": "",
                   "patternType": "Name"
                 }

@@ -31,7 +31,6 @@
       "order": 2,
       "tenants": [
        {
-          "code": "kl"
         }
       ]
     },
@@ -42,7 +41,6 @@
       "order": 3,
       "tenants": [
        {
-          "code": "kl"
         }
       ]
     },
@@ -53,7 +51,6 @@
       "order": 4,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     },
@@ -64,7 +61,6 @@
       "order": 4,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     },
@@ -75,7 +71,6 @@
       "order": 4,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     },
@@ -86,7 +81,6 @@
       "order": 4,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     },
@@ -97,7 +91,6 @@
       "order": 5,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     },
@@ -108,7 +101,6 @@
       "order": 6,
       "tenants": [
         {
-          "code": "kl"
         }
       ]
     }

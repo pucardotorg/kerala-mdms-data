@@ -41,6 +41,67 @@
         "stateSLA": 0.01,
         "businessSLA": null,
         "topic": "pgr-auto-escalation"
+      },
+      {
+        "businessService": "task-notice",
+        "module": "task",
+        "state": "ISSUE_NOTICE",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "notice-auto-escalation"
+      },
+      {
+        "businessService": "task-summon",
+        "module": "task",
+        "state": "ISSUE_SUMMON",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "summons-auto-escalation"
+      },
+      {
+        "businessService": "task-notice",
+        "module": "task",
+        "state": "ISSUE_NOTICE",
+        "action": "NOT_SERVED",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "notice-auto-escalation"
+      },
+      {
+        "businessService": "application-order-submission-feedback",
+        "module": "application",
+        "state": "PENDING_RESPONSE",
+        "action": "RESPOND",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "application-response-auto-escalation"
+      },
+      {
+        "businessService": "application-voluntary-submission",
+        "module": "application",
+        "state": "PENDING_REVIEW",
+        "action": "RESPOND",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "application-review-auto-escalation"
+
+      },
+      {
+        "businessService": "task-warrant",
+        "module": "task",
+        "state": "OPTOUT",
+        "action": "SET_DATE",
+        "active": "true",
+        "stateSLA": 1.0,
+        "businessSLA": null,
+        "topic" : "hearing-optout-auto-escalation"
       }
     ]
   }

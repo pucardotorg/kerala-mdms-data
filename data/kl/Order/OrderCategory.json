@@ -11,6 +11,11 @@
       "id": 2,
       "category": "JUDGEMENT",
       "isactive": true
+    },
+    {
+      "id": 3,
+      "category": "ADMINISTRATIVE",
+      "isactive": true
     }
   ]
 }
