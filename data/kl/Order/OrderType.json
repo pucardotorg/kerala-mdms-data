@@ -127,6 +127,18 @@
       "type": "ASSIGNING_DATE_RESCHEDULED_HEARING",
       "isactive": true,
       "code": "ASSIGNING_DATE_RESCHEDULED_HEARING"
+    },
+    {
+      "id": 22,
+      "type": "CHECKOUT_ACCEPTANCE",
+      "isactive": true,
+      "code": "CHECKOUT_ACCEPTANCE"
+    },
+    {
+      "id": 23,
+      "type": "CHECKOUT_REJECT",
+      "isactive": true,
+      "code": "CHECKOUT_REJECT"
     }
   ]
 }
