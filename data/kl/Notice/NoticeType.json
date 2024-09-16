@@ -1,0 +1,12 @@
+{
+    "tenantId": "kl",
+    "moduleName": "Notice",
+    "NoticeType": [
+      {
+        "id": 1,
+        "type": "Section 223 Notice",
+        "isActive": true
+      }
+    ]
+  }
+  
