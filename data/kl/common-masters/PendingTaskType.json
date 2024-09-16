@@ -7,9 +7,9 @@
         "pendingTask": "Admit Case",
         "actor": "Judge",
         "triggerAction": ["VALIDATE"],
-        "state": "PENDING_ADMISSION",
+        "state": "PENDING_REGISTRATION",
         "workflowModule": "case",
-        "closerAction": ["SEND_BACK", "ADMIT"]
+        "closerAction": ["SEND_BACK", "REGISTER"]
       },
       {
         "id": "2",
@@ -18,14 +18,14 @@
         "triggerAction": ["SCHEDULE_ADMISSION_HEARING"],
         "state": "ADMISSION_HEARING_SCHEDULED",
         "workflowModule": "case",
-        "closerAction": ["ADMIT", "REJECT"]
+        "closerAction": ["ADMIT"]
       },
       {
         "id": "3",
         "pendingTask": "Correct File Errors",
         "actor": "Advocate/Litigant",
         "triggerAction": ["SEND_BACK"],
-        "state": "CASE_RE_ASSIGNED",
+        "state": "CASE_REASSIGNED",
         "workflowModule": "case",
         "closerAction": ["EDIT_CASE"]
       },
@@ -43,7 +43,7 @@
         "pendingTask": "Payment Pending",
         "actor": "Collector - Nyay Mitra/Advocate/Litigant",
         "triggerAction": ["SUBMIT_CASE"],
-        "state": "PAYMENT_PENDING",
+        "state": "PENDING_PAYMENT",
         "workflowModule": "case",
         "closerAction": ["MAKE_PAYMENT"]
       },
