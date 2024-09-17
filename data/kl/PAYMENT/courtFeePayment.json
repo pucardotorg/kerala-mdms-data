@@ -1,0 +1,18 @@
+{
+  "tenantId": "pg",
+  "moduleName": "payment",
+  "courtFeePayment": [
+    {
+      "id": 1,
+      "paymentType": "APPLICATION_FEE",
+      "paymentCode": "APPLICATION_FEE",
+      "amount": 2
+    },
+    {
+      "id": 2,
+      "paymentType": "SUMMONS_COURT_FEE",
+      "paymentCode": "SUMMONS_COURT_FEE",
+      "amount": 5
+    }
+  ]
+}
