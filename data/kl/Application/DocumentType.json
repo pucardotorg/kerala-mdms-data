@@ -1,0 +1,22 @@
+{
+    "tenantId": "kl",
+    "moduleName": "Application",
+    "DocumentType": [
+        {
+            "id": 1,
+            "code": "TAX_RECORDS",
+            "name": "Tax Records",
+            "description": "TAX_RECORDS_DESCRIPTION",
+            "hint": "TAX_RECORDS_DOCUMENT_TYPE",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "code": "SALARY_RECEIPTS",
+            "name": "Salary Reciepts",
+            "description": "SALARY_RECEIPTS_DESCRIPTION",
+            "hint": "SALARY_RECEIPTS_DOCUMENT_TYPE",
+            "isActive": true
+        }
+    ]
+}

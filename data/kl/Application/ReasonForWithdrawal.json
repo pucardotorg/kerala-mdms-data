@@ -6,6 +6,30 @@
         "id": 1,
         "code": "REASON_1",
         "name": "REASON_1",
+        "isactive": false
+      },
+      {
+        "id": 2,
+        "code": "SETTLED",
+        "name": "SETTLED",
+        "isactive": true
+      },
+      {
+        "id": 3,
+        "code": "INFRUCTUOUS",
+        "name": "INFRUCTUOUS",
+        "isactive": true
+      },
+      {
+        "id": 4,
+        "code": "INTEND_TO_SETTLE",
+        "name": "INTEND_TO_SETTLE",
+        "isactive": true
+      },
+      {
+        "id": 5,
+        "code": "OTHER",
+        "name": "OTHER",
         "isactive": true
       }
     ]

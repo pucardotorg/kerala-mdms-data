@@ -4,8 +4,26 @@
     "WarrantType": [
       {
         "id": 1,
-        "code": "WARRANT_TYPE_1",
-        "name": "WARRANT_TYPE_1",
+        "code": "ARREST",
+        "name": "Arrest",
+        "isactive": true
+      },
+      {
+        "id": 2,
+        "code": "BENCH",
+        "name": "Bench",
+        "isactive": true
+      },
+      {
+        "id": 3,
+        "code": "SEARCH",
+        "name": "Search",
+        "isactive": true
+      },
+      {
+        "id": 4,
+        "code": "WITNESS",
+        "name": "Witness",
         "isactive": true
       }
     ]

@@ -4,8 +4,38 @@
   "DocumentType": [
     {
       "id": 1,
-      "isActive": true,
-      "value": "default"
+      "value": "Evidence",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "value": "Affidavit",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "value": "Objection",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "value": "Settlement record",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "value": "Pleading",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "value": "Miscellaneous",
+      "isActive": true
+    },
+    {
+      "id": 7,
+      "value": "Application",
+      "isActive": true
     }
   ]
 }

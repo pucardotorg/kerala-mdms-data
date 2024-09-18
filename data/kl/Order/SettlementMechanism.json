@@ -4,8 +4,32 @@
   "SettlementMechanism": [
     {
       "id": 1,
-      "code": "MECHANISM_1",
-      "name": "MECHANISM_1",
+      "code": "NEGOTIATION",
+      "name": "Negotiation",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "code": "FACILITATION",
+      "name": "Facilitation",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "code": "MEDIATION",
+      "name": "Mediation",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "code": "CONCILIATION",
+      "name": "Conciliation",
+      "isactive": true
+    },
+    {
+      "id": 5,
+      "code": "ARBITRATION",
+      "name": "Arbitration",
       "isactive": true
     }
   ]
