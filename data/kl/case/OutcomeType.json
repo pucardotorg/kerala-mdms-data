@@ -1,5 +1,5 @@
 {
-  "tenantId": "pg",
+  "tenantId": "kl",
   "moduleName": "case",
   "OutcomeType": [
     {
@@ -10,9 +10,9 @@
       "judgementList": [
         "DISMISSED",
         "ALLOWED",
-        "PARTLY_ALLOWED",
+        "PARTIALLYALLOWED",
         "CONVICTED",
-        "PARTLY_CONVICTED"
+        "PARTIALLYCONVICTED"
       ]
     },
     {
