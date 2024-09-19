@@ -101,6 +101,77 @@
     {
       "format": "ICOPS-[cy:yyyy-MM-dd]-[SEQ_EGOV_COMMON]",
       "idname": "icops.sh"
+    },
+    {
+      "format": "[TENANT_ID]-[SEQ_FILING_NUMBER]-[cy:YYYY]",
+      "idname": "case.filingnumber"
+    },
+    {
+      "format": "[TENANT_ID][SEQ_CNR_[TENANT_ID]][cy:YYYY]",
+      "idname": "case.cnr.[TENANT_ID]"
+    },
+    {
+      "format": "ST/[SEQ_CCST_[TENANT_ID]]/[cy:YYYY]",
+      "idname": "case.ccst.[TENANT_ID]"
+    },
+    {
+      "format": "CMP/[SEQ_CMP_[TENANT_ID]]/[cy:YYYY]",
+      "idname": "case.cmp.[TENANT_ID]"
+    },
+    {
+      "format": "[TENANT_ID]-ADV-[SEQ_REG_ADV]-[cy:YYYY]",
+      "idname": "user.registration.advocate"
+    },
+    {
+      "format": "[TENANT_ID]-CLERK-[SEQ_REG_CLERK]-[cy:YYYY]",
+      "idname": "user.registration.advocate.clerk"
+    },
+    {
+      "format": "HR[SEQ_HEARING_[TENANT_ID]]",
+      "idname": "case.hearing.[TENANT_ID]"
+    },    {
+      "format": "OR[SEQ_ORDER_[TENANT_ID]]",
+      "idname": "case.order.[TENANT_ID]"
+    },
+    {
+      "format": "TK[SEQ_ORDER_[TENANT_ID]]",
+      "idname": "case.task.[TENANT_ID]"
+    },
+    {
+      "format": "SM[SEQ_ORDER_[TENANT_ID]]",
+      "idname": "case.summons.[TENANT_ID]"
+    },
+    {
+      "format": "WR[SEQ_ORDER_[TENANT_ID]]",
+      "idname": "case.warrant.[TENANT_ID]"
+    },
+    {
+      "format": "BL[SEQ_ORDER_[TENANT_ID]]",
+      "idname": "case.bail.[TENANT_ID]"
+    },
+    {
+      "format": "P[SEQ_PRSQN_[TENANT_ID]]",
+      "idname": "case.evidence.prosecution.[TENANT_ID]"
+    },
+    {
+      "format": "D[SEQ_DFNC_[TENANT_ID]]",
+      "idname": "case.evidence.defence.[TENANT_ID]"
+    },
+    {
+      "format": "C[SEQ_COURT_[TENANT_ID]]",
+      "idname": "case.evidence.court.[TENANT_ID]"
+    },
+    {
+      "format": "PW[SEQ_PRSQNWTNS_[TENANT_ID]]",
+      "idname": "case.evidence.prosecution.witness.[TENANT_ID]"
+    },
+    {
+      "format": "DWSEQ_DFNCWTNS_[TENANT_ID]]",
+      "idname": "case.evidence.defence.witness.[TENANT_ID]"
+    },
+    {
+      "format": "CW[SEQ_COURTWTNS_[TENANT_ID]]",
+      "idname": "case.evidence.court.witness.[TENANT_ID]"
     }
   ]
 }
