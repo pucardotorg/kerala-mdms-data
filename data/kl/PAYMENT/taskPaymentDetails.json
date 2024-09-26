@@ -1,0 +1,65 @@
+{
+  "tenantId": "kl",
+  "moduleName": "task-payment",
+  "taskPaymentDetails": [
+    {
+      "type": "SUMMON",
+      "courtfee": 10,
+      "issuanceFeeEnable": true,
+      "issuedEntities": [
+        {
+          "type": "SUMMON",
+          "entity": "ACCUSED",
+          "issuanceFee": 0.5
+        },
+        {
+          "type": "SUMMON",
+          "entity": "WITNESS",
+          "issuanceFee": 0.5
+        }
+      ],
+      "channelAllowed": ["SMS","EMAIL","EPOST","RPAD","POLICE"]
+    },
+    {
+      "type": "NOTICE",
+      "courtfee": 10,
+      "issuanceFeeEnable": true,
+      "issuedEntities": [
+        {
+          "type": "NOTICE",
+          "entity": "ACCUSED",
+          "issuanceFee": 0.75
+        }
+      ],
+      "channelAllowed": ["SMS","EMAIL","EPOST","RPAD"]
+    },
+    {
+      "type": "WARRANT",
+      "courtfee": 10,
+      "issuanceFeeEnable": true,
+      "issuedEntities": [
+        {
+          "type": "ARREST",
+          "entity": "ACCUSED",
+          "issuanceFee": 1
+        },
+        {
+          "type": "BENCH",
+          "entity": "ACCUSED",
+          "issuanceFee": 0.75
+        },
+        {
+          "type": "SEARCH",
+          "entity": "ACCUSED",
+          "issuanceFee": 0.75
+        },
+        {
+          "type": "WITNESS",
+          "entity": "ACCUSED",
+          "issuanceFee": 0.75
+        }
+      ],
+      "channelAllowed": ["POLICE"]
+    }
+  ]
+}
