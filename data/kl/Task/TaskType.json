@@ -1,0 +1,30 @@
+{
+  "tenantId": "kl",
+  "moduleName": "Task",
+  "DeliveryChannel": [
+    {
+      "id": 1,
+      "code": "SUMMON",
+      "value": "Summon",
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "code": "WARRANT",
+      "value": "Warrant",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "code": "BAIL",
+      "value": "Bail",
+      "isactive": true
+    },
+    {
+      "id": 4,
+      "code": "NOTICE",
+      "value": "Notice",
+      "isactive": true
+    }
+  ]
+}
