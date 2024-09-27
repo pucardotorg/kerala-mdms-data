@@ -15,6 +15,69 @@
       "hearingName": "Trial Hearing",
       "hearingTime": "60",
       "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 3,
+      "hearingType": "ARGUMENTS",
+      "hearingName": "Trial Hearing",
+      "hearingTime": "21",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 4,
+      "hearingType": "BAIL",
+      "hearingName": "Bail",
+      "hearingTime": "2",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 5,
+      "hearingType": "PLEA",
+      "hearingName": "Plea",
+      "hearingTime": "2",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 6,
+      "hearingType": "EVIDENCE",
+      "hearingName": "Evidence Hearing",
+      "hearingTime": "1",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 7,
+      "hearingType": "JUDGEMENT",
+      "hearingName": "Evidence Hearing",
+      "hearingTime": "1",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 8,
+      "hearingType": "SETTLEMENT",
+      "hearingName": "Settlement",
+      "hearingTime": "1",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 9,
+      "hearingType": "SUMMONS",
+      "hearingName": "Summons",
+      "hearingTime": "1",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 10,
+      "hearingType": "TRANSFERRED",
+      "hearingName": "Transferred",
+      "hearingTime": "10",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id":11,
+      "hearingType":"WARRANT",
+      "hearingName":"Warrants",
+      "hearingTime":"1",
+      "unitOfMeasurement":"Minutes"
     }
   ]
 }
