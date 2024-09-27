@@ -3,83 +3,82 @@
   "moduleName": "Hearing",
   "HearingType": [
     {
-        "id": 1,
-        "type": "EVIDENCE",
-        "isactive": true,
-        "code": "EVIDENCE"
+      "id": 1,
+      "type": "JUDGEMENT",
+      "isactive": true,
+      "code": "JUDGEMENT"
     },
     {
-        "id": 2,
-        "type": "ADMIN",
-        "isactive": false,
-        "code": "ADMIN"
+      "id": 2,
+      "type": "ADMISSION",
+      "isactive": true,
+      "code": "ADMISSION"
     },
     {
-        "id": 3,
-        "type": "82_83_HEARING",
-        "isactive": true,
-        "code": "82_83_HEARING"
+      "id": 3,
+      "type": "APPEARANCE",
+      "isactive": true,
+      "code": "APPEARANCE"
     },
     {
-        "id": 4,
-        "type": "NBW_HEARING",
-        "isactive": true,
-        "code": "NBW_HEARING"
+      "id": 4,
+      "type": "WARRANT",
+      "isactive": true,
+      "code": "WARRANT"
     },
     {
-        "id": 5,
-        "type": "ADMISSION",
-        "isactive": true,
-        "code": "ADMISSION"
+      "id": 5,
+      "type": "BAIL",
+      "isactive": true,
+      "code": "BAIL"
     },
     {
-        "id": 6,
-        "type": "PLEA",
-        "isactive": true,
-        "code": "PLEA"
+      "id": 6,
+      "type": "PLEA",
+      "isactive": true,
+      "code": "PLEA"
     },
     {
-        "id": 7,
-        "type": "ARGUMENTS",
-        "isactive": true,
-        "code": "ARGUMENTS"
+      "id": 7,
+      "type": "ADR",
+      "isactive": true,
+      "code": "ADR"
     },
     {
-        "id": 8,
-        "type": "JUDGEMENT",
-        "isactive": true,
-        "code": "JUDGEMENT"
+      "id": 8,
+      "type": "REPORTS",
+      "isactive": true,
+      "code": "REPORTS"
     },
     {
-        "id": 9,
-        "type": "SENTENCE",
-        "isactive": true,
-        "code": "SENTENCE"
+      "id": 9,
+      "type": "EVIDENCE_COMPLAINANT",
+      "isactive": true,
+      "code": "EVIDENCE_COMPLAINANT"
     },
     {
-        "id": 10,
-        "type": "BAIL",
-        "isactive": true,
-        "code": "BAIL"
+      "id": 10,
+      "type": "EVIDENCE_ACCUSED",
+      "isactive": true,
+      "code": "EVIDENCE_ACCUSED"
     },
     {
-        "id": 11,
-        "type": "OTHERS",
-        "isactive": true,
-        "code": "OTHERS"
+      "id": 11,
+      "type": "EXAMINATION_UNDER_S351_BNSS",
+      "isactive": true,
+      "code": "EXAMINATION_UNDER_S351_BNSS"
     },
     {
-        "id": 12,
-        "type": "APPEARANCE",
-        "isactive": true,
-        "code": "APPEARANCE"
+      "id": 12,
+      "type": "ARGUMENTS",
+      "isactive": true,
+      "code": "ARGUMENTS"
     },
     {
-        "id": 13,
-        "type": "EXAMINATION_OF_ACCUSED",
-        "isactive": true,
-        "code": "EXAMINATION_OF_ACCUSED"
+      "id": 13,
+      "type": "EXECUTION",
+      "isactive": true,
+      "code": "EXECUTION"
     }
-]
-
+  ]
 }
