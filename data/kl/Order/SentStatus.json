@@ -1,0 +1,48 @@
+{
+    "tenantId": "kl",
+    "moduleName": "Order",
+    "SentStatus": [
+      {
+        "id": 1,
+        "code": "DELIVERED",
+        "name": "Delivered",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "code": "UNDELIVERED",
+        "name": "Undelivered",
+        "isActive": true
+      },
+      {
+        "id": 3,
+        "code": "NOTICE_SENT",
+        "name": "Notice Sent",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "code": "SUMMON_SENT",
+        "name": "Summon Sent",
+        "isActive": true
+      },
+      {
+        "id": 5,
+        "code": "ABATED",
+        "name": "Abated",
+        "isActive": true
+      },
+      {
+        "id": 6,
+        "code": "EXECUTED",
+        "name": "Executed",
+        "isActive": true
+      },
+      {
+        "id": 7,
+        "code": "NOT_EXECUTED",
+        "name": "Not Executed",
+        "isActive": true
+      }
+    ]
+  }

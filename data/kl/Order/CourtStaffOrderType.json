@@ -1,0 +1,24 @@
+{
+    "tenantId": "kl",
+    "moduleName": "Order",
+    "CourtStaffOrderType": [
+      {
+        "id": 1,
+        "code": "SUMMONS",
+        "name": "Summons",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "code": "WARRANT",
+        "name": "Warrant",
+        "isActive": true
+      },
+      {
+        "id": 3,
+        "code": "NOTICE",
+        "name": "Notice",
+        "isActive": true
+      }
+    ]
+  }
