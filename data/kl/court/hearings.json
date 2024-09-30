@@ -4,16 +4,106 @@
   "hearings": [
     {
       "id": 1,
-      "hearingType": "ADMISSION_HEARING",
-      "hearingName": "Admission Hearing",
-      "hearingTime": "30",
+      "priority": 5,
+      "hearingType": "JUDGEMENT",
+      "hearingName": "Judgement",
+      "hearingTime": "3",
       "unitOfMeasurement": "Minutes"
     },
     {
       "id": 2,
-      "hearingType": "TRIAL_HEARING",
-      "hearingName": "Trial Hearing",
-      "hearingTime": "60",
+      "priority": 10,
+      "hearingType": "ADMISSION",
+      "hearingName": "Admission Hearing",
+      "hearingTime": "10",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 3,
+      "priority": 15,
+      "hearingType": "APPEARANCE",
+      "hearingName": "Appearance of the accused",
+      "hearingTime": "2",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 4,
+      "priority": 20,
+      "hearingType": "WARRANT",
+      "hearingName": "Return of warrant",
+      "hearingTime": "2",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 5,
+      "priority": 25,
+      "hearingType": "BAIL",
+      "hearingName": "Bail hearing",
+      "hearingTime": "5",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 6,
+      "priority": 30,
+      "hearingType": "PLEA",
+      "hearingName": "Recording plea of the accused",
+      "hearingTime": "2",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 7,
+      "priority": 35,
+      "hearingType": "ADR",
+      "hearingName": "Referral to ADR",
+      "hearingTime": "3",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 8,
+      "priority": 40,
+      "hearingType": "REPORTS",
+      "hearingName": "For Reports (to be received from Forensics)",
+      "hearingTime": "5",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 9,
+      "priority": 45,
+      "hearingType": "EVIDENCE_COMPLAINANT",
+      "hearingName": "Evidence of Complainant",
+      "hearingTime": "10",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 10,
+      "priority": 50,
+      "hearingType": "EVIDENCE_ACCUSED",
+      "hearingName": "Evidence of Accused",
+      "hearingTime": "10",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 11,
+      "priority": 55,
+      "hearingType": "EXAMINATION_UNDER_S351_BNSS",
+      "hearingName": "Examination of accused under S 351 BNSS",
+      "hearingTime": "5",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 12,
+      "priority": 60,
+      "hearingType": "ARGUMENTS",
+      "hearingName": "Arguments Hearing",
+      "hearingTime": "21",
+      "unitOfMeasurement": "Minutes"
+    },
+    {
+      "id": 13,
+      "priority": 65,
+      "hearingType": "EXECUTION",
+      "hearingName": "Execution",
+      "hearingTime": "1",
       "unitOfMeasurement": "Minutes"
     }
   ]
