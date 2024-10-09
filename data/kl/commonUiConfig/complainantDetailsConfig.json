@@ -523,7 +523,7 @@
         }
       ],
       "header": "CS_COMPLAINT_DETAIL_HEADING",
-      "subtext": "CS_COMPLAINANT_DETAIL_SUBTEXT",
+      "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "isOptional": false,
       "addFormText": "ADD_COMPLAINANT",
       "formItemName": "CS_COMPLAINANT",
