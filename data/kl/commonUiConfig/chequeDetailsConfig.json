@@ -272,7 +272,7 @@
         }
       ],
       "header": "CS_CHEQUE_DETAILS_HEADING",
-      "subtext": "CS_CHEQUE_DETAILS_SUBTEXT",
+      "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "isOptional": false,
       "addFormText": "ADD_CHEQUE",
       "formItemName": "CS_CHEQUE",
