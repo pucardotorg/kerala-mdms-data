@@ -84,6 +84,32 @@
           "body": [
             {
               "type": "text",
+              "label": "CS_PAYEE_BANK_NAME",
+              "isMandatory": true,
+              "populators": {
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+                "name": "payeeBankName"
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
+              "type": "text",
+              "label": "CS_PAYEE_BRANCH_NAME",
+              "isMandatory": true,
+              "populators": {
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+                "name": "payeeBranchName"
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
+              "type": "text",
               "label": "CS_CHEQUE_NUMBER",
               "isMandatory": true,
               "populators": {
@@ -121,11 +147,24 @@
           "body": [
             {
               "type": "text",
-              "label": "CS_BANK_NAME",
+              "label": "CS_PAYER_BANK_NAME",
               "isMandatory": true,
               "populators": {
                 "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
-                "name": "bankName"
+                "name": "payerBankName"
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
+              "type": "text",
+              "label": "CS_PAYER_BRANCH_NAME",
+              "isMandatory": true,
+              "populators": {
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+                "name": "payerBranchName"
               }
             }
           ]
@@ -163,7 +202,11 @@
                 "error": "CORE_REQUIRED_FIELD_ERROR",
                 "componentInFront": "₹",
                 "name": "chequeAmount",
-                "prefix": ""
+                "prefix": "",
+                "intlConfig": {
+                  "locale": "en-IN",
+                  "currency": "INR"
+                }
               }
             }
           ]
@@ -196,13 +239,15 @@
               "component": "SelectCustomDragDrop",
               "key": "depositChequeFileUpload",
               "label": "CS_PROOF_DEPOSIT_CHEQUE",
-              "isMandatory": true,
+              "isMandatory": false,
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
                     "name": "document",
                     "documentHeader": "CS_PROOF_DEPOSIT_CHEQUE",
+                    "isOptional": "CS_IS_OPTIONAL",
+                    "isMandatory": false,
                     "infoTooltipMessage": "Tooltip",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -213,6 +258,26 @@
                       "PDF"
                     ],
                     "isMultipleUpload": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
+              "type": "component",
+              "component": "SelectCustomTextArea",
+              "key": "delayReason",
+              "isMandatory": true,
+              "populators": {
+                "inputs": [
+                  {
+                    "name": "reasonForReturnCheque",
+                    "errorStyle": { "paddingTop": "20px" },
+                    "textAreaSubHeader": "REASON_FOR_RETURN_CHEQUE",
+                    "type": "TextAreaComponent"
                   }
                 ]
               }

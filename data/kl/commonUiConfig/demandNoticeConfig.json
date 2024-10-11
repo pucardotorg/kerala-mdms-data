@@ -7,56 +7,6 @@
         {
           "body": [
             {
-              "type": "component",
-              "component": "SelectUserTypeComponent",
-              "key": "modeOfDispatchType",
-              "label": "CS_MODE_OF_DISPATCH_TYPE",
-              "isMandatory": true,
-              "withoutLabel": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "label": "CS_MODE_OF_DISPATCH_TYPE",
-                    "type": "dropdown",
-                    "name": "modeOfDispatchType",
-                    "optionsKey": "name",
-                    "error": "CORE_REQUIRED_FIELD_ERROR",
-                    "required": false,
-                    "isMandatory": true,
-                    "mdmsConfig": {
-                      "masterName": "DispatchMode",
-                      "moduleName": "case",
-                      "select": "(data) => {return data['case'].DispatchMode?.map((item) => {return item;});}"
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "body": [
-            {
-              "type": "date",
-              "label": "CS_DATE_OF_ISSUANCE_LDN",
-              "labelChildren": "OutlinedInfoIcon",
-              "isMandatory": true,
-              "populators": {
-                "name": "dateOfIssuance",
-                "validation": {
-                  "max": {
-                    "patternType": "date",
-                    "masterName": "commonUiConfig",
-                    "moduleName": "maxDateValidation"
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "body": [
-            {
               "type": "date",
               "label": "CS_DATE_OF_DISPATCH_LDN",
               "labelChildren": "OutlinedInfoIcon",
@@ -315,6 +265,25 @@
         {
           "body": [
             {
+              "type": "component",
+              "component": "SelectCustomNote",
+              "key": "causeOfActionNote",
+              "populators": {
+                "inputs": [
+                  {
+                    "infoHeader": "CS_COMMON_NOTE",
+                    "infoText": "CAUSE_OF_ACTION_FROM_DELIVERY",
+                    "infoTooltipMessage": "Tooltip",
+                    "type": "InfoComponent"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
               "type": "date",
               "label": "CS_DATE_OF_ACCRUAL_LDN",
               "labelChildren": "OutlinedInfoIcon",
@@ -328,42 +297,6 @@
                     "moduleName": "maxDateValidation"
                   }
                 }
-              }
-            }
-          ]
-        },
-        {
-          "body": [
-            {
-              "type": "radio",
-              "key": "delayApplicationType",
-              "label": "CS_PAYER_FAIL_TO_PAY",
-              "isMandatory": true,
-              "populators": {
-                "name": "delayApplicationType",
-                "label": "CS_PAYER_FAIL_TO_PAY",
-                "type": "radioButton",
-                "optionsKey": "name",
-                "error": "CORE_REQUIRED_FIELD_ERROR",
-                "required": false,
-                "isMandatory": true,
-                "isDependent": true,
-                "options": [
-                  {
-                    "code": "YES",
-                    "name": "YES",
-                    "showForm": false,
-                    "isEnabled": true
-                  },
-                  {
-                    "code": "NO",
-                    "name": "NO",
-                    "showForm": true,
-                    "isVerified": true,
-                    "hasBarRegistrationNo": true,
-                    "isEnabled": true
-                  }
-                ]
               }
             }
           ]

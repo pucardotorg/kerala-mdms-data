@@ -54,6 +54,32 @@
           ]
         },
         {
+          "dependentKey": { "complainantType": ["showCompanyDetails"] },
+          "body": [
+            {
+              "type": "dropdown",
+              "key": "complainantTypeOfEntity",
+              "label": "TYPE_OF_ENTITY",
+              "isMandatory": true,
+              "populators": {
+                "label": "SELECT_RESPONDENT_TYPE",
+                "name": "complainantTypeOfEntity",
+                "type": "radioButton",
+                "optionsKey": "name",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "styles": { "maxWidth": "100%", "marginBottom": "10px" },
+                "required": false,
+                "isMandatory": true,
+                "mdmsConfig": {
+                  "masterName": "TypeOfEntity",
+                  "moduleName": "case",
+                  "select": "(data) => {return data['case'].TypeOfEntity?.map((item) => {return item;});}"
+                }
+              }
+            }
+          ]
+        },
+        {
           "dependentKey": {
             "complainantType": [
               "commonFields"
@@ -220,6 +246,20 @@
                   "patternType": "Name"
                 }
               }
+            },
+            {
+              "type": "number",
+              "label": "AGE",
+              "labelChildren": "optional",
+              "isMandatory": false,
+              "populators": {
+                "name": "complainantAge",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "validation": {
+                  "maxLength": 3,
+                  "patternType": "Number"
+                }
+              }
             }
           ]
         },
@@ -233,11 +273,23 @@
           "body": [
             {
               "type": "text",
-              "key": "companyName",
+              "key": "complainantCompanyName",
               "label": "company_Name",
               "isMandatory": true,
               "populators": {
-                "name": "companyName",
+                "name": "complainantCompanyName",
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+                "validation": {
+                  "pattern": {
+                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                    "patternType": "userName",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "patternValidation"
+                  },
+                  "minLength": 1,
+                  "title": "",
+                  "patternType": "Name"
+                },
                 "styles": {
                   "minWidth": "100%"
                 },

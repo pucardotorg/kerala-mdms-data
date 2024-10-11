@@ -30,6 +30,32 @@
           ]
         },
         {
+          "dependentKey": { "respondentType": ["showCompanyDetails"] },
+          "body": [
+            {
+              "type": "dropdown",
+              "key": "respondentTypeOfEntity",
+              "label": "TYPE_OF_ENTITY",
+              "isMandatory": true,
+              "populators": {
+                "label": "SELECT_RESPONDENT_TYPE",
+                "name": "respondentTypeOfEntity",
+                "type": "radioButton",
+                "optionsKey": "name",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "styles": { "maxWidth": "100%", "marginBottom": "10px" },
+                "required": false,
+                "isMandatory": true,
+                "mdmsConfig": {
+                  "masterName": "TypeOfEntity",
+                  "moduleName": "case",
+                  "select": "(data) => {return data['case'].TypeOfEntity?.map((item) => {return item;});}"
+                }
+              }
+            }
+          ]
+        },
+        {
           "head": "CS_RESPONDENT_NAME",
           "updateLabelOn": "respondentType.showCompanyDetails",
           "updateLabel": {
@@ -99,6 +125,20 @@
                   },
                   "title": "",
                   "patternType": "Name"
+                }
+              }
+            },
+            {
+              "type": "number",
+              "label": "AGE",
+              "labelChildren": "optional",
+              "isMandatory": false,
+              "populators": {
+                "name": "respondentAge",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "validation": {
+                  "patternType": "Number",
+                  "maxLength": 3
                 }
               }
             }
@@ -230,12 +270,23 @@
           "body": [
             {
               "type": "text",
-              "key": "companyName",
+              "key": "respondentCompanyName",
               "label": "company_Name",
               "isMandatory": true,
               "populators": {
                 "title": "FIRST_TERMS_AND_CONDITIONS",
-                "name": "companyName",
+                "name": "respondentCompanyName",
+                "validation": {
+                  "pattern": {
+                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                    "patternType": "userName",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "patternValidation"
+                  },
+                  "minLength": 1,
+                  "title": "",
+                  "patternType": "Name"
+                },
                 "styles": {
                   "minWidth": "100%"
                 },
@@ -365,38 +416,15 @@
           "body": [
             {
               "type": "component",
-              "component": "SelectCustomNote",
-              "key": "addressDetailsNote",
-              "withoutLabel": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "infoHeader": "CS_COMMON_NOTE",
-                    "infoText": "CS_NOTETEXT_RESPONDENT_ADDRESS",
-                    "infoTooltipMessage": "CS_NOTETOOLTIP_RESPONDENT_ADDRESS",
-                    "type": "InfoComponent"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "respondentType": ["commonFields"]
-          },
-          "body": [
-            {
-              "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "inquiryAffidavitFileUpload",
-              "label": "CS_202_INQUIRY_AFFIDAVIT",
+              "label": "AFFIDAVIT_UNDER_SECTION_225_BNSS",
               "withoutLabel": true,
               "populators": {
                 "inputs": [
                   {
                     "name": "document",
-                    "documentHeader": "CS_202_INQUIRY_AFFIDAVIT",
+                    "documentHeader": "AFFIDAVIT_UNDER_SECTION_225_BNSS",
                     "isOptional": "CS_IS_OPTIONAL",
                     "infoTooltipMessage": "Tooltip",
                     "type": "DragDropComponent",

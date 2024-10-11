@@ -173,7 +173,7 @@
       "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "className": "advocate-detail",
       "selectDocumentName": {
-        "vakalatnamaFileUpload": "UPLOAD_VAKALATNAMA"
+        "vakalatnamaFileUpload": "VAKALATNAMA"
       }
     }
   ]
