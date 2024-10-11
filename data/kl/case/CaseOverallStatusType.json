@@ -3,6 +3,33 @@
   "moduleName": "case",
   "CaseOverallStatusType": [
     {
+      "id": "13",
+      "stage": "Pre-Trial",
+      "state": "UNDER_SCRUTINY",
+      "action": "E-SIGN",
+      "substage": "Scrutiny",
+      "typeIdentifier": "scrutiny",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "12",
+      "stage": "Pre-Trial",
+      "state": "UNDER_SCRUTINY",
+      "action": "MAKE_PAYMENT",
+      "substage": "Scrutiny",
+      "typeIdentifier": "scrutiny",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "11",
+      "stage": "Pre-Trial",
+      "state": "PENDING_ADMISSION_HEARING",
+      "action": "REGISTER",
+      "substage": "Registration",
+      "typeIdentifier": "registration",
+      "workflowModule": "case-default"
+    },
+    {
       "id": "10",
       "stage": "Referred to ADR",
       "state": "published",
