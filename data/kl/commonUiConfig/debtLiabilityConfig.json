@@ -5,35 +5,31 @@
     {
       "formconfig": [
         {
-          "body": [
-            {
-              "type": "dropdown",
-              "key": "liabilityNature",
-              "label": "CS_NATURE_DEBT_LIABILITY",
-              "isMandatory": true,
-              "populators": {
-                "label": "SELECT_RESPONDENT_TYPE",
-                "name": "liabilityNature",
-                "type": "radioButton",
-                "optionsKey": "name",
-                "error": "CORE_REQUIRED_FIELD_ERROR",
-                "required": false,
-                "isMandatory": true,
-                "mdmsConfig": {
-                  "masterName": "DebtNature",
-                  "moduleName": "case",
-                  "select": "(data) => {return data['case'].DebtNature?.map((item) => {return item;});}"
-                }
-              }
+          "type": "text",
+          "label": "CS_NATURE_DEBT_LIABILITY",
+          "isMandatory": true,
+          "populators": {
+            "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+            "name": "liabilityNature",
+            "validation": {
+              "pattern": {
+                "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                "patternType": "userName",
+                "masterName": "commonUiConfig",
+                "moduleName": "patternValidation"
+              },
+              "minLength": 1,
+              "title": "",
+              "patternType": "Name"
             }
-          ]
+          }
         },
         {
           "body": [
             {
               "type": "radio",
               "key": "liabilityType",
-              "label": "CS_CHEQUE_LIABILITY",
+              "label": "CHEQUE_FOR_FULL_OR_PARTIAL_LIABILITY",
               "isMandatory": true,
               "populators": {
                 "label": "SELECT_RESPONDENT_TYPE",
