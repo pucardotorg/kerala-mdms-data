@@ -441,24 +441,6 @@
       "tenantId": "kl"
     },
     {
-      "rolecode": "SUPERUSER",
-      "actionid": 1830,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "EMPLOYEE",
-      "actionid": 1830,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "CITIZEN",
-      "actionid": 1830,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
       "rolecode": "EMPLOYEE",
       "actionid": 870,
       "actioncode": "",
@@ -981,56 +963,14 @@
       "tenantId": "kl"
     },
     {
-      "rolecode": "TASK_APPROVER",
-      "actionid": 2614,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "TASK_CLOSER",
-      "actionid": 2614,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "TASK_REJECTOR",
-      "actionid": 2614,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
       "rolecode": "TASK_RESPONDER",
       "actionid": 2616,
       "actioncode": "",
       "tenantId": "kl"
     },
     {
-      "rolecode": "TASK_REASSIGN",
-      "actionid": 2614,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
       "rolecode": "TASK_UPDATOR",
       "actionid": 2614,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "TASK_APPROVER",
-      "actionid": 2615,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "TASK_CLOSER",
-      "actionid": 2615,
-      "actioncode": "",
-      "tenantId": "kl"
-    },
-    {
-      "rolecode": "TASK_REJECTOR",
-      "actionid": 2615,
       "actioncode": "",
       "tenantId": "kl"
     },
