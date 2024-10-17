@@ -50,7 +50,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }
@@ -214,6 +214,29 @@
         {
           "body": [
             {
+              "type": "dropdown",
+              "key": "policeStation",
+              "label": "POLICE_STATION",
+              "isMandatory": true,
+              "populators": {
+                "name": "policeStation",
+                "optionsKey": "name",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "styles": { "maxWidth": "100%", "marginBottom": "10px" },
+                "required": false,
+                "isMandatory": true,
+                "mdmsConfig": {
+                  "masterName": "PoliceStation",
+                  "moduleName": "case",
+                  "select": "(data) => {return data['case'].PoliceStation?.map((item) => {return item;});}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "body": [
+            {
               "type": "date",
               "label": "CS_DATE_OF_CHEQUE_DEPOSIT",
               "labelChildren": "OutlinedInfoIcon",
@@ -257,7 +280,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }
@@ -307,7 +330,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }

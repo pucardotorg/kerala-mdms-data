@@ -87,7 +87,8 @@
                     "fileTypes": [
                       "JPG",
                       "PDF"
-                    ]
+                    ],
+                    "isMultipleUpload": true
                   }
                 ]
               }

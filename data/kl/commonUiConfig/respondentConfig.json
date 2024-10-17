@@ -56,6 +56,71 @@
           ]
         },
         {
+          "head": "CS_RESPONDENT_COMPANY_DETAIL",
+          "dependentKey": {
+            "respondentType": ["showCompanyDetails"]
+          },
+          "body": [
+            {
+              "type": "text",
+              "key": "respondentCompanyName",
+              "label": "company_Name",
+              "isMandatory": true,
+              "populators": {
+                "title": "FIRST_TERMS_AND_CONDITIONS",
+                "name": "respondentCompanyName",
+                "validation": {
+                  "pattern": {
+                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                    "patternType": "userName",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "patternValidation"
+                  },
+                  "minLength": 1,
+                  "title": "",
+                  "patternType": "Name"
+                },
+                "styles": {
+                  "minWidth": "100%"
+                },
+                "labelStyles": {
+                  "padding": "8px"
+                },
+                "customStyle": {
+                  "minWidth": "100%"
+                }
+              }
+            },
+            {
+              "type": "component",
+              "component": "SelectCustomDragDrop",
+              "key": "companyDetailsUpload",
+              "label": "COMPANY_DOCUMENT_DETAILS",
+              "withoutLabel": true,
+              "isMandatory": false,
+              "populators": {
+                "inputs": [
+                  {
+                    "isMandatory": false,
+                    "name": "document",
+                    "documentHeader": "COMPANY_DOCUMENT_DETAILS",
+                    "isOptional": "CS_IS_OPTIONAL",
+                    "type": "DragDropComponent",
+                    "uploadGuidelines": "UPLOAD_DOC_50",
+                    "documentHeaderStyle": {
+                      "textAlign": "start"
+                    },
+                    "maxFileSize": 50,
+                    "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
+                    "fileTypes": ["JPG", "PDF"],
+                    "isMultipleUpload": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
           "head": "CS_RESPONDENT_NAME",
           "updateLabelOn": "respondentType.showCompanyDetails",
           "updateLabel": {
@@ -129,16 +194,19 @@
               }
             },
             {
-              "type": "number",
-              "label": "AGE",
+              "type": "date",
+              "label": "DATE_OF_BIRTH",
               "labelChildren": "optional",
               "isMandatory": false,
               "populators": {
-                "name": "respondentAge",
+                "name": "respondentDateOfBirth",
                 "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
-                  "patternType": "Number",
-                  "maxLength": 3
+                  "max": {
+                    "patternType": "date",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "maxDateValidation"
+                  }
                 }
               }
             }
@@ -166,6 +234,33 @@
               }
             }
           ]
+        },
+        {
+          "body": [
+            {
+              "type": "text",
+              "label": "DESIGNATION",
+              "populators": {
+                "name": "respondentDesignation",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "validation": {
+                  "title": "",
+                  "pattern": {
+                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "patternValidation",
+                    "patternType": "userName"
+                  },
+                  "patternType": "Name"
+                }
+              },
+              "isMandatory": false,
+              "labelChildren": "optional"
+            }
+          ],
+          "dependentKey": {
+            "respondentType": ["showCompanyDetails"]
+          }
         },
         {
           "dependentKey": {
@@ -263,68 +358,6 @@
           ]
         },
         {
-          "head": "CS_RESPONDENT_COMPANY_DETAIL",
-          "dependentKey": {
-            "respondentType": ["showCompanyDetails"]
-          },
-          "body": [
-            {
-              "type": "text",
-              "key": "respondentCompanyName",
-              "label": "company_Name",
-              "isMandatory": true,
-              "populators": {
-                "title": "FIRST_TERMS_AND_CONDITIONS",
-                "name": "respondentCompanyName",
-                "validation": {
-                  "pattern": {
-                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
-                    "patternType": "userName",
-                    "masterName": "commonUiConfig",
-                    "moduleName": "patternValidation"
-                  },
-                  "minLength": 1,
-                  "title": "",
-                  "patternType": "Name"
-                },
-                "styles": {
-                  "minWidth": "100%"
-                },
-                "labelStyles": {
-                  "padding": "8px"
-                },
-                "customStyle": {
-                  "minWidth": "100%"
-                }
-              }
-            },
-            {
-              "type": "component",
-              "component": "SelectCustomDragDrop",
-              "key": "companyDetailsUpload",
-              "label": "COMPANY_DOCUMENT_DETAILS",
-              "withoutLabel": true,
-              "isMandatory": false,
-              "populators": {
-                "inputs": [
-                  {
-                    "isMandatory": false,
-                    "name": "document",
-                    "documentHeader": "COMPANY_DOCUMENT_DETAILS",
-                    "isOptional": "CS_IS_OPTIONAL",
-                    "type": "DragDropComponent",
-                    "uploadGuidelines": "UPLOAD_DOC_50",
-                    "maxFileSize": 50,
-                    "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": ["JPG", "PDF"],
-                    "isMultipleUpload": false
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
           "dependentKey": {
             "respondentType": ["commonFields"]
           },
@@ -339,6 +372,12 @@
               "isMandatory": true,
               "populators": {
                 "inputs": [
+                  {
+                    "label": "CS_TYPE_OF_ADDRESS",
+                    "type": "Radio",
+                    "name": "typeOfAddress",
+                    "options": []
+                  },
                   {
                     "label": "CS_LOCATION",
                     "type": "LocationSearch",
@@ -432,7 +471,7 @@
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": ["JPG", "PDF"],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }

@@ -1,0 +1,18 @@
+{
+    "tenantId": "kl",
+    "moduleName": "case",
+    "TypeOfAddress": [
+      {
+        "id": 1,
+        "code": "RESIDENTIAL",
+        "name": "Residential",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "code": "OFFICE",
+        "name": "Office",
+        "isActive": true
+      }
+    ]
+  }

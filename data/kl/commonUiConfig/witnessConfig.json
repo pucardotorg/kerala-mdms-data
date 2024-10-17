@@ -66,6 +66,23 @@
                   "patternType": "Name"
                 }
               }
+            },
+            {
+              "type": "date",
+              "label": "DATE_OF_BIRTH",
+              "labelChildren": "optional",
+              "isMandatory": false,
+              "populators": {
+                "name": "witnessDateOfBirth",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "validation": {
+                  "max": {
+                    "patternType": "date",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "maxDateValidation"
+                  }
+                }
+              }
             }
           ]
         },
