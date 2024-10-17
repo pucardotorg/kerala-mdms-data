@@ -376,6 +376,7 @@
                     "label": "CS_TYPE_OF_ADDRESS",
                     "type": "Radio",
                     "name": "typeOfAddress",
+                    "showOptional": true,
                     "options": []
                   },
                   {
