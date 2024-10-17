@@ -54,7 +54,11 @@
           ]
         },
         {
-          "dependentKey": { "complainantType": ["showCompanyDetails"] },
+          "dependentKey": {
+            "complainantType": [
+              "showCompanyDetails"
+            ]
+          },
           "body": [
             {
               "type": "dropdown",
@@ -67,7 +71,10 @@
                 "type": "radioButton",
                 "optionsKey": "name",
                 "error": "CORE_REQUIRED_FIELD_ERROR",
-                "styles": { "maxWidth": "100%", "marginBottom": "10px" },
+                "styles": {
+                  "maxWidth": "100%",
+                  "marginBottom": "10px"
+                },
                 "required": false,
                 "isMandatory": true,
                 "mdmsConfig": {
@@ -114,7 +121,9 @@
                 "district",
                 "city",
                 "locality",
-                "addressDetails"
+                "addressDetails",
+                "dateOfBirth",
+                "typeOfAddress"
               ],
               "error": "ERR_HRMS_INVALID_MOB_NO",
               "componentInFront": "+91",
@@ -248,20 +257,52 @@
               }
             },
             {
-              "type": "number",
-              "label": "AGE",
-              "labelChildren": "optional",
-              "isMandatory": false,
+              "type": "date",
+              "label": "DATE_OF_BIRTH",
+              "labelChildren": "OutlinedInfoIcon",
+              "isMandatory": true,
               "populators": {
-                "name": "complainantAge",
+                "name": "dateOfBirth",
                 "error": "CORE_REQUIRED_FIELD_ERROR",
                 "validation": {
-                  "maxLength": 3,
-                  "patternType": "Number"
+                  "max": {
+                    "patternType": "date",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "maxDateValidation"
+                  }
                 }
               }
             }
           ]
+        },
+        {
+          "body": [
+            {
+              "type": "text",
+              "label": "DESIGNATION",
+              "populators": {
+                "name": "complainantDesignation",
+                "error": "CORE_REQUIRED_FIELD_ERROR",
+                "validation": {
+                  "title": "",
+                  "pattern": {
+                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
+                    "masterName": "commonUiConfig",
+                    "moduleName": "patternValidation",
+                    "patternType": "userName"
+                  },
+                  "patternType": "Name"
+                }
+              },
+              "isMandatory": false,
+              "labelChildren": "optional"
+            }
+          ],
+          "dependentKey": {
+            "respondentType": [
+              "showCompanyDetails"
+            ]
+          }
         },
         {
           "head": "CS_RESPONDENT_COMPANY_DETAIL",
@@ -316,6 +357,9 @@
                     "documentHeader": "COMPANY_DOCUMENT_DETAILS",
                     "isOptional": "CS_IS_OPTIONAL",
                     "type": "DragDropComponent",
+                    "documentHeaderStyle": {
+                      "textAlign": "start"
+                    },
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "uploadGuidelines": "UPLOAD_DOC_50",
@@ -346,6 +390,12 @@
               "withoutLabel": true,
               "populators": {
                 "inputs": [
+                  {
+                    "label": "CS_TYPE_OF_ADDRESS",
+                    "type": "Radio",
+                    "name": "typeOfAddress",
+                    "options": []
+                  },
                   {
                     "label": "CS_LOCATION",
                     "type": "LocationSearch",
@@ -465,6 +515,12 @@
               "withoutLabel": true,
               "populators": {
                 "inputs": [
+                  {
+                    "label": "CS_TYPE_OF_ADDRESS",
+                    "type": "Radio",
+                    "name": "typeOfAddress",
+                    "options": []
+                  },
                   {
                     "label": "CS_LOCATION",
                     "type": "LocationSearch",

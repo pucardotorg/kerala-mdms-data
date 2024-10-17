@@ -46,7 +46,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }
@@ -75,7 +75,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }
@@ -161,7 +161,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false,
+                    "isMultipleUpload": true,
                     "documentHeaderStyle": {
                       "textAlign": "left"
                     }
@@ -255,7 +255,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }

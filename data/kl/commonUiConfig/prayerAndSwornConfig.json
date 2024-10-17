@@ -29,7 +29,7 @@
               "type": "radio",
               "key": "prayerAndSwornStatementType",
               "label": "CS_PRAYER_AND_SWORN_STATEMENT_TYPE",
-              "isMandatory": true,
+              "isMandatory": false,
               "populators": {
                 "name": "prayerAndSwornStatementType",
                 "label": "SELECT_PRAYER_AND_SWORN_STATEMENT_TYPE",
@@ -37,7 +37,7 @@
                 "optionsKey": "name",
                 "error": "CORE_REQUIRED_FIELD_ERROR",
                 "required": false,
-                "isMandatory": true,
+                "isMandatory": false,
                 "isDependent": true,
                 "options": [
                   {
@@ -51,27 +51,6 @@
                   {
                     "code": "MAYBE",
                     "name": "Maybe"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "body": [
-            {
-              "type": "component",
-              "component": "SelectCustomTextArea",
-              "label": "CS_CASE_SETTLEMENT_CONDITION_SUBHEADER",
-              "key": "caseSettlementCondition",
-              "withoutLabel": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "name": "text",
-                    "textAreaSubHeader": "CS_CASE_SETTLEMENT_CONDITION_SUBHEADER",
-                    "type": "TextAreaComponent",
-                    "isOptional": true
                   }
                 ]
               }
@@ -117,7 +96,7 @@
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": ["JPG", "PDF"],
-                    "isMultipleUpload": false,
+                    "isMultipleUpload": true,
                     "uploadGuidelines": "UPLOAD_DOC_50"
                   }
                 ]

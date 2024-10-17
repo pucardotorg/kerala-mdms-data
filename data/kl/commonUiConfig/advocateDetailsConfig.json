@@ -159,7 +159,7 @@
                       "PNG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false,
+                    "isMultipleUpload": true,
                     "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT",
                     "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx"
                   }
