@@ -78,9 +78,9 @@
             "description": "APPLICATION_VIEWER"
         },
         {
-            "code": "WORKFLOW_ADMIN",
-            "name": "Workflow Admin",
-            "description": "Person who has authority to abandon or edit workflow"
+            "code": "SYSTEM",
+            "name": "SYSTEM",
+            "description": "SYSTEM"
         },
         {
             "code": "HEARING_CREATOR",
