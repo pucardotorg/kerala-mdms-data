@@ -115,7 +115,7 @@
                       "JPG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false
+                    "isMultipleUpload": true
                   }
                 ]
               }
