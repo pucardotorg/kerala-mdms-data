@@ -1,7 +1,34 @@
 {
-  "tenantId": "pg",
+  "tenantId": "kl",
   "moduleName": "case",
   "CaseOverallStatusType": [
+    {
+      "id": "13",
+      "stage": "Pre-Trial",
+      "state": "UNDER_SCRUTINY",
+      "action": "E-SIGN",
+      "substage": "Scrutiny",
+      "typeIdentifier": "scrutiny",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "12",
+      "stage": "Pre-Trial",
+      "state": "UNDER_SCRUTINY",
+      "action": "MAKE_PAYMENT",
+      "substage": "Scrutiny",
+      "typeIdentifier": "scrutiny",
+      "workflowModule": "case-default"
+    },
+    {
+      "id": "11",
+      "stage": "Pre-Trial",
+      "state": "PENDING_ADMISSION_HEARING",
+      "action": "REGISTER",
+      "substage": "Registration",
+      "typeIdentifier": "registration",
+      "workflowModule": "case-default"
+    },
     {
       "id": "10",
       "stage": "Referred to ADR",
@@ -50,7 +77,7 @@
     {
       "id": "5",
       "stage": "Pre-Trial",
-      "state": "",
+      "state": "DRAFT_IN_PROGRESS",
       "action": "save_draft",
       "substage": "Draft",
       "typeIdentifier": "",
@@ -59,7 +86,7 @@
     {
       "id": "4",
       "stage": "Pre-Trial",
-      "state": "",
+      "state": "CASE_ADMITTED",
       "action": "admit",
       "substage": "Appearance",
       "typeIdentifier": "",
@@ -68,7 +95,7 @@
     {
       "id": "3",
       "stage": "Pre-Trial",
-      "state": "",
+      "state": "PENDING_REGISTRATION",
       "action": "validate",
       "substage": "Cognizance",
       "typeIdentifier": "",
@@ -77,7 +104,7 @@
     {
       "id": "2",
       "stage": "Pre-Trial",
-      "state": "",
+      "state": "PENDING_E-SIGN",
       "action": "submit_case",
       "substage": "Filing",
       "typeIdentifier": "",
@@ -86,7 +113,7 @@
     {
       "id": "1",
       "stage": "Pre-Trial",
-      "state": "",
+      "state": "CASE_REASSIGNED",
       "action": "send_back",
       "substage": "Filing",
       "typeIdentifier": "",
