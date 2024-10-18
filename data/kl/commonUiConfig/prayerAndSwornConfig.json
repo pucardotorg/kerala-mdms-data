@@ -69,7 +69,9 @@
                 "inputs": [
                   {
                     "name": "text",
-                    "textAreaHeader": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
+                    "textAreaSubHeader": "CS_MEMORANDUM_OF_COMPLAINT_HEADER",
+                    "rows": 15,
+                    "maxLength": 50000,
                     "type": "TextAreaComponent"
                   }
                 ]
