@@ -86,8 +86,8 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_1_MB",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
-                    ],
+                      "PDF",
+                      "PNG"                    ],
                     "isMultipleUpload": true
                   }
                 ]
