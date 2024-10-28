@@ -273,7 +273,7 @@
                   {
                     "infoHeader": "CS_COMMON_NOTE",
                     "infoText": "CAUSE_OF_ACTION_FROM_DELIVERY",
-                    "infoTooltipMessage": "Tooltip",
+                    "infoTooltipMessage": "CAUSE_OF_ACTION_FROM_DELIVERY",
                     "type": "InfoComponent"
                   }
                 ]
