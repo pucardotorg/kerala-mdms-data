@@ -48,7 +48,8 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
+                      "PDF",
+                      "PNG"
                     ],
                     "isMultipleUpload": true
                   }
@@ -278,7 +279,8 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
+                      "PDF",
+                      "PNG"
                     ],
                     "isMultipleUpload": true
                   }
@@ -328,7 +330,8 @@
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
+                      "PDF",
+                      "PNG"
                     ],
                     "isMultipleUpload": true
                   }

@@ -365,7 +365,8 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
+                      "PDF",
+                      "PNG"
                     ],
                     "isMultipleUpload": true
                   }
