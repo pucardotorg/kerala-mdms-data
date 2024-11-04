@@ -10,21 +10,8 @@
             {
               "type": "text",
               "label": "FIRST_NAME",
-              "isMandatory": true,
               "populators": {
-                "name": "firstName",
-                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
-                "validation": {
-                  "pattern": {
-                    "message": "CORE_COMMON_APPLICANT_NAME_INVALID",
-                    "patternType": "userName",
-                    "masterName": "commonUiConfig",
-                    "moduleName": "patternValidation"
-                  },
-                  "minLength": 1,
-                  "title": "",
-                  "patternType": "Name"
-                }
+                "name": "firstName"
               }
             },
             {
@@ -65,6 +52,13 @@
                   "title": "",
                   "patternType": "Name"
                 }
+              }
+            },
+            {
+              "type": "text",
+              "label": "WITNESS_DESIGNATION",
+              "populators": {
+                "name": "witnessDesignation"
               }
             }
           ]
