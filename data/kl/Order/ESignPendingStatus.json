@@ -1,0 +1,18 @@
+{
+    "tenantId": "kl",
+    "moduleName": "Order",
+    "ESignPendingStatus": [
+      {
+        "id": 1,
+        "code": "SIGNED",
+        "name": "Signed",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "code": "SIGN_PENDING",
+        "name": "Sign Pending",
+        "isActive": true
+      }
+    ]
+  }

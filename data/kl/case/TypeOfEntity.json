@@ -1,0 +1,72 @@
+{
+    "tenantId": "kl",
+    "moduleName": "case",
+    "TypeOfEntity": [
+      {
+        "id": 1,
+        "code": "SOLE_PROPRIETORSHIP",
+        "name": "Sole Proprietorship",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "code": "HINDU_UNDIVIDED_FAMILY",
+        "name": "Hindu Undivided Family (HUF)",
+        "isActive": true
+      },
+      {
+        "id": 3,
+        "code": "PARTNERSHIP",
+        "name": "Partnership",
+        "isActive": true
+      },
+      {
+        "id": 4,
+        "code": "LIMITED_LIABILITY_PARTNERSHIP",
+        "name": "Limited liability partnership",
+        "isActive": true
+      },
+      {
+        "id": 5,
+        "code": "PRIVATE_LIMITED_COMPANY",
+        "name": "Private limited company",
+        "isActive": true
+      },
+      {
+        "id": 6,
+        "code": "PUBLIC_LIMITED_COMPANY",
+        "name": "Public limited company",
+        "isActive": true
+      },
+      {
+        "id": 7,
+        "code": "UNLIMITED_COMPANY",
+        "name": "Unlimited company",
+        "isActive": true
+      },
+      {
+        "id": 8,
+        "code": "ONE_PERSON_COMPANY",
+        "name": "One-person company",
+        "isActive": true
+      },
+      {
+        "id": 9,
+        "code": "PUBLIC_SECTOR_UNDERTAKING",
+        "name": "Public Sector Undertaking (PSU)",
+        "isActive": true
+      },
+      {
+        "id": 10,
+        "code": "NGO",
+        "name": "NGO",
+        "isActive": true
+      },
+      {
+        "id": 11,
+        "code": "COOPERATIVE_SOCIETIES",
+        "name": "Cooperative Societies",
+        "isActive": true
+      }
+    ]
+  }

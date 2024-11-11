@@ -69,33 +69,6 @@
           "body": [
             {
               "type": "component",
-              "component": "SelectCustomTextArea",
-              "key": "delayApplicationReason",
-              "isMandatory": true,
-              "label": "CS_TEXTAREA_HEADER_DELAY_REASON",
-              "withoutLabel": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "name": "reasonForDelay",
-                    "textAreaHeader": "CS_TEXTAREA_HEADER_DELAY_REASON",
-                    "type": "TextAreaComponent",
-                    "headerClassName": "text-area-header"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "delayCondonationType": [
-              "showForm"
-            ]
-          },
-          "body": [
-            {
-              "type": "component",
               "component": "SelectCustomDragDrop",
               "key": "condonationFileUpload",
               "isMandatory": true,
@@ -106,15 +79,16 @@
                   {
                     "name": "document",
                     "documentHeader": "CS_DELAY_CONDONATION_APPLICATION",
-                    "infoTooltipMessage": "Tooltip",
+                    "infoTooltipMessage": "CS_DELAY_CONDONATION_APPLICATION",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_1_MB",
                     "fileTypes": [
                       "JPG",
-                      "PDF"
-                    ]
+                      "PDF",
+                      "PNG"                    ],
+                    "isMultipleUpload": true
                   }
                 ]
               }
@@ -123,7 +97,7 @@
         }
       ],
       "header": "CS_RESPONDENT_DELAY_APPLICATION_HEADING",
-      "subtext": "CS_RESPONDENT_DELAY_APPLICATION_SUBTEXT",
+      "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "className": "delay-application",
       "selectDocumentName": {
         "condonationFileUpload": "CS_DELAY_CONDONATION_APPLICATION"

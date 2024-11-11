@@ -1,0 +1,12 @@
+{
+    "tenantId": "kl",
+    "moduleName": "case",
+    "PoliceStation": [
+      {
+        "id": 1,
+        "code": "OTTAPPALAM",
+        "name": "Ottappalam",
+        "isActive": true
+      }
+    ]
+  }

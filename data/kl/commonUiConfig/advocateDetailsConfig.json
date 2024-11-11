@@ -149,7 +149,7 @@
                   {
                     "name": "document",
                     "documentHeader": "UPLOAD_VAKALATNAMA",
-                    "infoTooltipMessage": "Tooltip",
+                    "infoTooltipMessage": "UPLOAD_VAKALATNAMA",
                     "type": "DragDropComponent",
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
@@ -159,7 +159,7 @@
                       "PNG",
                       "PDF"
                     ],
-                    "isMultipleUpload": false,
+                    "isMultipleUpload": true,
                     "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT",
                     "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx"
                   }
@@ -170,10 +170,10 @@
         }
       ],
       "header": "CS_ADVOCATE_DETAILS_HEADING",
-      "subtext": "CS_ADVOCATE_DETAILS_SUBTEXT",
+      "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "className": "advocate-detail",
       "selectDocumentName": {
-        "vakalatnamaFileUpload": "UPLOAD_VAKALATNAMA"
+        "vakalatnamaFileUpload": "VAKALATNAMA"
       }
     }
   ]
