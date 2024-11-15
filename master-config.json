@@ -547,15 +547,6 @@
       ]
     }
   },
-  "RAINMAKER-PGR": {
-    "ServiceDefs": {
-      "masterName": "ServiceDefs",
-      "isStateLevel": true,
-      "uniqueKeys": [
-        "$.code"
-      ]
-    }
-  },
   "PropertyTax": {
     "MutationReason": {
       "masterName": "MutationReason",
