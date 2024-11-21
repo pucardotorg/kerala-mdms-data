@@ -46,9 +46,7 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
           },
           "head": "CS_ADVOCATE_BASIC_DETAILS",
           "body": [
@@ -79,9 +77,7 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
           },
           "body": [
             {
@@ -132,9 +128,27 @@
         },
         {
           "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
+            "isAdvocateRepresenting": ["showForm"]
+          },
+          "body": [
+            {
+              "type": "number",
+              "label": "NUMBER_OF_ADVOCATES",
+              "isMandatory": true,
+              "populators": {
+                "error": "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+                "validation": {
+                  "minLength": 1
+                },
+                "defaultValue": "1",
+                "name": "numberOfAdvocate"
+              }
+            }
+          ]
+        },
+        {
+          "dependentKey": {
+            "isAdvocateRepresenting": ["showForm"]
           },
           "body": [
             {
@@ -154,14 +168,32 @@
                     "uploadGuidelines": "UPLOAD_DOC_50",
                     "maxFileSize": 50,
                     "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PNG",
-                      "PDF"
-                    ],
+                    "fileTypes": ["JPG", "PNG", "PDF"],
                     "isMultipleUpload": true,
                     "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT",
                     "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "dependentKey": {
+            "isAdvocateRepresenting": ["showForm"]
+          },
+          "body": [
+            {
+              "type": "component",
+              "component": "SelectCustomNote",
+              "key": "addressDetailsNote",
+              "populators": {
+                "inputs": [
+                  {
+                    "infoHeader": "CS_COMMON_NOTE",
+                    "infoText": "ADVOCATE_DETAIL_NOTE",
+                    "infoTooltipMessage": "ADVOCATE_DETAIL_NOTE",
+                    "type": "InfoComponent"
                   }
                 ]
               }
