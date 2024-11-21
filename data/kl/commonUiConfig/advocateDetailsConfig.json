@@ -3,172 +3,211 @@
   "moduleName": "commonUiConfig",
   "advocateDetailsConfig": [
     {
-      "formconfig": [
-        {
-          "body": [
-            {
-              "type": "radio",
-              "key": "isAdvocateRepresenting",
-              "label": "CS_IF_ADVOCATE_IS_COMPLAINANT",
-              "isMandatory": true,
-              "populators": {
-                "type": "radioButton",
-                "optionsKey": "name",
-                "error": "CORE_REQUIRED_FIELD_ERROR",
-                "required": false,
-                "isMandatory": true,
-                "isDependent": true,
-                "clearFields": {
-                  "stateOfRegistration": "",
-                  "barRegistrationNumber": "",
-                  "barCouncilId": [],
-                  "stateRegnNumber": ""
-                },
-                "options": [
-                  {
-                    "code": "YES",
-                    "name": "Yes",
-                    "showForm": true,
-                    "isEnabled": true
-                  },
-                  {
-                    "code": "NO",
-                    "name": "No",
-                    "showForm": false,
-                    "isVerified": true,
-                    "hasBarRegistrationNo": true,
-                    "isEnabled": true
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
-          },
-          "head": "CS_ADVOCATE_BASIC_DETAILS",
-          "body": [
-            {
-              "type": "apidropdown",
-              "key": "advocateBarRegistrationNumber",
-              "label": "CS_BAR_REGISTRATION",
-              "isMandatory": true,
-              "populators": {
-                "allowMultiSelect": false,
-                "name": "advocateBarRegNumberWithName",
-                "isMandatory": true,
-                "validation": {},
-                "masterName": "commonUiConfig",
-                "moduleName": "getAdvocateNameUsingBarRegistrationNumber",
-                "customfn": "getNames",
-                "optionsKey": "barRegistrationNumber",
-                "optionsCustomStyle": {
-                  "marginTop": "40px",
-                  "justifyContent": "space-between",
-                  "flexDirection": "row-reverse",
-                  "maxHeight": "200px",
-                  "overflowY": "scroll"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
-          },
-          "body": [
-            {
-              "type": "component",
-              "component": "AdvocateNameDetails",
-              "key": "AdvocateNameDetails",
-              "componentStyle": {
-                "padding": "16px 0px 16px 0px"
-              },
-              "withoutLabel": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "label": "FIRST_NAME",
-                    "type": "text",
-                    "name": "firstName",
-                    "isDisabled": true,
-                    "inputFieldClassName": "user-details-form-style",
-                    "validation": {
-                      "isRequired": true
+      "formconfig": "formconfig": [
+                    {
+                        "body": [
+                            {
+                                "key": "isAdvocateRepresenting",
+                                "type": "radio",
+                                "label": "CS_IF_ADVOCATE_IS_COMPLAINANT",
+                                "populators": {
+                                    "type": "radioButton",
+                                    "error": "CORE_REQUIRED_FIELD_ERROR",
+                                    "options": [
+                                        {
+                                            "code": "YES",
+                                            "name": "Yes",
+                                            "showForm": true,
+                                            "isEnabled": true
+                                        },
+                                        {
+                                            "code": "NO",
+                                            "name": "No",
+                                            "showForm": false,
+                                            "isEnabled": true,
+                                            "isVerified": true,
+                                            "hasBarRegistrationNo": true
+                                        }
+                                    ],
+                                    "required": false,
+                                    "optionsKey": "code",
+                                    "clearFields": {
+                                        "barCouncilId": [],
+                                        "stateRegnNumber": "",
+                                        "stateOfRegistration": "",
+                                        "barRegistrationNumber": ""
+                                    },
+                                    "isDependent": true,
+                                    "isMandatory": true
+                                },
+                                "isMandatory": true
+                            }
+                        ]
                     },
-                    "isMandatory": true
-                  },
-                  {
-                    "label": "MIDDLE_NAME",
-                    "type": "text",
-                    "name": "middleName",
-                    "isDisabled": true,
-                    "inputFieldClassName": "user-details-form-style",
-                    "validation": {}
-                  },
-                  {
-                    "label": "LAST_NAME",
-                    "type": "text",
-                    "name": "lastName",
-                    "isDisabled": true,
-                    "inputFieldClassName": "user-details-form-style",
-                    "validation": {
-                      "isRequired": true
+                    {
+                        "body": [
+                            {
+                                "key": "advocateBarRegistrationNumber",
+                                "type": "apidropdown",
+                                "label": "CS_BAR_REGISTRATION",
+                                "populators": {
+                                    "name": "advocateBarRegNumberWithName",
+                                    "customfn": "getNames",
+                                    "masterName": "commonUiConfig",
+                                    "moduleName": "getAdvocateNameUsingBarRegistrationNumber",
+                                    "optionsKey": "barRegistrationNumber",
+                                    "validation": {},
+                                    "isMandatory": true,
+                                    "allowMultiSelect": false,
+                                    "optionsCustomStyle": {
+                                        "marginTop": "40px",
+                                        "maxHeight": "200px",
+                                        "overflowY": "scroll",
+                                        "flexDirection": "row-reverse",
+                                        "justifyContent": "space-between"
+                                    }
+                                },
+                                "isMandatory": true
+                            }
+                        ],
+                        "head": "CS_ADVOCATE_BASIC_DETAILS",
+                        "dependentKey": {
+                            "isAdvocateRepresenting": [
+                                "showForm"
+                            ]
+                        }
                     },
-                    "isMandatory": true
-                  }
+                    {
+                        "body": [
+                            {
+                                "key": "AdvocateNameDetails",
+                                "type": "component",
+                                "component": "AdvocateNameDetails",
+                                "populators": {
+                                    "inputs": [
+                                        {
+                                            "name": "firstName",
+                                            "type": "text",
+                                            "label": "FIRST_NAME",
+                                            "isDisabled": true,
+                                            "validation": {
+                                                "isRequired": true
+                                            },
+                                            "isMandatory": true,
+                                            "inputFieldClassName": "user-details-form-style"
+                                        },
+                                        {
+                                            "name": "middleName",
+                                            "type": "text",
+                                            "label": "MIDDLE_NAME",
+                                            "isDisabled": true,
+                                            "validation": {},
+                                            "inputFieldClassName": "user-details-form-style"
+                                        },
+                                        {
+                                            "name": "lastName",
+                                            "type": "text",
+                                            "label": "LAST_NAME",
+                                            "isDisabled": true,
+                                            "validation": {
+                                                "isRequired": true
+                                            },
+                                            "isMandatory": true,
+                                            "inputFieldClassName": "user-details-form-style"
+                                        }
+                                    ],
+                                    "validation": {}
+                                },
+                                "withoutLabel": true,
+                                "componentStyle": {
+                                    "padding": "16px 0px 16px 0px"
+                                }
+                            }
+                        ],
+                        "dependentKey": {
+                            "isAdvocateRepresenting": [
+                                "showForm"
+                            ]
+                        }
+                    },
+  {
+    dependentKey: { isAdvocateRepresenting: ["showForm"] },
+    body: [
+      {
+        type: "number",
+        label: "NUMBER_OF_ADVOCATES",
+        isMandatory: true,
+        populators: {
+          error: "FIRST_LAST_NAME_MANDATORY_MESSAGE",
+          validation: {
+            minLength: 1,
+          },
+          defaultValue: "1",
+          name: "numberOfAdvocate",
+        },
+      },
+    ],
+  },
+                    {
+                        "body": [
+                            {
+                                "key": "vakalatnamaFileUpload",
+                                "type": "component",
+                                "label": "UPLOAD_VAKALATNAMA",
+                                "component": "SelectCustomDragDrop",
+                                "populators": {
+                                    "inputs": [
+                                        {
+                                            "name": "document",
+                                            "type": "DragDropComponent",
+                                            "fileTypes": [
+                                                "JPG",
+                                                "JPEG",
+                                                "PNG",
+                                                "PDF"
+                                            ],
+                                            "maxFileSize": 50,
+                                            "documentHeader": "UPLOAD_VAKALATNAMA",
+                                            "isMultipleUpload": true,
+                                            "uploadGuidelines": "UPLOAD_DOC_50",
+                                            "infoTooltipMessage": "UPLOAD_VAKALATNAMA",
+                                            "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
+                                            "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx",
+                                            "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT"
+                                        }
+                                    ]
+                                },
+                                "isMandatory": true,
+                                "withoutLabel": true
+                            }
+                        ],
+                        "dependentKey": {
+                            "isAdvocateRepresenting": [
+                                "showForm"
+                            ]
+                        }
+                    },
+  {
+    dependentKey: { isAdvocateRepresenting: ["showForm"] },
+    body: [
+      {
+        type: "component",
+        component: "SelectCustomNote",
+        key: "addressDetailsNote",
+        populators: {
+          inputs: [
+            {
+              infoHeader: "CS_COMMON_NOTE",
+              infoText: "ADVOCATE_DETAIL_NOTE",
+              infoTooltipMessage: "ADVOCATE_DETAIL_NOTE",
+              type: "InfoComponent",
+            },
+          ],
+        },
+      },
+    ],
+  },
                 ],
-                "validation": {}
-              }
-            }
-          ]
-        },
-        {
-          "dependentKey": {
-            "isAdvocateRepresenting": [
-              "showForm"
-            ]
-          },
-          "body": [
-            {
-              "type": "component",
-              "component": "SelectCustomDragDrop",
-              "key": "vakalatnamaFileUpload",
-              "label": "UPLOAD_VAKALATNAMA",
-              "withoutLabel": true,
-              "isMandatory": true,
-              "populators": {
-                "inputs": [
-                  {
-                    "name": "document",
-                    "documentHeader": "UPLOAD_VAKALATNAMA",
-                    "infoTooltipMessage": "UPLOAD_VAKALATNAMA",
-                    "type": "DragDropComponent",
-                    "uploadGuidelines": "UPLOAD_DOC_50",
-                    "maxFileSize": 50,
-                    "maxFileErrorMessage": "CS_FILE_LIMIT_50_MB",
-                    "fileTypes": [
-                      "JPG",
-                      "PNG",
-                      "PDF"
-                    ],
-                    "isMultipleUpload": true,
-                    "downloadTemplateText": "VAKALATNAMA_TEMPLATE_TEXT",
-                    "downloadTemplateLink": "https://pucarfilestore.blob.core.windows.net/pucar-filestore/kl/PUCAR - Forms, Registers and Orders Formats [KL Criminal Rules of Practice].docx"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ],
       "header": "CS_ADVOCATE_DETAILS_HEADING",
       "subtext": "CS_COMPLAINT_DATA_ENTRY_INFO",
       "className": "advocate-detail",
