@@ -1,28 +1,28 @@
 {
-    "tenantId": "pg",
-    "moduleName": "case",
-    "ComplainantRespondentType": [
-        {
-            "id": 1,
-            "complainantTypeId": 1,
-            "code": "INDIVIDUAL",
-            "name": "Individual",
-            "showCompanyDetails": false,
-            "complainantLocation": true,
-            "commonFields": true,
-            "isIndividual": true,
-            "isactive": true
-        },
-        {
-            "id": 2,
-            "complainantTypeId": 2,
-            "code": "REPRESENTATIVE",
-            "name": "Entity",
-            "showCompanyDetails": true,
-            "complainantLocation": false,
-            "commonFields": true,
-            "isIndividual": false,
-            "isactive": true
-        }
-    ]
+  "tenantId": "kl",
+  "moduleName": "case",
+  "ComplainantRespondentType": [
+    {
+      "id": 1,
+      "complainantTypeId": 1,
+      "code": "INDIVIDUAL",
+      "name": "Individual",
+      "showCompanyDetails": false,
+      "complainantLocation": true,
+      "commonFields": true,
+      "isIndividual": true,
+      "isactive": true
+    },
+    {
+      "id": 2,
+      "complainantTypeId": 2,
+      "code": "REPRESENTATIVE",
+      "name": "Entity",
+      "showCompanyDetails": true,
+      "complainantLocation": false,
+      "commonFields": true,
+      "isIndividual": false,
+      "isactive": true
+    }
+  ]
 }
