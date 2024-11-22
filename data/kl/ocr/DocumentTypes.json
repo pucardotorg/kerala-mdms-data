@@ -1,0 +1,44 @@
+{
+    "tenantId": "kl",
+    "moduleName": "ocr",
+    "DocumentType": [
+        {
+            "id": 1,
+            "type": "CHEQUE_RETURN_MEMO",
+            "isActive": true,
+            "keyWords": ["Return Memo"]
+        },
+        {
+            "id": 2,
+            "type": "LEGAL_NOTICE",
+            "isActive": true,
+            "keyWords": ["Legal Notice", "Demand Notice"]
+        },
+        {
+            "id": 3,
+            "type": "VAKALAT_NAMA",
+            "isActive": true,
+            "keyWords": ["Vakalat" ,"Vakalatnama"]
+        },
+        {
+            "id": 4,
+            "type": "AGREEMENTS",
+            "isActive": true,
+            "keyWords": ["Agreement"]
+        },
+        {
+            "id": 5,
+            "type": "COMPLAINT_MEMO",
+            "isActive": true,
+            "keyWords": ["Complaint Memo"]
+        },
+        {
+            "id": 6,
+            "type": "AFFIDAVIT",
+            "isActive": true,
+            "keyWords": ["Affidavit"]
+        }    
+    ]   
+}
+
+
