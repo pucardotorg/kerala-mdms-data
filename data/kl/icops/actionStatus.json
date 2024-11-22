@@ -1,0 +1,157 @@
+{
+  "tenantId": "kl",
+  "moduleName": "icops",
+  "actionStatus": [
+    {
+      "code": "1",
+      "type": "Executed",
+      "name": "executed",
+      "subStatus": [
+        {
+          "subStatusCode": "1",
+          "subStatusType": "Served on Party",
+          "subStatusName": "Served on Party"
+        },
+        {
+          "subStatusCode": "2",
+          "subStatusType": "Family Member",
+          "subStatusName": "Family Member"
+        },
+        {
+          "subStatusCode": "3",
+          "subStatusType": "Partner",
+          "subStatusName": "Partner"
+        },
+        {
+          "subStatusCode": "4",
+          "subStatusType": "Propriter",
+          "subStatusName": "Propriter"
+        },
+        {
+          "subStatusCode": "5",
+          "subStatusType": "Authorised Agent",
+          "subStatusName": "Authorised Agent"
+        },
+        {
+          "subStatusCode": "6",
+          "subStatusType": "Head Of Department",
+          "subStatusName": "Head Of Department"
+        },
+        {
+          "subStatusCode": "7",
+          "subStatusType": "Registered Office",
+          "subStatusName": "Registered Office"
+        },
+        {
+          "subStatusCode": "8",
+          "subStatusType": "Branch Office Of Company",
+          "subStatusName": "Branch Office Of Company"
+        },
+        {
+          "subStatusCode": "9",
+          "subStatusType": "Head Office Of Company",
+          "subStatusName": "Head Office Of Company"
+        },
+        {
+          "subStatusCode": "10",
+          "subStatusType": "Guardian",
+          "subStatusName": "Guardian"
+        },
+        {
+          "subStatusCode": "11",
+          "subStatusType": "Affixed On Conspicuous Place",
+          "subStatusName": "Affixed On Conspicuous Place"
+        },
+        {
+          "subStatusCode": "12",
+          "subStatusType": "Place Of Work",
+          "subStatusName": "Place Of Work"
+        },
+        {
+          "subStatusCode": "13",
+          "subStatusType": "Arrested",
+          "subStatusName": "Arrested"
+        },
+        {
+          "subStatusCode": "15",
+          "subStatusType": "Party expired",
+          "subStatusName": "Party expired"
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "type": "Not Executed",
+      "name": "not executed",
+      "subStatus": [
+        {
+          "subStatusCode": "1",
+          "subStatusType": "Address Not Found",
+          "subStatusName": "Address Not Found"
+        },
+        {
+          "subStatusCode": "2",
+          "subStatusType": "Door Lock",
+          "subStatusName": "Door Lock"
+        },
+        {
+          "subStatusCode": "3",
+          "subStatusType": "Person Not Found",
+          "subStatusName": "Person Not Found"
+        },
+        {
+          "subStatusCode": "4",
+          "subStatusType": "Addressee Out Of Station",
+          "subStatusName": "Addressee Out Of Station"
+        },
+        {
+          "subStatusCode": "5",
+          "subStatusType": "Cancelled By Court",
+          "subStatusName": "Cancelled By Court"
+        },
+        {
+          "subStatusCode": "13",
+          "subStatusType": "Not Arrested",
+          "subStatusName": "Not Arrested"
+        },
+        {
+          "subStatusCode": "14",
+          "subStatusType": "Returned",
+          "subStatusName": "Returned"
+        },
+        {
+          "subStatusCode": "15",
+          "subStatusType": "Party expired",
+          "subStatusName": "Party expired"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "type": "Pending",
+      "name": "pending",
+      "subStatus": [
+        {
+          "subStatusCode": "1",
+          "subStatusType": "Address Not Found",
+          "subStatusName": "Address Not Found"
+        },
+        {
+          "subStatusCode": "2",
+          "subStatusType": "Door Lock",
+          "subStatusName": "Door Lock"
+        },
+        {
+          "subStatusCode": "3",
+          "subStatusType": "Person Not Found",
+          "subStatusName": "Person Not Found"
+        },
+        {
+          "subStatusCode": "4",
+          "subStatusType": "Addressee Out Of Station",
+          "subStatusName": "Addressee Out Of Station"
+        }
+      ]
+    }
+  ]
+}

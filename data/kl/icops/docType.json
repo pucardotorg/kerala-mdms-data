@@ -1,0 +1,21 @@
+{
+  "tenantId": "kl",
+  "moduleName": "icops",
+  "docType": [
+    {
+      "code": "1",
+      "type": "Warrant",
+      "name": "warrant"
+    },
+    {
+      "code": "2",
+      "type": "Summons",
+      "name": "summon"
+    },
+    {
+      "code": "3",
+      "type": "Notice",
+      "name": "notice"
+    }
+  ]
+}
