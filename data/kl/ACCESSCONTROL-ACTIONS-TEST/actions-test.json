@@ -414,7 +414,7 @@
     {
       "id": 2552,
       "name": "Create Advocate ",
-      "url": "/advocate/advocate/v1/_create",
+      "url": "/advocate/v1/_create",
       "displayName": "Create Advocate",
       "orderNumber": 0,
       "enabled": false,
@@ -425,7 +425,7 @@
     {
       "id": 2553,
       "name": "Update Advocate ",
-      "url": "/advocate/advocate/v1/_update",
+      "url": "/advocate/v1/_update",
       "displayName": "Update Advocate",
       "orderNumber": 0,
       "enabled": false,
@@ -436,7 +436,7 @@
     {
       "id": 2554,
       "name": "Search Advocate",
-      "url": "/advocate/advocate/v1/_search",
+      "url": "/advocate/v1/_search",
       "displayName": "Search Advocate",
       "orderNumber": 0,
       "enabled": false,
@@ -2050,7 +2050,7 @@
       {
          "id": 2510,
          "name": "MDMS v2 Search",
-         "url": "/mdms-v2/schema/v1/_search",
+         "url": "/egov-mdms-service/schema/v1/_search",
          "parentModule": "",
          "displayName": "MDMS v2",
          "orderNumber": 1,
